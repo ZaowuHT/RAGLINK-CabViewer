@@ -1,0 +1,2 @@
+C:\Documents\raglink-simulator-openrails\simulator-openrails\Architecture\obj\Debug\ORArchitecture.csprojAssemblyReference.cache
+C:\Documents\raglink-simulator-openrails\simulator-openrails\Architecture\obj\Debug\ORArchitecture.csproj.CoreCompileInputs.cache

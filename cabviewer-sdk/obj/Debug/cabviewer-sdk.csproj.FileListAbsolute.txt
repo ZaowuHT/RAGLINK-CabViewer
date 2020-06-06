@@ -1,0 +1,12 @@
+C:\Documents\raglink-simulator-openrails\cabviewer-sdk\obj\Debug\CabViewerSDK.sdk_editor.fastcoloredtextbox.FastColoredTextBox.resources
+C:\Documents\raglink-simulator-openrails\cabviewer-sdk\obj\Debug\CabViewerSDK.sdk_editor.fastcoloredtextbox.FindForm.resources
+C:\Documents\raglink-simulator-openrails\cabviewer-sdk\obj\Debug\CabViewerSDK.sdk_editor.fastcoloredtextbox.GoToForm.resources
+C:\Documents\raglink-simulator-openrails\cabviewer-sdk\obj\Debug\CabViewerSDK.sdk_editor.fastcoloredtextbox.HotkeysEditorForm.resources
+C:\Documents\raglink-simulator-openrails\cabviewer-sdk\obj\Debug\CabViewerSDK.sdk_editor.fastcoloredtextbox.ReplaceForm.resources
+C:\Documents\raglink-simulator-openrails\cabviewer-sdk\obj\Debug\cabviewer-sdk.csproj.GenerateResource.cache
+C:\Documents\raglink-simulator-openrails\cabviewer-sdk\obj\Debug\cabviewer-sdk.csproj.CoreCompileInputs.cache
+C:\Documents\raglink-simulator-openrails\program\cabviewer-sdk.dll
+C:\Documents\raglink-simulator-openrails\program\cabviewer-sdk.pdb
+C:\Documents\raglink-simulator-openrails\cabviewer-sdk\obj\Debug\cabviewer-sdk.dll
+C:\Documents\raglink-simulator-openrails\cabviewer-sdk\obj\Debug\cabviewer-sdk.pdb
+C:\Documents\raglink-simulator-openrails\cabviewer-sdk\obj\Debug\cabviewer-sdk.csprojAssemblyReference.cache
