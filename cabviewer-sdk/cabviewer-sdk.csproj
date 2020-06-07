@@ -16,11 +16,12 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
+    <Optimize>true</Optimize>
     <OutputPath>..\program\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -134,13 +135,21 @@
     <Compile Include="sdk_network\fleck\WebSocketHttpRequest.cs" />
     <Compile Include="sdk_network\fleck\WebSocketServer.cs" />
     <Compile Include="sdk_network\fleck\WebSocketStatusCodes.cs" />
+    <Compile Include="sdk_notation\fastjson\dynamic.cs" />
+    <Compile Include="sdk_notation\fastjson\Formatter.cs" />
+    <Compile Include="sdk_notation\fastjson\Getters.cs" />
+    <Compile Include="sdk_notation\fastjson\Helper.cs" />
+    <Compile Include="sdk_notation\fastjson\JSON.cs" />
+    <Compile Include="sdk_notation\fastjson\JsonParser.cs" />
+    <Compile Include="sdk_notation\fastjson\JsonSerializer.cs" />
+    <Compile Include="sdk_notation\fastjson\Reflection.cs" />
+    <Compile Include="sdk_notation\fastjson\SafeDictionary.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="sdk_analysis\" />
     <Folder Include="sdk_communication\" />
     <Folder Include="sdk_data\" />
     <Folder Include="sdk_localization\" />
-    <Folder Include="sdk_notation\" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="sdk_editor\fastcoloredtextbox\FastColoredTextBox.resx" />
