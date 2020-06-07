@@ -34,10 +34,10 @@ using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
-using OfficeOpenXml.Utils;
-using OfficeOpenXml.FormulaParsing.Excel.Functions;
+using CabViewerSDKOfficeOpenXml.Utils;
+using CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions;
 
-namespace OfficeOpenXml.FormulaParsing.ExpressionGraph
+namespace CabViewerSDKOfficeOpenXml.FormulaParsing.ExpressionGraph
 {
     public class CompileResult
     {

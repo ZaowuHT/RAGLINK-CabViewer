@@ -6,7 +6,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
-namespace OfficeOpenXml.Compatibility
+namespace CabViewerSDKOfficeOpenXml.Compatibility
 {
     internal class ImageCompat
     {

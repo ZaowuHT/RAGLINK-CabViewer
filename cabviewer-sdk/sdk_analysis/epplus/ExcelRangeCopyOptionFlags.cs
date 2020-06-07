@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace OfficeOpenXml
+namespace CabViewerSDKOfficeOpenXml
 {
     /// <summary>
     /// Flag enum, specify all flags that you want to exclude from the copy.

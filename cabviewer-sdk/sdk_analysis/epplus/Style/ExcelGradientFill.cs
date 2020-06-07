@@ -32,17 +32,17 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using OfficeOpenXml.Style.XmlAccess;
+using CabViewerSDKOfficeOpenXml.Style.XmlAccess;
 using System.Globalization;
 
-namespace OfficeOpenXml.Style
+namespace CabViewerSDKOfficeOpenXml.Style
 {
     /// <summary>
     /// The background fill of a cell
     /// </summary>
     public class ExcelGradientFill : StyleBase
     {
-        internal ExcelGradientFill(ExcelStyles styles, OfficeOpenXml.XmlHelper.ChangedEventHandler ChangedEvent, int PositionID, string address, int index) :
+        internal ExcelGradientFill(ExcelStyles styles, CabViewerSDKOfficeOpenXml.XmlHelper.ChangedEventHandler ChangedEvent, int PositionID, string address, int index) :
             base(styles, ChangedEvent, PositionID, address)
 
         {

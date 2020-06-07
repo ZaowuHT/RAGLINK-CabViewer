@@ -33,13 +33,13 @@ using System;
 using System.Xml;
 using System.Linq;
 using System.Collections.Generic;
-using OfficeOpenXml.FormulaParsing.Excel.Functions.Logical;
+using CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions.Logical;
 using draw=System.Drawing;
-using OfficeOpenXml.Style;
-using OfficeOpenXml.Style.XmlAccess;
-using OfficeOpenXml.Style.Dxf;
-using OfficeOpenXml.ConditionalFormatting;
-namespace OfficeOpenXml
+using CabViewerSDKOfficeOpenXml.Style;
+using CabViewerSDKOfficeOpenXml.Style.XmlAccess;
+using CabViewerSDKOfficeOpenXml.Style.Dxf;
+using CabViewerSDKOfficeOpenXml.ConditionalFormatting;
+namespace CabViewerSDKOfficeOpenXml
 {
 	/// <summary>
 	/// Containts all shared cell styles for a workbook

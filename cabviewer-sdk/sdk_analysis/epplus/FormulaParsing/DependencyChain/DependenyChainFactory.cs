@@ -28,15 +28,15 @@
  * ******************************************************************************
  * Jan Källman                      Added                       2012-03-04  
  *******************************************************************************/
-using OfficeOpenXml.FormulaParsing.LexicalAnalysis;
+using CabViewerSDKOfficeOpenXml.FormulaParsing.LexicalAnalysis;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using OfficeOpenXml.FormulaParsing;
-using OfficeOpenXml.FormulaParsing.Exceptions;
+using CabViewerSDKOfficeOpenXml.FormulaParsing;
+using CabViewerSDKOfficeOpenXml.FormulaParsing.Exceptions;
 
-namespace OfficeOpenXml.FormulaParsing
+namespace CabViewerSDKOfficeOpenXml.FormulaParsing
 {
     internal static class DependencyChainFactory
     {

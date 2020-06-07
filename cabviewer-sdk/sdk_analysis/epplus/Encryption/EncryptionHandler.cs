@@ -28,8 +28,8 @@
  * ******************************************************************************
  * Jan Källman		    Added       		        2013-01-05
  *******************************************************************************/
-using OfficeOpenXml.Utils;
-using OfficeOpenXml.Utils.CompundDocument;
+using CabViewerSDKOfficeOpenXml.Utils;
+using CabViewerSDKOfficeOpenXml.Utils.CompundDocument;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -41,7 +41,7 @@ using System.Text;
 using System.Xml;
 using comTypes = System.Runtime.InteropServices.ComTypes;
 
-namespace OfficeOpenXml.Encryption
+namespace CabViewerSDKOfficeOpenXml.Encryption
 {
 
     /// <summary>

@@ -30,15 +30,15 @@
  *******************************************************************************/
 
 using System.Threading;
-using OfficeOpenXml.FormulaParsing.LexicalAnalysis;
+using CabViewerSDKOfficeOpenXml.FormulaParsing.LexicalAnalysis;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using OfficeOpenXml.FormulaParsing;
-using OfficeOpenXml.FormulaParsing.Exceptions;
+using CabViewerSDKOfficeOpenXml.FormulaParsing;
+using CabViewerSDKOfficeOpenXml.FormulaParsing.Exceptions;
 
-namespace OfficeOpenXml
+namespace CabViewerSDKOfficeOpenXml
 {
     public static class CalculationExtension
     {

@@ -30,7 +30,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace OfficeOpenXml.Packaging.Ionic.Zip
+namespace CabViewerSDKOfficeOpenXml.Packaging.Ionic.Zip
 {
 
     partial class ZipEntry

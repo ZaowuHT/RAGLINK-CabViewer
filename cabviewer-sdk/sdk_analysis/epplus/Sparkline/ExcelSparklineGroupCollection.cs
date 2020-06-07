@@ -35,7 +35,7 @@ using System.Linq;
 using System.Text;
 using System.Xml;
 
-namespace OfficeOpenXml.Sparkline
+namespace CabViewerSDKOfficeOpenXml.Sparkline
 {
     /// <summary>
     /// A collection of sparkline groups

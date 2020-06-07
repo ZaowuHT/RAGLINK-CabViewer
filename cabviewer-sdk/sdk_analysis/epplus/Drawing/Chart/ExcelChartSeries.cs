@@ -34,8 +34,8 @@ using System.Collections.Generic;
 using System.Text;
 using System.Xml;
 using System.Collections;
-using OfficeOpenXml.Table.PivotTable;
-namespace OfficeOpenXml.Drawing.Chart
+using CabViewerSDKOfficeOpenXml.Table.PivotTable;
+namespace CabViewerSDKOfficeOpenXml.Drawing.Chart
 {
     public sealed class ExcelBubbleChartSeries : ExcelChartSeries
     {

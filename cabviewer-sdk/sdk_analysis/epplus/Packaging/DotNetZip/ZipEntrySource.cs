@@ -20,7 +20,7 @@
 // ------------------------------------------------------------------
 //
 
-namespace OfficeOpenXml.Packaging.Ionic.Zip
+namespace CabViewerSDKOfficeOpenXml.Packaging.Ionic.Zip
 {
     /// <summary>
     /// An enum that specifies the source of the ZipEntry. 

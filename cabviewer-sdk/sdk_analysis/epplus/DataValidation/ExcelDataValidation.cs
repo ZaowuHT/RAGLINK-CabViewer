@@ -34,13 +34,13 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Text;
-using OfficeOpenXml.Utils;
+using CabViewerSDKOfficeOpenXml.Utils;
 using System.Xml;
 using System.Text.RegularExpressions;
-using OfficeOpenXml.DataValidation.Formulas.Contracts;
-using OfficeOpenXml.DataValidation.Contracts;
+using CabViewerSDKOfficeOpenXml.DataValidation.Formulas.Contracts;
+using CabViewerSDKOfficeOpenXml.DataValidation.Contracts;
 
-namespace OfficeOpenXml.DataValidation
+namespace CabViewerSDKOfficeOpenXml.DataValidation
 {
     /// <summary>
     /// Excel datavalidation

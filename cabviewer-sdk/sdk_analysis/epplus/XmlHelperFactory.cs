@@ -35,7 +35,7 @@ using System.Linq;
 using System.Text;
 using System.Xml;
 
-namespace OfficeOpenXml
+namespace CabViewerSDKOfficeOpenXml
 {
     internal class XmlHelperInstance : XmlHelper
     {

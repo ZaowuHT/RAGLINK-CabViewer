@@ -26,9 +26,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using OfficeOpenXml.Utils;
+using CabViewerSDKOfficeOpenXml.Utils;
 
-namespace OfficeOpenXml.FormulaParsing.Excel.Functions
+namespace CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions
 {
     public class ObjectEnumerableArgConverter : CollectionFlattener<object>
     {

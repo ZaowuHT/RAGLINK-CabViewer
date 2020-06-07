@@ -34,7 +34,7 @@ using System.Linq;
 using System.Text;
 using System.Xml;
 
-namespace OfficeOpenXml.ConditionalFormatting
+namespace CabViewerSDKOfficeOpenXml.ConditionalFormatting
 {
   /// <summary>
   /// Functions related to the ExcelConditionalFormattingRule

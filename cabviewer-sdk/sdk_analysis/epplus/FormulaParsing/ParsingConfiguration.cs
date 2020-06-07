@@ -20,14 +20,14 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using OfficeOpenXml.FormulaParsing.Excel.Functions.Math;
-using OfficeOpenXml.FormulaParsing.LexicalAnalysis;
-using OfficeOpenXml.FormulaParsing.ExpressionGraph;
-using OfficeOpenXml.FormulaParsing.Excel.Functions;
-using OfficeOpenXml.FormulaParsing.Logging;
-using OfficeOpenXml.FormulaParsing.Utilities;
+using CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions.Math;
+using CabViewerSDKOfficeOpenXml.FormulaParsing.LexicalAnalysis;
+using CabViewerSDKOfficeOpenXml.FormulaParsing.ExpressionGraph;
+using CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions;
+using CabViewerSDKOfficeOpenXml.FormulaParsing.Logging;
+using CabViewerSDKOfficeOpenXml.FormulaParsing.Utilities;
 
-namespace OfficeOpenXml.FormulaParsing
+namespace CabViewerSDKOfficeOpenXml.FormulaParsing
 {
     public class ParsingConfiguration
     {

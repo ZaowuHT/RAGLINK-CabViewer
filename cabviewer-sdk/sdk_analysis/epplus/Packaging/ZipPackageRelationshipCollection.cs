@@ -35,9 +35,9 @@ using System.Text;
 using Ionic.Zip;
 using System.IO;
 using System.Security;
-using OfficeOpenXml.Packaging.Ionic.Zip;
+using CabViewerSDKOfficeOpenXml.Packaging.Ionic.Zip;
 
-namespace OfficeOpenXml.Packaging
+namespace CabViewerSDKOfficeOpenXml.Packaging
 {
     public class ZipPackageRelationshipCollection : IEnumerable<ZipPackageRelationship>
     {

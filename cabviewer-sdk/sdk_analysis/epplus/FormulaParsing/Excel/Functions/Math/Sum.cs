@@ -26,11 +26,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using OfficeOpenXml.FormulaParsing.ExpressionGraph;
-using OfficeOpenXml.Utils;
-using OfficeOpenXml.FormulaParsing.Exceptions;
+using CabViewerSDKOfficeOpenXml.FormulaParsing.ExpressionGraph;
+using CabViewerSDKOfficeOpenXml.Utils;
+using CabViewerSDKOfficeOpenXml.FormulaParsing.Exceptions;
 
-namespace OfficeOpenXml.FormulaParsing.Excel.Functions.Math
+namespace CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions.Math
 {
     public class Sum : HiddenValuesHandlingFunction
     {

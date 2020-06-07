@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace OfficeOpenXml.FormulaParsing.Logging
+namespace CabViewerSDKOfficeOpenXml.FormulaParsing.Logging
 {
     /// <summary>
     /// Used for logging during FormulaParsing

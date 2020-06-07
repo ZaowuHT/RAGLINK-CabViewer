@@ -20,9 +20,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using OfficeOpenXml.FormulaParsing;
+using CabViewerSDKOfficeOpenXml.FormulaParsing;
 
-namespace OfficeOpenXml.FormulaParsing
+namespace CabViewerSDKOfficeOpenXml.FormulaParsing
 {
     public class EpplusNameValueProvider : INameValueProvider
     {

@@ -36,7 +36,7 @@ using System.Xml;
 using System.Globalization;
 using System.Drawing;
 
-namespace OfficeOpenXml.Drawing.Vml
+namespace CabViewerSDKOfficeOpenXml.Drawing.Vml
 {
     /// <summary>
     /// Drawing object used for comments

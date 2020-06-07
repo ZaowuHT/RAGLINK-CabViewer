@@ -33,13 +33,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Collections;
-using OfficeOpenXml.Utils;
+using CabViewerSDKOfficeOpenXml.Utils;
 using System.Xml;
-using OfficeOpenXml.ConditionalFormatting.Contracts;
+using CabViewerSDKOfficeOpenXml.ConditionalFormatting.Contracts;
 using System.Text.RegularExpressions;
 using System.Drawing;
 
-namespace OfficeOpenXml.ConditionalFormatting
+namespace CabViewerSDKOfficeOpenXml.ConditionalFormatting
 {
   /// <summary>
   /// Collection of <see cref="ExcelConditionalFormattingRule"/>.

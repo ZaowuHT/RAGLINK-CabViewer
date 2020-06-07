@@ -34,7 +34,7 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace OfficeOpenXml.FormulaParsing.ExcelUtilities
+namespace CabViewerSDKOfficeOpenXml.FormulaParsing.ExcelUtilities
 {
     public static class ExcelAddressUtil
     {
@@ -66,7 +66,7 @@ namespace OfficeOpenXml.FormulaParsing.ExcelUtilities
                 }
                 token = token.Substring(token.IndexOf('!') + 1);
             }
-            return OfficeOpenXml.ExcelAddress.IsValidAddress(token);
+            return CabViewerSDKOfficeOpenXml.ExcelAddress.IsValidAddress(token);
         }
         readonly static char[] NameInvalidChars = new char[] { '!', '@', '#', '$', '£', '%', '&', '/', '(', ')', '[', ']', '{', '}', '<', '>', '=', '+', '?', '\\', '*', '-', '~', '^', ':', ';', '|', ',', ' ' };
         public static bool IsValidName(string name)

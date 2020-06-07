@@ -32,12 +32,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using OfficeOpenXml.DataValidation.Formulas.Contracts;
-using OfficeOpenXml.DataValidation.Formulas;
+using CabViewerSDKOfficeOpenXml.DataValidation.Formulas.Contracts;
+using CabViewerSDKOfficeOpenXml.DataValidation.Formulas;
 using System.Xml;
-using OfficeOpenXml.DataValidation.Contracts;
+using CabViewerSDKOfficeOpenXml.DataValidation.Contracts;
 
-namespace OfficeOpenXml.DataValidation
+namespace CabViewerSDKOfficeOpenXml.DataValidation
 {
     /// <summary>
     /// Any value validation.

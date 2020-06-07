@@ -26,10 +26,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using OfficeOpenXml.FormulaParsing.Exceptions;
-using OfficeOpenXml.FormulaParsing.ExpressionGraph;
+using CabViewerSDKOfficeOpenXml.FormulaParsing.Exceptions;
+using CabViewerSDKOfficeOpenXml.FormulaParsing.ExpressionGraph;
 
-namespace OfficeOpenXml.FormulaParsing.Excel.Functions.Text
+namespace CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions.Text
 {
     public class Find : ExcelFunction
     {

@@ -33,9 +33,9 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Xml;
-using OfficeOpenXml.Style;
+using CabViewerSDKOfficeOpenXml.Style;
 using System.Globalization;
-namespace OfficeOpenXml.Drawing.Chart
+namespace CabViewerSDKOfficeOpenXml.Drawing.Chart
 {
     /// <summary>
     /// Position of the axis.

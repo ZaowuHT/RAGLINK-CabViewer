@@ -36,12 +36,12 @@ using System.Text;
 using System.Xml;
 using System.Drawing;
 using System.IO;
-using OfficeOpenXml.Drawing;
-using OfficeOpenXml.Packaging;
-using OfficeOpenXml.Utils;
-using OfficeOpenXml.Compatibility;
+using CabViewerSDKOfficeOpenXml.Drawing;
+using CabViewerSDKOfficeOpenXml.Packaging;
+using CabViewerSDKOfficeOpenXml.Utils;
+using CabViewerSDKOfficeOpenXml.Compatibility;
 
-namespace OfficeOpenXml
+namespace CabViewerSDKOfficeOpenXml
 {
     /// <summary>
     /// An image that fills the background of the worksheet.

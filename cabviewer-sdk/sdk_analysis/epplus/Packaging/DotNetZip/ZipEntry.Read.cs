@@ -28,7 +28,7 @@
 using System;
 using System.IO;
 
-namespace OfficeOpenXml.Packaging.Ionic.Zip
+namespace CabViewerSDKOfficeOpenXml.Packaging.Ionic.Zip
 {
     internal partial class ZipEntry
     {

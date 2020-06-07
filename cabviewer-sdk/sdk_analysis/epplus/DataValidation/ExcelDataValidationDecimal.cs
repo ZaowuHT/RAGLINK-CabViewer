@@ -35,11 +35,11 @@ using System.Linq;
 using System.Text;
 using System.Globalization;
 using System.Xml;
-using OfficeOpenXml.DataValidation.Formulas.Contracts;
-using OfficeOpenXml.DataValidation.Formulas;
-using OfficeOpenXml.DataValidation.Contracts;
+using CabViewerSDKOfficeOpenXml.DataValidation.Formulas.Contracts;
+using CabViewerSDKOfficeOpenXml.DataValidation.Formulas;
+using CabViewerSDKOfficeOpenXml.DataValidation.Contracts;
 
-namespace OfficeOpenXml.DataValidation
+namespace CabViewerSDKOfficeOpenXml.DataValidation
 {
     /// <summary>
     /// Data validation for decimal values

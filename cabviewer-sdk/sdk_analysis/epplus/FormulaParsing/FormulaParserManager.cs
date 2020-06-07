@@ -33,10 +33,10 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
-using OfficeOpenXml.FormulaParsing.Excel.Functions;
-using OfficeOpenXml.FormulaParsing.Logging;
-using OfficeOpenXml.FormulaParsing.Utilities;
-namespace OfficeOpenXml.FormulaParsing
+using CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions;
+using CabViewerSDKOfficeOpenXml.FormulaParsing.Logging;
+using CabViewerSDKOfficeOpenXml.FormulaParsing.Utilities;
+namespace CabViewerSDKOfficeOpenXml.FormulaParsing
 {
     /// <summary>
     /// Provides access to various functionality regarding 

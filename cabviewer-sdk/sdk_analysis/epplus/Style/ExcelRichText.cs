@@ -38,7 +38,7 @@ using System.Xml;
 using System.Drawing;
 using System.Globalization;
 
-namespace OfficeOpenXml.Style
+namespace CabViewerSDKOfficeOpenXml.Style
 {
     /// <summary>
     /// A richtext part

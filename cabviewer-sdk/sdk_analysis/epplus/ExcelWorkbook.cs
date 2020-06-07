@@ -42,16 +42,16 @@ using System.IO;
 using System.Collections.Generic;
 using System.Text;
 using System.Globalization;
-using OfficeOpenXml.VBA;
-using OfficeOpenXml.Utils;
-using OfficeOpenXml.FormulaParsing;
-using OfficeOpenXml.FormulaParsing.LexicalAnalysis;
-using OfficeOpenXml.Packaging.Ionic.Zip;
+using CabViewerSDKOfficeOpenXml.VBA;
+using CabViewerSDKOfficeOpenXml.Utils;
+using CabViewerSDKOfficeOpenXml.FormulaParsing;
+using CabViewerSDKOfficeOpenXml.FormulaParsing.LexicalAnalysis;
+using CabViewerSDKOfficeOpenXml.Packaging.Ionic.Zip;
 using System.Drawing;
-using OfficeOpenXml.Style;
-using OfficeOpenXml.Compatibility;
+using CabViewerSDKOfficeOpenXml.Style;
+using CabViewerSDKOfficeOpenXml.Compatibility;
 
-namespace OfficeOpenXml
+namespace CabViewerSDKOfficeOpenXml
 {
 	#region Public Enum ExcelCalcMode
 	/// <summary>
@@ -908,7 +908,7 @@ namespace OfficeOpenXml
 
 			//StreamWriter sw = new StreamWriter(stringPart.GetStream(FileMode.Create, FileAccess.Write));
             //Init Zip
-            stream.CompressionLevel = (OfficeOpenXml.Packaging.Ionic.Zlib.CompressionLevel)compressionLevel;
+            stream.CompressionLevel = (CabViewerSDKOfficeOpenXml.Packaging.Ionic.Zlib.CompressionLevel)compressionLevel;
             stream.PutNextEntry(fileName);
 
             var cache = new StringBuilder();            

@@ -32,10 +32,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using OfficeOpenXml.Utils;
-using OfficeOpenXml.ConditionalFormatting.Contracts;
+using CabViewerSDKOfficeOpenXml.Utils;
+using CabViewerSDKOfficeOpenXml.ConditionalFormatting.Contracts;
 
-namespace OfficeOpenXml.ConditionalFormatting
+namespace CabViewerSDKOfficeOpenXml.ConditionalFormatting
 {
   internal class RangeConditionalFormatting
     : IRangeConditionalFormatting

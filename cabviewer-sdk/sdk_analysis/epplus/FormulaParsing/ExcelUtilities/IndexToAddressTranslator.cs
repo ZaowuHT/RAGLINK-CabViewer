@@ -32,10 +32,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using OfficeOpenXml.FormulaParsing;
-using OfficeOpenXml.FormulaParsing.Utilities;
+using CabViewerSDKOfficeOpenXml.FormulaParsing;
+using CabViewerSDKOfficeOpenXml.FormulaParsing.Utilities;
 
-namespace OfficeOpenXml.FormulaParsing.ExcelUtilities
+namespace CabViewerSDKOfficeOpenXml.FormulaParsing.ExcelUtilities
 {
     public class IndexToAddressTranslator
     {

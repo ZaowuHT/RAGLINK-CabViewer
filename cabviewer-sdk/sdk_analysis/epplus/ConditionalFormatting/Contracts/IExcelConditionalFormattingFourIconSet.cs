@@ -33,9 +33,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-using OfficeOpenXml.ConditionalFormatting;
+using CabViewerSDKOfficeOpenXml.ConditionalFormatting;
 
-namespace OfficeOpenXml.ConditionalFormatting.Contracts
+namespace CabViewerSDKOfficeOpenXml.ConditionalFormatting.Contracts
 {
   /// <summary>
   /// IExcelConditionalFormattingFourIconSet

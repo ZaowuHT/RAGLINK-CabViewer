@@ -5,11 +5,11 @@ using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
-using OfficeOpenXml.FormulaParsing.ExpressionGraph;
+using CabViewerSDKOfficeOpenXml.FormulaParsing.ExpressionGraph;
 using System.IO;
-using OfficeOpenXml.Compatibility;
+using CabViewerSDKOfficeOpenXml.Compatibility;
 
-namespace OfficeOpenXml.Utils
+namespace CabViewerSDKOfficeOpenXml.Utils
 {
     internal static class ConvertUtil
     {

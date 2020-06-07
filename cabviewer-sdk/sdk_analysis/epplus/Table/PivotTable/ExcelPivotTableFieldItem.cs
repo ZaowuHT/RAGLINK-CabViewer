@@ -35,7 +35,7 @@ using System.Linq;
 using System.Text;
 using System.Xml;
 
-namespace OfficeOpenXml.Table.PivotTable
+namespace CabViewerSDKOfficeOpenXml.Table.PivotTable
 {
     /// <summary>
     /// A field Item. Used for grouping

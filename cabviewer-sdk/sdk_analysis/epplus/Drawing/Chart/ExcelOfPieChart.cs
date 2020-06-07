@@ -33,10 +33,10 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Xml;
-using OfficeOpenXml.Table.PivotTable;
+using CabViewerSDKOfficeOpenXml.Table.PivotTable;
 using System.Globalization;
 
-namespace OfficeOpenXml.Drawing.Chart
+namespace CabViewerSDKOfficeOpenXml.Drawing.Chart
 {
     /// <summary>
     /// Provides access to ofpie-chart specific properties

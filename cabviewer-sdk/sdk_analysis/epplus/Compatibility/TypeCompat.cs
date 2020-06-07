@@ -32,7 +32,7 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Reflection;
-namespace OfficeOpenXml.Compatibility
+namespace CabViewerSDKOfficeOpenXml.Compatibility
 {
     internal class TypeCompat
     {

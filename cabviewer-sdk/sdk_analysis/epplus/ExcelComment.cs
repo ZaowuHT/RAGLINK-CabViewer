@@ -33,12 +33,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using OfficeOpenXml.Style;
+using CabViewerSDKOfficeOpenXml.Style;
 using System.Xml;
-using OfficeOpenXml.Drawing;
-using OfficeOpenXml.Drawing.Vml;
+using CabViewerSDKOfficeOpenXml.Drawing;
+using CabViewerSDKOfficeOpenXml.Drawing.Vml;
 
-namespace OfficeOpenXml
+namespace CabViewerSDKOfficeOpenXml
 {
     /// <summary>
     /// An Excel Cell Comment

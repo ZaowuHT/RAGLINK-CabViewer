@@ -25,7 +25,7 @@
 // ------------------------------------------------------------------
 
 
-namespace OfficeOpenXml.Packaging.Ionic.Zip
+namespace CabViewerSDKOfficeOpenXml.Packaging.Ionic.Zip
 {
     /// <summary>
     /// An enum that provides the various encryption algorithms supported by this

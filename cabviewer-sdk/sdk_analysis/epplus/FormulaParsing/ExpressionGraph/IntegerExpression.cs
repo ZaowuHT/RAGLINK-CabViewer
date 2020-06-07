@@ -34,7 +34,7 @@ using System.Globalization;
 using System.Linq;
 using System.Text;
 
-namespace OfficeOpenXml.FormulaParsing.ExpressionGraph
+namespace CabViewerSDKOfficeOpenXml.FormulaParsing.ExpressionGraph
 {
     public class IntegerExpression : AtomicExpression
     {

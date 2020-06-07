@@ -33,13 +33,13 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using OfficeOpenXml.DataValidation.Formulas.Contracts;
-using OfficeOpenXml.DataValidation.Formulas;
+using CabViewerSDKOfficeOpenXml.DataValidation.Formulas.Contracts;
+using CabViewerSDKOfficeOpenXml.DataValidation.Formulas;
 using System.Xml;
-using OfficeOpenXml.DataValidation.Contracts;
+using CabViewerSDKOfficeOpenXml.DataValidation.Contracts;
 using System.Runtime.CompilerServices;
 
-namespace OfficeOpenXml.DataValidation
+namespace CabViewerSDKOfficeOpenXml.DataValidation
 {
     /// <summary>
     /// Validation for times (<see cref="OfficeOpenXml.DataValidation.ExcelTime"/>).

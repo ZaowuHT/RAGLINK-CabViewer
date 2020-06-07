@@ -32,10 +32,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using OfficeOpenXml.FormulaParsing.Excel.Operators;
-using OfficeOpenXml.FormulaParsing.ExpressionGraph.CompileStrategy;
+using CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Operators;
+using CabViewerSDKOfficeOpenXml.FormulaParsing.ExpressionGraph.CompileStrategy;
 
-namespace OfficeOpenXml.FormulaParsing.ExpressionGraph
+namespace CabViewerSDKOfficeOpenXml.FormulaParsing.ExpressionGraph
 {
     public class ExpressionCompiler : IExpressionCompiler
     {

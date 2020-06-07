@@ -34,7 +34,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Globalization;
 
-namespace OfficeOpenXml
+namespace CabViewerSDKOfficeOpenXml
 {
     /// <summary>
     /// Discribes a column when reading a text using the ExcelRangeBase.LoadFromText method

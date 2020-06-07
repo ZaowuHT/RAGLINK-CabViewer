@@ -40,23 +40,23 @@ using System.Security;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Xml;
-using OfficeOpenXml.ConditionalFormatting;
-using OfficeOpenXml.DataValidation;
-using OfficeOpenXml.Drawing;
-using OfficeOpenXml.Drawing.Chart;
-using OfficeOpenXml.Drawing.Vml;
-using OfficeOpenXml.FormulaParsing.LexicalAnalysis;
-using OfficeOpenXml.Packaging.Ionic.Zip;
-using OfficeOpenXml.Style.XmlAccess;
-using OfficeOpenXml.Table;
-using OfficeOpenXml.Table.PivotTable;
-using OfficeOpenXml.Utils;
+using CabViewerSDKOfficeOpenXml.ConditionalFormatting;
+using CabViewerSDKOfficeOpenXml.DataValidation;
+using CabViewerSDKOfficeOpenXml.Drawing;
+using CabViewerSDKOfficeOpenXml.Drawing.Chart;
+using CabViewerSDKOfficeOpenXml.Drawing.Vml;
+using CabViewerSDKOfficeOpenXml.FormulaParsing.LexicalAnalysis;
+using CabViewerSDKOfficeOpenXml.Packaging.Ionic.Zip;
+using CabViewerSDKOfficeOpenXml.Style.XmlAccess;
+using CabViewerSDKOfficeOpenXml.Table;
+using CabViewerSDKOfficeOpenXml.Table.PivotTable;
+using CabViewerSDKOfficeOpenXml.Utils;
 
 using System.Linq;
-using OfficeOpenXml.Compatibility;
-using OfficeOpenXml.Sparkline;
+using CabViewerSDKOfficeOpenXml.Compatibility;
+using CabViewerSDKOfficeOpenXml.Sparkline;
 
-namespace OfficeOpenXml
+namespace CabViewerSDKOfficeOpenXml
 {
   /// <summary>
   /// Worksheet hidden enumeration
@@ -2991,7 +2991,7 @@ namespace OfficeOpenXml
         {
                     //Init Zip
                     stream.CodecBufferSize = 8096;
-                    stream.CompressionLevel = (OfficeOpenXml.Packaging.Ionic.Zlib.CompressionLevel)compressionLevel;
+                    stream.CompressionLevel = (CabViewerSDKOfficeOpenXml.Packaging.Ionic.Zlib.CompressionLevel)compressionLevel;
                     stream.PutNextEntry(fileName);
 
                     

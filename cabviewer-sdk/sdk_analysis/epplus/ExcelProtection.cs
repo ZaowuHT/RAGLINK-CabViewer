@@ -33,9 +33,9 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Xml;
-using OfficeOpenXml.Utils;
-using OfficeOpenXml.Encryption;
-namespace OfficeOpenXml
+using CabViewerSDKOfficeOpenXml.Utils;
+using CabViewerSDKOfficeOpenXml.Encryption;
+namespace CabViewerSDKOfficeOpenXml
 {
     /// <summary>
     /// Sets protection on the workbook level

@@ -63,7 +63,7 @@
 
 using System;
 
-namespace OfficeOpenXml.Packaging.Ionic.Zlib
+namespace CabViewerSDKOfficeOpenXml.Packaging.Ionic.Zlib
 {
     sealed class Tree
     {

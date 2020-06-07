@@ -1,4 +1,4 @@
-﻿using OfficeOpenXml.Utils;
+﻿using CabViewerSDKOfficeOpenXml.Utils;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
@@ -7,7 +7,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Xml;
 
-namespace OfficeOpenXml
+namespace CabViewerSDKOfficeOpenXml
 {
     /// <summary>
     /// Algorithm for password hash

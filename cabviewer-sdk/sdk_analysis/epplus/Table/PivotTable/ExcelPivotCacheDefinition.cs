@@ -34,10 +34,10 @@ using System.Collections.Generic;
 using System.Text;
 using System.Xml;
 using System.Linq;
-using OfficeOpenXml.Utils;
+using CabViewerSDKOfficeOpenXml.Utils;
 using System.Security;
 
-namespace OfficeOpenXml.Table.PivotTable
+namespace CabViewerSDKOfficeOpenXml.Table.PivotTable
 {
     public enum eSourceType
     {

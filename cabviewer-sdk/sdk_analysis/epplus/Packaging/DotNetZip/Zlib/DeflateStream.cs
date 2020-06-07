@@ -27,7 +27,7 @@
 
 using System;
 
-namespace OfficeOpenXml.Packaging.Ionic.Zlib
+namespace CabViewerSDKOfficeOpenXml.Packaging.Ionic.Zlib
 {
     /// <summary>
     /// A class for compressing and decompressing streams using the Deflate algorithm.

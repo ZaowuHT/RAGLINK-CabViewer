@@ -31,8 +31,8 @@
  *******************************************************************************/
 using System;
 using System.Xml;
-using OfficeOpenXml.Style;
-namespace OfficeOpenXml
+using CabViewerSDKOfficeOpenXml.Style;
+namespace CabViewerSDKOfficeOpenXml
 {
     /// <summary>
 	/// Represents one or more columns within the worksheet

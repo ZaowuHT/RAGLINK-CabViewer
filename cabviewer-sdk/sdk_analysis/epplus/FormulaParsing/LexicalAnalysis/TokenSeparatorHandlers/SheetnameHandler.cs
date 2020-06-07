@@ -33,7 +33,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace OfficeOpenXml.FormulaParsing.LexicalAnalysis.TokenSeparatorHandlers
+namespace CabViewerSDKOfficeOpenXml.FormulaParsing.LexicalAnalysis.TokenSeparatorHandlers
 {
     public class SheetnameHandler : SeparatorHandler
     {

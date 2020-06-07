@@ -32,9 +32,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using OfficeOpenXml.FormulaParsing.Exceptions;
+using CabViewerSDKOfficeOpenXml.FormulaParsing.Exceptions;
 
-namespace OfficeOpenXml.FormulaParsing.ExcelUtilities
+namespace CabViewerSDKOfficeOpenXml.FormulaParsing.ExcelUtilities
 {
     public class FormulaDependencies
     {

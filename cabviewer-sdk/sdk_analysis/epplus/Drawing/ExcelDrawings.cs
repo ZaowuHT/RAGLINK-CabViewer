@@ -37,10 +37,10 @@ using System.Collections;
 using System.IO;
 using System.Drawing;
 using System.Linq;
-using OfficeOpenXml.Drawing.Chart;
-using OfficeOpenXml.Table.PivotTable;
-using OfficeOpenXml.Utils;
-namespace OfficeOpenXml.Drawing
+using CabViewerSDKOfficeOpenXml.Drawing.Chart;
+using CabViewerSDKOfficeOpenXml.Table.PivotTable;
+using CabViewerSDKOfficeOpenXml.Utils;
+namespace CabViewerSDKOfficeOpenXml.Drawing
 {
     /// <summary>
     /// Collection for Drawing objects.
@@ -553,7 +553,7 @@ namespace OfficeOpenXml.Drawing
             {
                 var ix = 0;
                 //Now set the size for all drawings depending on the editAs property.
-                foreach (OfficeOpenXml.Drawing.ExcelDrawing d in this)
+                foreach (CabViewerSDKOfficeOpenXml.Drawing.ExcelDrawing d in this)
                 {
                     if (d.EditAs != Drawing.eEditAs.TwoCell)
                     {
@@ -571,7 +571,7 @@ namespace OfficeOpenXml.Drawing
             {
                 var ix = 0;
                 //Now set the size for all drawings depending on the editAs property.
-                foreach (OfficeOpenXml.Drawing.ExcelDrawing d in this)
+                foreach (CabViewerSDKOfficeOpenXml.Drawing.ExcelDrawing d in this)
                 {
                     if (d.EditAs != Drawing.eEditAs.TwoCell)
                     {

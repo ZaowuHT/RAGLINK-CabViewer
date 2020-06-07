@@ -34,9 +34,9 @@ using System.Linq;
 using System.Text;
 using System.Drawing;
 using System.Xml;
-using OfficeOpenXml.ConditionalFormatting.Contracts;
+using CabViewerSDKOfficeOpenXml.ConditionalFormatting.Contracts;
 using System.Globalization;
-namespace OfficeOpenXml.ConditionalFormatting
+namespace CabViewerSDKOfficeOpenXml.ConditionalFormatting
 {
     /// <summary>
     /// Databar

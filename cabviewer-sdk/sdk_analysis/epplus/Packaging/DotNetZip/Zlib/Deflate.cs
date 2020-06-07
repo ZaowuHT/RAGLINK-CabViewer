@@ -69,7 +69,7 @@
 
 using System;
 
-namespace OfficeOpenXml.Packaging.Ionic.Zlib
+namespace CabViewerSDKOfficeOpenXml.Packaging.Ionic.Zlib
 {
 
     internal enum BlockState

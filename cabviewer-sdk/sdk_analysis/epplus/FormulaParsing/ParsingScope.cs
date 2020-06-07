@@ -20,9 +20,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using OfficeOpenXml.FormulaParsing.ExcelUtilities;
+using CabViewerSDKOfficeOpenXml.FormulaParsing.ExcelUtilities;
 
-namespace OfficeOpenXml.FormulaParsing
+namespace CabViewerSDKOfficeOpenXml.FormulaParsing
 {
     /// <summary>
     /// Represents a parsing of a single input or workbook addrses.

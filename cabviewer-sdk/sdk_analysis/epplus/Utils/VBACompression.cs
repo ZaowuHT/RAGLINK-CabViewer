@@ -35,7 +35,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
-namespace OfficeOpenXml.Utils
+namespace CabViewerSDKOfficeOpenXml.Utils
 {
     internal static class VBACompression
     {

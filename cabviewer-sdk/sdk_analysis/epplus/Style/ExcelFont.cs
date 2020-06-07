@@ -34,14 +34,14 @@ using System.Collections.Generic;
 using System.Text;
 using System.Drawing;
 
-namespace OfficeOpenXml.Style
+namespace CabViewerSDKOfficeOpenXml.Style
 {
     /// <summary>
     /// Cell style Font
     /// </summary>
     public sealed class ExcelFont : StyleBase
     {
-        internal ExcelFont(ExcelStyles styles, OfficeOpenXml.XmlHelper.ChangedEventHandler ChangedEvent, int PositionID, string address, int index) :
+        internal ExcelFont(ExcelStyles styles, CabViewerSDKOfficeOpenXml.XmlHelper.ChangedEventHandler ChangedEvent, int PositionID, string address, int index) :
             base(styles, ChangedEvent, PositionID, address)
 
         {

@@ -35,7 +35,7 @@ using System.Globalization;
 using System.Text;
 using System.Xml;
 
-namespace OfficeOpenXml.Table
+namespace CabViewerSDKOfficeOpenXml.Table
 {
     /// <summary>
     /// A collection of table columns

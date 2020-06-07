@@ -59,7 +59,7 @@ using System.Collections.Generic;
 using System.Linq;
 #endif
 
-namespace OfficeOpenXml.Packaging.Ionic
+namespace CabViewerSDKOfficeOpenXml.Packaging.Ionic
 {
 
     /// <summary>

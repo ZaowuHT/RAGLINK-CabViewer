@@ -22,13 +22,13 @@
  *******************************************************************************
  * Mats Alm   		                Added		                2015-01-10
  *******************************************************************************/
-using OfficeOpenXml.FormulaParsing.ExpressionGraph;
+using CabViewerSDKOfficeOpenXml.FormulaParsing.ExpressionGraph;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace OfficeOpenXml.FormulaParsing.Excel.Functions.Math
+namespace CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions.Math
 {
     public class Median : ExcelFunction
     {

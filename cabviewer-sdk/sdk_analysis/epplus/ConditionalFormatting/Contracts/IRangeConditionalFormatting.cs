@@ -28,10 +28,10 @@
  * ******************************************************************************
  * Eyal Seagull		    Conditional Formatting    2012-04-03
  *******************************************************************************/
-using OfficeOpenXml.ConditionalFormatting.Contracts;
+using CabViewerSDKOfficeOpenXml.ConditionalFormatting.Contracts;
 using System.Drawing;
 
-namespace OfficeOpenXml.ConditionalFormatting
+namespace CabViewerSDKOfficeOpenXml.ConditionalFormatting
 {
 	/// <summary>
 	/// Provides functionality for adding Conditional Formatting to a range (<see cref="ExcelRangeBase"/>).

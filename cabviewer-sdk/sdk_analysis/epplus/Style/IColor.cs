@@ -4,7 +4,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 
-namespace OfficeOpenXml.Style
+namespace CabViewerSDKOfficeOpenXml.Style
 {
     //<xsd:complexType name = "CT_Color" >
     //    <xsd:attribute name = "auto" type="xsd:boolean" use="optional"/>

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 
-namespace OfficeOpenXml.FormulaParsing.Excel.Functions.DateTime.Workdays
+namespace CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions.DateTime.Workdays
 {
     public enum WorkdayCalculationDirection
     {

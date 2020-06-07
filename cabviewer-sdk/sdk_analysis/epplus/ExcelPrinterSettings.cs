@@ -36,7 +36,7 @@ using System.Xml;
 using System.Globalization;
 using System.Linq;
 
-namespace OfficeOpenXml
+namespace CabViewerSDKOfficeOpenXml
 {
     #region "Enums"
     /// <summary>

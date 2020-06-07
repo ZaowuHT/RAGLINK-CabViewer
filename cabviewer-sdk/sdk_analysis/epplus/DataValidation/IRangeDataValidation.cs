@@ -31,9 +31,9 @@
  *******************************************************************************/
 using System.Linq;
 using System.Text;
-using OfficeOpenXml.DataValidation.Contracts;
+using CabViewerSDKOfficeOpenXml.DataValidation.Contracts;
 
-namespace OfficeOpenXml.DataValidation
+namespace CabViewerSDKOfficeOpenXml.DataValidation
 {
     /// <summary>
     /// Provides functionality for adding datavalidation to a range (<see cref="ExcelRangeBase"/>). Each method will

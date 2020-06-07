@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Xml;
 
-namespace OfficeOpenXml.Style.Dxf
+namespace CabViewerSDKOfficeOpenXml.Style.Dxf
 {
     public abstract class DxfStyleBase<T>
     {

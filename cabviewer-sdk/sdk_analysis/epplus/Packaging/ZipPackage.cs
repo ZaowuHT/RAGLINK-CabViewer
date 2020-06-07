@@ -35,10 +35,10 @@ using System.Linq;
 using System.Text;
 using System.IO;
 using System.Xml;
-using OfficeOpenXml.Utils;
-using OfficeOpenXml.Packaging.Ionic.Zip;
+using CabViewerSDKOfficeOpenXml.Utils;
+using CabViewerSDKOfficeOpenXml.Packaging.Ionic.Zip;
 using Ionic.Zip;
-namespace OfficeOpenXml.Packaging
+namespace CabViewerSDKOfficeOpenXml.Packaging
 {
     /// <summary>
     /// Specifies whether the target is inside or outside the System.IO.Packaging.Package.
@@ -277,7 +277,7 @@ namespace OfficeOpenXml.Packaging
         {
             var enc = Encoding.UTF8;
             ZipOutputStream os = new ZipOutputStream(stream, true);
-            os.CompressionLevel = (OfficeOpenXml.Packaging.Ionic.Zlib.CompressionLevel)_compression;            
+            os.CompressionLevel = (CabViewerSDKOfficeOpenXml.Packaging.Ionic.Zlib.CompressionLevel)_compression;            
             /**** ContentType****/
             var entry = os.PutNextEntry("[Content_Types].xml");
             byte[] b = enc.GetBytes(GetContentTypeXml());

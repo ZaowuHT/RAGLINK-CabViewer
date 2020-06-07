@@ -36,7 +36,7 @@ using System.Xml;
 using System.Collections;
 using System.Globalization;
 
-namespace OfficeOpenXml.Drawing.Vml
+namespace CabViewerSDKOfficeOpenXml.Drawing.Vml
 {
     internal class ExcelVmlDrawingCommentCollection : ExcelVmlDrawingBaseCollection, IEnumerable
     {

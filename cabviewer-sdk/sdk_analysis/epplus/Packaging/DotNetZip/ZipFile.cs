@@ -43,8 +43,8 @@ using System.IO;
 using System.Collections.Generic;
 using System.Reflection;
 using Interop = System.Runtime.InteropServices;
-using OfficeOpenXml.Packaging.Ionic.Zlib;
-namespace OfficeOpenXml.Packaging.Ionic.Zip
+using CabViewerSDKOfficeOpenXml.Packaging.Ionic.Zlib;
+namespace CabViewerSDKOfficeOpenXml.Packaging.Ionic.Zip
 {
     /// <summary>
     ///   The ZipFile type represents a zip archive file.
@@ -471,7 +471,7 @@ namespace OfficeOpenXml.Packaging.Ionic.Zip
         ///    alone, and accept the default.
         ///  </para>
         /// </remarks>
-        public OfficeOpenXml.Packaging.Ionic.Zlib.CompressionLevel CompressionLevel
+        public CabViewerSDKOfficeOpenXml.Packaging.Ionic.Zlib.CompressionLevel CompressionLevel
         {
             get;
             set;
@@ -2840,7 +2840,7 @@ namespace OfficeOpenXml.Packaging.Ionic.Zip
             _StatusMessageTextWriter = statusMessageWriter;
             _contentsChanged = true;
             AddDirectoryWillTraverseReparsePoints = true;  // workitem 8617
-            CompressionLevel = OfficeOpenXml.Packaging.Ionic.Zlib.CompressionLevel.Default;
+            CompressionLevel = CabViewerSDKOfficeOpenXml.Packaging.Ionic.Zlib.CompressionLevel.Default;
 #if !NETCF
             ParallelDeflateThreshold = 512 * 1024;
 #endif

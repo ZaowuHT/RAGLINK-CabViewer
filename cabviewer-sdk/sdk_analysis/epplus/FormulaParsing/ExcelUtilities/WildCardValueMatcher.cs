@@ -34,7 +34,7 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace OfficeOpenXml.FormulaParsing.ExcelUtilities
+namespace CabViewerSDKOfficeOpenXml.FormulaParsing.ExcelUtilities
 {
     public class WildCardValueMatcher : ValueMatcher
     {

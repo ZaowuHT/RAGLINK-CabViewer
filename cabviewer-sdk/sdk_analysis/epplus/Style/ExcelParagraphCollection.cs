@@ -33,10 +33,10 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Xml;
-using OfficeOpenXml.Drawing;
+using CabViewerSDKOfficeOpenXml.Drawing;
 using System.Drawing;
 
-namespace OfficeOpenXml.Style
+namespace CabViewerSDKOfficeOpenXml.Style
 {
     /// <summary>
     /// A collection of Paragraph objects

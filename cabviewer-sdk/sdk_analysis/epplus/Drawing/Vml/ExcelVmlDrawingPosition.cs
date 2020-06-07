@@ -34,7 +34,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Text;
 using System.Xml;
-namespace OfficeOpenXml.Drawing.Vml
+namespace CabViewerSDKOfficeOpenXml.Drawing.Vml
 {
     /// <summary>
     /// The position of a VML drawing. Used for comments

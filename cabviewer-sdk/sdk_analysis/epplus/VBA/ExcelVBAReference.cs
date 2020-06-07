@@ -33,7 +33,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace OfficeOpenXml.VBA
+namespace CabViewerSDKOfficeOpenXml.VBA
 {
     /// <summary>
     /// A VBA reference

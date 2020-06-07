@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace OfficeOpenXml.VBA
+namespace CabViewerSDKOfficeOpenXml.VBA
 {
     /// <summary>
     /// To determine if the attribute uses double quotes around the value

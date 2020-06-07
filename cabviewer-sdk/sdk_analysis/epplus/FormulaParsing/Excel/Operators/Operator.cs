@@ -32,11 +32,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using OfficeOpenXml.FormulaParsing.ExpressionGraph;
-using OfficeOpenXml.FormulaParsing.Exceptions;
-using OfficeOpenXml.Utils;
+using CabViewerSDKOfficeOpenXml.FormulaParsing.ExpressionGraph;
+using CabViewerSDKOfficeOpenXml.FormulaParsing.Exceptions;
+using CabViewerSDKOfficeOpenXml.Utils;
 
-namespace OfficeOpenXml.FormulaParsing.Excel.Operators
+namespace CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Operators
 {
     public class Operator : IOperator
     {

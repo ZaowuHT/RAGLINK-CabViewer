@@ -30,11 +30,11 @@
  *******************************************************************************/
 using System;
 using System.Text.RegularExpressions;
-using OfficeOpenXml.FormulaParsing.Excel.Operators;
-using OfficeOpenXml.FormulaParsing.ExpressionGraph;
-using OfficeOpenXml.Utils;
+using CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Operators;
+using CabViewerSDKOfficeOpenXml.FormulaParsing.ExpressionGraph;
+using CabViewerSDKOfficeOpenXml.Utils;
 
-namespace OfficeOpenXml.FormulaParsing.ExcelUtilities
+namespace CabViewerSDKOfficeOpenXml.FormulaParsing.ExcelUtilities
 {
     public class ExpressionEvaluator
     {

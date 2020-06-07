@@ -33,7 +33,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace OfficeOpenXml.FormulaParsing.Exceptions
+namespace CabViewerSDKOfficeOpenXml.FormulaParsing.Exceptions
 {
     public class ExcelErrorCodes
     {

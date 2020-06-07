@@ -37,7 +37,7 @@ using System.Globalization;
 using System.Drawing;
 
 
-namespace OfficeOpenXml.Drawing.Vml
+namespace CabViewerSDKOfficeOpenXml.Drawing.Vml
 {
     /// <summary>
     /// Drawing object used for header and footer pictures

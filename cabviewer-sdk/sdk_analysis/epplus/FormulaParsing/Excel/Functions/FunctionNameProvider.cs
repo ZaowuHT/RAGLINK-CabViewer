@@ -26,9 +26,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using OfficeOpenXml.FormulaParsing.Excel.Functions;
+using CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions;
 
-namespace OfficeOpenXml.FormulaParsing.Excel.Functions
+namespace CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions
 {
     public class FunctionNameProvider : IFunctionNameProvider
     {

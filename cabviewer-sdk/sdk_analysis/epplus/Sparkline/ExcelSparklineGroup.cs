@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Xml;
 
-namespace OfficeOpenXml.Sparkline
+namespace CabViewerSDKOfficeOpenXml.Sparkline
 {
     /// <summary>
     /// Represents a group of sparklines

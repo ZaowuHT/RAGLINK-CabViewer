@@ -37,18 +37,18 @@ using System.Text;
 using System.Xml;
 using System.IO;
 using System.Linq;
-using OfficeOpenXml.FormulaParsing.Excel.Functions.Logical;
-using OfficeOpenXml.Style;
-using OfficeOpenXml.Drawing;
-using OfficeOpenXml.Drawing.Chart;
-using OfficeOpenXml.Style.XmlAccess;
-using OfficeOpenXml.Drawing.Vml;
-using OfficeOpenXml.Packaging.Ionic.Zlib;
-using OfficeOpenXml.Utils;
-using OfficeOpenXml.VBA;
-using OfficeOpenXml.Table.PivotTable;
+using CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions.Logical;
+using CabViewerSDKOfficeOpenXml.Style;
+using CabViewerSDKOfficeOpenXml.Drawing;
+using CabViewerSDKOfficeOpenXml.Drawing.Chart;
+using CabViewerSDKOfficeOpenXml.Style.XmlAccess;
+using CabViewerSDKOfficeOpenXml.Drawing.Vml;
+using CabViewerSDKOfficeOpenXml.Packaging.Ionic.Zlib;
+using CabViewerSDKOfficeOpenXml.Utils;
+using CabViewerSDKOfficeOpenXml.VBA;
+using CabViewerSDKOfficeOpenXml.Table.PivotTable;
 
-namespace OfficeOpenXml
+namespace CabViewerSDKOfficeOpenXml
 {
 	/// <summary>
 	/// The collection of worksheets for the workbook

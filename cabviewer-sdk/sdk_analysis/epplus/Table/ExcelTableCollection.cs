@@ -34,8 +34,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Xml;
-using OfficeOpenXml.FormulaParsing.ExcelUtilities;
-namespace OfficeOpenXml.Table
+using CabViewerSDKOfficeOpenXml.FormulaParsing.ExcelUtilities;
+namespace CabViewerSDKOfficeOpenXml.Table
 {
     /// <summary>
     /// A collection of table objects

@@ -33,7 +33,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace OfficeOpenXml.FormulaParsing.LexicalAnalysis
+namespace CabViewerSDKOfficeOpenXml.FormulaParsing.LexicalAnalysis
 {
     public class Token
     {

@@ -34,9 +34,9 @@ using System.Collections.Generic;
 using System.Text;
 using System.Collections;
 using System.Linq;
-using OfficeOpenXml.FormulaParsing.ExcelUtilities;
+using CabViewerSDKOfficeOpenXml.FormulaParsing.ExcelUtilities;
 
-namespace OfficeOpenXml
+namespace CabViewerSDKOfficeOpenXml
 {
     /// <summary>
     /// Collection for named ranges

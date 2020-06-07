@@ -34,9 +34,9 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Text;
 using System.Xml;
-using OfficeOpenXml.Style.XmlAccess;
-using OfficeOpenXml.Drawing;
-using OfficeOpenXml.Style;
+using CabViewerSDKOfficeOpenXml.Style.XmlAccess;
+using CabViewerSDKOfficeOpenXml.Drawing;
+using CabViewerSDKOfficeOpenXml.Style;
 /// <summary>
 /// Shape style
 /// </summary>
@@ -255,7 +255,7 @@ public enum eFillStyle
     BlipFill,
     GroupFill
 }
-namespace OfficeOpenXml.Drawing
+namespace CabViewerSDKOfficeOpenXml.Drawing
 {
     /// <summary>
     /// An Excel shape.

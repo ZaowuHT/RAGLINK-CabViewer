@@ -47,9 +47,9 @@ using System.Threading;
 using System.Collections.Generic;
 using System.IO;
 using Ionic.Zip;
-using OfficeOpenXml.Packaging.Ionic.Zlib;
+using CabViewerSDKOfficeOpenXml.Packaging.Ionic.Zlib;
 
-namespace OfficeOpenXml.Packaging.Ionic.Zip
+namespace CabViewerSDKOfficeOpenXml.Packaging.Ionic.Zip
 {
     /// <summary>
     ///   Provides a stream metaphor for generating zip files.
@@ -346,8 +346,8 @@ namespace OfficeOpenXml.Packaging.Ionic.Zip
         {
             // workitem 9307
             _outputStream = stream.CanRead ? stream : new CountingStream(stream);
-            CompressionLevel = OfficeOpenXml.Packaging.Ionic.Zlib.CompressionLevel.Default;
-            CompressionMethod = OfficeOpenXml.Packaging.Ionic.Zip.CompressionMethod.Deflate;
+            CompressionLevel = CabViewerSDKOfficeOpenXml.Packaging.Ionic.Zlib.CompressionLevel.Default;
+            CompressionMethod = CabViewerSDKOfficeOpenXml.Packaging.Ionic.Zip.CompressionMethod.Deflate;
             _encryption = EncryptionAlgorithm.None;
             _entriesWritten = new Dictionary<String, ZipEntry>(StringComparer.Ordinal);
             _zip64 = Zip64Option.Never;
@@ -581,7 +581,7 @@ namespace OfficeOpenXml.Packaging.Ionic.Zip
         ///    alone, and accept the default.
         ///  </para>
         /// </remarks>
-        public OfficeOpenXml.Packaging.Ionic.Zlib.CompressionLevel CompressionLevel
+        public CabViewerSDKOfficeOpenXml.Packaging.Ionic.Zlib.CompressionLevel CompressionLevel
         {
             get;
             set;

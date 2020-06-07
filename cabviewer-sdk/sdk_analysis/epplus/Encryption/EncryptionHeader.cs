@@ -34,7 +34,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
-namespace OfficeOpenXml.Encryption
+namespace CabViewerSDKOfficeOpenXml.Encryption
 {
     [Flags]
     internal enum Flags

@@ -33,7 +33,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace OfficeOpenXml.FormulaParsing.Utilities
+namespace CabViewerSDKOfficeOpenXml.FormulaParsing.Utilities
 {
     public static class RegexConstants
     {

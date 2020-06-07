@@ -29,7 +29,7 @@
 using System;
 using System.IO;
 
-namespace OfficeOpenXml.Packaging.Ionic.Zip
+namespace CabViewerSDKOfficeOpenXml.Packaging.Ionic.Zip
 {
     internal class OffsetStream : System.IO.Stream, System.IDisposable
     {

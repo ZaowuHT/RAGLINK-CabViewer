@@ -35,7 +35,7 @@ using System.Drawing;
 using System.Globalization;
 using System.Text;
 using System.Xml;
-namespace OfficeOpenXml.Style.XmlAccess
+namespace CabViewerSDKOfficeOpenXml.Style.XmlAccess
 {
     /// <summary>
     /// Xml access class for fonts
