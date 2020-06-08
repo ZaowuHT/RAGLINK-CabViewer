@@ -22,6 +22,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -58,16 +59,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DockingStrings.resx</DependentUpon>
     </Compile>
-    <Compile Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
-    <Compile Include="sdk_interface\dockpanel\Theme\ThemeVS2013\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
+    <Compile Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Resources.Designer.cs" />
     <Compile Include="sdk_interface\dockpanel\Theme\ThemeVS2015\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -1032,17 +1024,11 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>DockingStrings.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="sdk_interface\dockpanel\Theme\ThemeVS2013\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
+    <EmbeddedResource Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Resources.resx" />
     <EmbeddedResource Include="sdk_interface\dockpanel\Theme\ThemeVS2015\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -1056,42 +1042,7 @@
     <EmbeddedResource Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Strings.resx" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Resources\vs2012blue.vstheme.gz" />
-    <None Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Resources\vs2012dark.vstheme.gz" />
-    <None Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Resources\vs2012light.vstheme.gz" />
-    <None Include="sdk_interface\dockpanel\Theme\ThemeVS2013\Resources\vs2013blue.vstheme.gz" />
-    <None Include="sdk_interface\dockpanel\Theme\ThemeVS2013\Resources\vs2013dark.vstheme.gz" />
-    <None Include="sdk_interface\dockpanel\Theme\ThemeVS2013\Resources\vs2013light.vstheme.gz" />
-    <None Include="sdk_interface\dockpanel\Theme\ThemeVS2015\Resources\vs2015blue.vstheme.gz" />
-    <None Include="sdk_interface\dockpanel\Theme\ThemeVS2015\Resources\vs2015dark.vstheme.gz" />
-    <None Include="sdk_interface\dockpanel\Theme\ThemeVS2015\Resources\vs2015light.vstheme.gz" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Resources\Dockindicator_PaneDiamond_Hotspot.png" />
-    <Content Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Resources\DockIndicator_PaneDiamond_HotspotIndex.png" />
-    <Content Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Resources\MaskArrowBottom.png" />
-    <Content Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Resources\MaskArrowLeft.png" />
-    <Content Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Resources\MaskArrowRight.png" />
-    <Content Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Resources\MaskArrowTop.png" />
-    <Content Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Resources\MaskCoreBottom.png" />
-    <Content Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Resources\MaskCoreCenter.png" />
-    <Content Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Resources\MaskCoreLeft.png" />
-    <Content Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Resources\MaskCoreRight.png" />
-    <Content Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Resources\MaskCoreTop.png" />
-    <Content Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Resources\MaskDock.png" />
-    <Content Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Resources\MaskDockFive.png" />
-    <Content Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Resources\MaskTabClose.png" />
-    <Content Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Resources\MaskTabList.png" />
-    <Content Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Resources\MaskTabOverflow.png" />
-    <Content Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Resources\MaskToolWindowAutoHide.png" />
-    <Content Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Resources\MaskToolWindowClose.png" />
-    <Content Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Resources\MaskToolWindowDock.png" />
-    <Content Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Resources\MaskToolWindowOption.png" />
-    <Content Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Resources\MaskWindowBottom.png" />
-    <Content Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Resources\MaskWindowCenter.png" />
-    <Content Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Resources\MaskWindowLeft.png" />
-    <Content Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Resources\MaskWindowRight.png" />
-    <Content Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Resources\MaskWindowTop.png" />
+    <None Include="sdk_interface\dockpanel\Theme\ThemeVS2015\Resources\docktheme.vstheme" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -3,7 +3,6 @@ C:\Documents\raglink-simulator-openrails\program\cabviewer-sdk.pdb
 C:\Documents\raglink-simulator-openrails\cabviewer-sdk\obj\Debug\cabviewer-sdk.csprojAssemblyReference.cache
 C:\Documents\raglink-simulator-openrails\cabviewer-sdk\obj\Debug\CabViewerSDK.Properties.DockingStrings.resources
 C:\Documents\raglink-simulator-openrails\cabviewer-sdk\obj\Debug\CabViewerSDK.sdk_interface.dockpanel.Theme.ThemeVS2012.Resources.resources
-C:\Documents\raglink-simulator-openrails\cabviewer-sdk\obj\Debug\CabViewerSDK.sdk_interface.dockpanel.Theme.ThemeVS2013.Resources.resources
 C:\Documents\raglink-simulator-openrails\cabviewer-sdk\obj\Debug\CabViewerSDK.sdk_interface.dockpanel.Theme.ThemeVS2015.Resources.resources
 C:\Documents\raglink-simulator-openrails\cabviewer-sdk\obj\Debug\CabViewerSDK.Properties.Resources.resources
 C:\Documents\raglink-simulator-openrails\cabviewer-sdk\obj\Debug\CabViewerSDK.sdk_editor.fastcoloredtextbox.FastColoredTextBox.resources

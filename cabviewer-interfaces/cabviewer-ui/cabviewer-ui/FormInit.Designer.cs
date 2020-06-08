@@ -40,7 +40,7 @@
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "FormInit";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "{local:cabviewer-ui-form-init-title}";
+            this.Text = "{local:form-init-title}";
             this.TopMost = true;
             this.Load += new System.EventHandler(this.FormInit_Load);
             this.ResumeLayout(false);

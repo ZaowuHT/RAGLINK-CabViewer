@@ -8,7 +8,7 @@ namespace CabViewerSDK.Docking
     public class DockTheme : VS2015ThemeBase
     {
         public DockTheme()
-            : base(Decompress(Resources.vs2015light_vstheme))
+            : base(Resources.docktheme)
         {
         }
     }
