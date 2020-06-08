@@ -3,7 +3,7 @@ using System;
 using System.Text;
 using System.Drawing;
 
-namespace CabViewerSDKCodeEditor
+namespace CabViewerSDK.TextEditor
 {
     /// <summary>
     /// Line of text

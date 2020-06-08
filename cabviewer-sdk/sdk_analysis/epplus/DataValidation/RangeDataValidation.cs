@@ -33,10 +33,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using CabViewerSDKOfficeOpenXml.Utils;
-using CabViewerSDKOfficeOpenXml.DataValidation.Contracts;
+using CabViewerSDK.OfficeOpenXml.Utils;
+using CabViewerSDK.OfficeOpenXml.DataValidation.Contracts;
 
-namespace CabViewerSDKOfficeOpenXml.DataValidation
+namespace CabViewerSDK.OfficeOpenXml.DataValidation
 {
     internal class RangeDataValidation : IRangeDataValidation
     {

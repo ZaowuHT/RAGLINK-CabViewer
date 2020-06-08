@@ -38,10 +38,10 @@ using System.IO;
 using System.Drawing;
 using System.Drawing.Imaging;
 using System.Diagnostics;
-using CabViewerSDKOfficeOpenXml.Utils;
-using CabViewerSDKOfficeOpenXml.Compatibility;
+using CabViewerSDK.OfficeOpenXml.Utils;
+using CabViewerSDK.OfficeOpenXml.Compatibility;
 
-namespace CabViewerSDKOfficeOpenXml.Drawing
+namespace CabViewerSDK.OfficeOpenXml.Drawing
 {
     /// <summary>
     /// An image object

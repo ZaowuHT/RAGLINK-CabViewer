@@ -40,23 +40,23 @@ using System.Security;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Xml;
-using CabViewerSDKOfficeOpenXml.ConditionalFormatting;
-using CabViewerSDKOfficeOpenXml.DataValidation;
-using CabViewerSDKOfficeOpenXml.Drawing;
-using CabViewerSDKOfficeOpenXml.Drawing.Chart;
-using CabViewerSDKOfficeOpenXml.Drawing.Vml;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.LexicalAnalysis;
-using CabViewerSDKOfficeOpenXml.Packaging.Ionic.Zip;
-using CabViewerSDKOfficeOpenXml.Style.XmlAccess;
-using CabViewerSDKOfficeOpenXml.Table;
-using CabViewerSDKOfficeOpenXml.Table.PivotTable;
-using CabViewerSDKOfficeOpenXml.Utils;
+using CabViewerSDK.OfficeOpenXml.ConditionalFormatting;
+using CabViewerSDK.OfficeOpenXml.DataValidation;
+using CabViewerSDK.OfficeOpenXml.Drawing;
+using CabViewerSDK.OfficeOpenXml.Drawing.Chart;
+using CabViewerSDK.OfficeOpenXml.Drawing.Vml;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.LexicalAnalysis;
+using CabViewerSDK.OfficeOpenXml.Packaging.Ionic.Zip;
+using CabViewerSDK.OfficeOpenXml.Style.XmlAccess;
+using CabViewerSDK.OfficeOpenXml.Table;
+using CabViewerSDK.OfficeOpenXml.Table.PivotTable;
+using CabViewerSDK.OfficeOpenXml.Utils;
 
 using System.Linq;
-using CabViewerSDKOfficeOpenXml.Compatibility;
-using CabViewerSDKOfficeOpenXml.Sparkline;
+using CabViewerSDK.OfficeOpenXml.Compatibility;
+using CabViewerSDK.OfficeOpenXml.Sparkline;
 
-namespace CabViewerSDKOfficeOpenXml
+namespace CabViewerSDK.OfficeOpenXml
 {
   /// <summary>
   /// Worksheet hidden enumeration
@@ -2991,7 +2991,7 @@ namespace CabViewerSDKOfficeOpenXml
         {
                     //Init Zip
                     stream.CodecBufferSize = 8096;
-                    stream.CompressionLevel = (CabViewerSDKOfficeOpenXml.Packaging.Ionic.Zlib.CompressionLevel)compressionLevel;
+                    stream.CompressionLevel = (CabViewerSDK.OfficeOpenXml.Packaging.Ionic.Zlib.CompressionLevel)compressionLevel;
                     stream.PutNextEntry(fileName);
 
                     

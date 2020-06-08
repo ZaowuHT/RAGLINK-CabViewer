@@ -35,7 +35,7 @@ using System.Text;
 using System.Xml;
 using System.Globalization;
 using System.Text.RegularExpressions;
-namespace CabViewerSDKOfficeOpenXml.Style.XmlAccess
+namespace CabViewerSDK.OfficeOpenXml.Style.XmlAccess
 {
     /// <summary>
     /// Xml access class for number formats

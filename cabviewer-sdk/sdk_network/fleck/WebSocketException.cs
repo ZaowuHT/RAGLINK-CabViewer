@@ -1,5 +1,5 @@
 using System;
-namespace CabViewerSDKWebsocket
+namespace CabViewerSDK.Websocket
 {
     public class WebSocketException : Exception
     {

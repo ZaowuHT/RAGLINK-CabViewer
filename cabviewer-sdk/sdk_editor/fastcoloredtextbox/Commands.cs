@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace CabViewerSDKCodeEditor
+namespace CabViewerSDK.TextEditor
 {
     /// <summary>
     /// Insert single char

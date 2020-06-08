@@ -32,16 +32,16 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using CabViewerSDKOfficeOpenXml.Style.XmlAccess;
+using CabViewerSDK.OfficeOpenXml.Style.XmlAccess;
 
-namespace CabViewerSDKOfficeOpenXml.Style
+namespace CabViewerSDK.OfficeOpenXml.Style
 {
     /// <summary>
     /// Cell Border style
     /// </summary>
     public sealed class Border : StyleBase
     {
-        internal Border(ExcelStyles styles, CabViewerSDKOfficeOpenXml.XmlHelper.ChangedEventHandler ChangedEvent, int PositionID, string address, int index) :
+        internal Border(ExcelStyles styles, CabViewerSDK.OfficeOpenXml.XmlHelper.ChangedEventHandler ChangedEvent, int PositionID, string address, int index) :
             base(styles, ChangedEvent, PositionID, address)
 	    {
             Index = index;

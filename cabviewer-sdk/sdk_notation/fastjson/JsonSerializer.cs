@@ -9,7 +9,7 @@ using System.IO;
 using System.Text;
 using System.Collections.Specialized;
 
-namespace CabViewerSDKfastJSON
+namespace CabViewerSDK.FastJSON
 {
     internal sealed class JSONSerializer
     {

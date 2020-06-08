@@ -27,12 +27,12 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Text;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.Utilities;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.Exceptions;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.ExpressionGraph.FunctionCompilers;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.Excel.Functions;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.Utilities;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.Exceptions;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.ExpressionGraph.FunctionCompilers;
 
-namespace CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions
+namespace CabViewerSDK.OfficeOpenXml.FormulaParsing.Excel.Functions
 {
     /// <summary>
     /// This class provides methods for accessing/modifying VBA Functions.

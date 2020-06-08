@@ -38,7 +38,7 @@ using System.Windows.Forms.Design;
 using Microsoft.Win32;
 using Timer = System.Windows.Forms.Timer;
 
-namespace CabViewerSDKCodeEditor
+namespace CabViewerSDK.TextEditor
 {
     /// <summary>
     /// Fast colored textbox
@@ -1554,7 +1554,7 @@ namespace CabViewerSDKCodeEditor
                     if (!base.AutoScroll)
                         base.AutoScroll = true;
                     Size newSize = value;
-                    if (WordWrap && WordWrapMode != CabViewerSDKCodeEditor.WordWrapMode.Custom)
+                    if (WordWrap && WordWrapMode != CabViewerSDK.TextEditor.WordWrapMode.Custom)
                     {
                         int maxWidth = GetMaxLineWordWrapedWidth();
                         newSize = new Size(Math.Min(newSize.Width, maxWidth), newSize.Height);
@@ -3267,7 +3267,7 @@ namespace CabViewerSDKCodeEditor
                     }
                     else
                     if (!char.IsLetterOrDigit(c) && c != '_' && c != '\'' && c != '\xa0' 
-                        && ((c != '.' && c!= ',') || !char.IsDigit(line[i + 1].c)))//dot before digit
+                        && ((c != '.' && c!= ',') || !System.Char.IsDigit(line[i + 1].c)))//dot before digit
                         cutOff = Math.Min(i + 1, line.Count - 1);
                 }
 

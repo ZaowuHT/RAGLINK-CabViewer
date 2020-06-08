@@ -8,9 +8,9 @@ using System.Security.Authentication;
 using System.Security.Cryptography.X509Certificates;
 using System.Threading.Tasks;
 using System.Threading;
-using CabViewerSDKWebsocket.Helpers;
+using CabViewerSDK.Websocket.Helpers;
 
-namespace CabViewerSDKWebsocket
+namespace CabViewerSDK.Websocket
 {
     public class SocketWrapper : ISocket
     {

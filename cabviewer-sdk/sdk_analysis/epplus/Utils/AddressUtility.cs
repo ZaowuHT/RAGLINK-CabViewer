@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace CabViewerSDKOfficeOpenXml.Utils
+namespace CabViewerSDK.OfficeOpenXml.Utils
 {
     public static class AddressUtility
     {

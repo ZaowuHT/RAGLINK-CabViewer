@@ -34,9 +34,9 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Text;
 using System.Xml;
-using CabViewerSDKOfficeOpenXml.Style.XmlAccess;
+using CabViewerSDK.OfficeOpenXml.Style.XmlAccess;
 
-namespace CabViewerSDKOfficeOpenXml.Table.PivotTable
+namespace CabViewerSDK.OfficeOpenXml.Table.PivotTable
 {
     /// <summary>
     /// A pivo table data field

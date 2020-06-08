@@ -16,14 +16,14 @@
  *******************************************************************************
  * Mats Alm Added		                2018-12-27
  *******************************************************************************/
-using CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions.Logical;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.ExpressionGraph;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.Excel.Functions.Logical;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.ExpressionGraph;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions.Math
+namespace CabViewerSDK.OfficeOpenXml.FormulaParsing.Excel.Functions.Math
 {
     public class CountBlank : ExcelFunction
     {

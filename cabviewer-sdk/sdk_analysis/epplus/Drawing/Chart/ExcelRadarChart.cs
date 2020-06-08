@@ -34,9 +34,9 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Text;
 using System.Xml;
-using CabViewerSDKOfficeOpenXml.Table.PivotTable;
+using CabViewerSDK.OfficeOpenXml.Table.PivotTable;
 
-namespace CabViewerSDKOfficeOpenXml.Drawing.Chart
+namespace CabViewerSDK.OfficeOpenXml.Drawing.Chart
 {
     /// <summary>
     /// Provides access to line chart specific properties

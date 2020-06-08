@@ -27,10 +27,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.ExpressionGraph;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.ExpressionGraph;
 using System.Globalization;
 
-namespace CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions.DateTime
+namespace CabViewerSDK.OfficeOpenXml.FormulaParsing.Excel.Functions.DateTime
 {
     public class Hour : DateParsingFunction
     {

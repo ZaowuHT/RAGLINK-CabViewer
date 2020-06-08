@@ -7,7 +7,7 @@ using System.IO;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace CabViewerSDKCodeEditor
+namespace CabViewerSDK.TextEditor
 {
     public static class EncodingDetector
     {

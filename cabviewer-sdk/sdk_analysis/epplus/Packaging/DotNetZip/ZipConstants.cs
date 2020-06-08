@@ -25,7 +25,7 @@
 
 using System;
 
-namespace CabViewerSDKOfficeOpenXml.Packaging.Ionic.Zip
+namespace CabViewerSDK.OfficeOpenXml.Packaging.Ionic.Zip
 {
   static class ZipConstants
   {      

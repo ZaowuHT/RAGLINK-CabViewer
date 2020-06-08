@@ -2,7 +2,7 @@
 using System.Text.RegularExpressions;
 using System;
 
-namespace CabViewerSDKCodeEditor
+namespace CabViewerSDK.TextEditor
 {
     public class SyntaxDescriptor: IDisposable
     {

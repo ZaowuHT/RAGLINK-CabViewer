@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace CabViewerSDKfastJSON
+namespace CabViewerSDK.FastJSON
 {
     internal static class Formatter
     {

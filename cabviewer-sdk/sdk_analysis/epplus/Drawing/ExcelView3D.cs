@@ -35,7 +35,7 @@ using System.Text;
 using System.Xml;
 using System.Globalization;
 
-namespace CabViewerSDKOfficeOpenXml.Drawing
+namespace CabViewerSDK.OfficeOpenXml.Drawing
 {
     /// <summary>
     /// 3D settings

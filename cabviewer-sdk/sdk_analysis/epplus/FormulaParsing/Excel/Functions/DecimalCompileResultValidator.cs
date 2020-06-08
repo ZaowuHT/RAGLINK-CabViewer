@@ -26,10 +26,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.Exceptions;
-using CabViewerSDKOfficeOpenXml.Utils;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.Exceptions;
+using CabViewerSDK.OfficeOpenXml.Utils;
 
-namespace CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions
+namespace CabViewerSDK.OfficeOpenXml.FormulaParsing.Excel.Functions
 {
     public class DecimalCompileResultValidator : CompileResultValidator
     {

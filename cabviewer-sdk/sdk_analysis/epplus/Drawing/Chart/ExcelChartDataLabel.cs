@@ -33,9 +33,9 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Xml;
-using CabViewerSDKOfficeOpenXml.Style;
+using CabViewerSDK.OfficeOpenXml.Style;
 
-namespace CabViewerSDKOfficeOpenXml.Drawing.Chart
+namespace CabViewerSDK.OfficeOpenXml.Drawing.Chart
 {
     /// <summary>
     /// Datalabel on chart level. 

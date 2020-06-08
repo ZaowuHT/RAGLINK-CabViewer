@@ -34,10 +34,10 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Text;
 using System.Xml;
-using CabViewerSDKOfficeOpenXml.Drawing;
+using CabViewerSDK.OfficeOpenXml.Drawing;
 using System.Drawing;
 
-namespace CabViewerSDKOfficeOpenXml.Style
+namespace CabViewerSDK.OfficeOpenXml.Style
 {
     /// <summary>
     /// Linestyle

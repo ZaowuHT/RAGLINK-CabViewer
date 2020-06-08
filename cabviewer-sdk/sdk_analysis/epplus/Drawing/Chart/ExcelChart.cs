@@ -35,10 +35,10 @@ using System.Globalization;
 using System.Text;
 using System.Xml;
 using System.IO;
-using CabViewerSDKOfficeOpenXml.Table.PivotTable;
-using CabViewerSDKOfficeOpenXml.Utils;
-using CabViewerSDKOfficeOpenXml.Packaging;
-namespace CabViewerSDKOfficeOpenXml.Drawing.Chart
+using CabViewerSDK.OfficeOpenXml.Table.PivotTable;
+using CabViewerSDK.OfficeOpenXml.Utils;
+using CabViewerSDK.OfficeOpenXml.Packaging;
+namespace CabViewerSDK.OfficeOpenXml.Drawing.Chart
 {
     #region "Chart Enums"
     /// <summary>

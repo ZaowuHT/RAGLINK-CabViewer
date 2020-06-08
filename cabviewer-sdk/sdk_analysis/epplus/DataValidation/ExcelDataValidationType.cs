@@ -35,7 +35,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace CabViewerSDKOfficeOpenXml.DataValidation
+namespace CabViewerSDK.OfficeOpenXml.DataValidation
 {
     /// <summary>
     /// Enum for available data validation types

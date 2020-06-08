@@ -32,9 +32,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.ExpressionGraph;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.ExpressionGraph;
 
-namespace CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Operators
+namespace CabViewerSDK.OfficeOpenXml.FormulaParsing.Excel.Operators
 {
     public interface IOperator
     {

@@ -34,8 +34,8 @@ using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions;
-namespace CabViewerSDKOfficeOpenXml.FormulaParsing.LexicalAnalysis
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.Excel.Functions;
+namespace CabViewerSDK.OfficeOpenXml.FormulaParsing.LexicalAnalysis
 {
     public class SourceCodeTokenizer : ISourceCodeTokenizer
     {

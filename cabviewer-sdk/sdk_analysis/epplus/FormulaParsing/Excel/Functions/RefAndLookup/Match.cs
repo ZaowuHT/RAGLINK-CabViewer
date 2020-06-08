@@ -26,10 +26,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.ExpressionGraph;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.ExcelUtilities;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.ExpressionGraph;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.ExcelUtilities;
 
-namespace CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions.RefAndLookup
+namespace CabViewerSDK.OfficeOpenXml.FormulaParsing.Excel.Functions.RefAndLookup
 {
     public class Match : LookupFunction
     {

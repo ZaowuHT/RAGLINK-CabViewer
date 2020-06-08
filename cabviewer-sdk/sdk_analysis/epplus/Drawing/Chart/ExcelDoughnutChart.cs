@@ -34,9 +34,9 @@ using System.Collections.Generic;
 using System.Text;
 using System.Xml;
 using System.Globalization;
-using CabViewerSDKOfficeOpenXml.Table.PivotTable;
+using CabViewerSDK.OfficeOpenXml.Table.PivotTable;
 
-namespace CabViewerSDKOfficeOpenXml.Drawing.Chart
+namespace CabViewerSDK.OfficeOpenXml.Drawing.Chart
 {
     /// <summary>
     /// Provides access to doughnut chart specific properties

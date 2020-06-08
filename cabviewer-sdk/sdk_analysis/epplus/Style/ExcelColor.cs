@@ -32,10 +32,10 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using CabViewerSDKOfficeOpenXml.Style.XmlAccess;
+using CabViewerSDK.OfficeOpenXml.Style.XmlAccess;
 using System.Drawing;
 
-namespace CabViewerSDKOfficeOpenXml.Style
+namespace CabViewerSDK.OfficeOpenXml.Style
 {
     /// <summary>
     /// Color for cellstyling
@@ -44,7 +44,7 @@ namespace CabViewerSDKOfficeOpenXml.Style
     {
         eStyleClass _cls;
         StyleBase _parent;
-        internal ExcelColor(ExcelStyles styles, CabViewerSDKOfficeOpenXml.XmlHelper.ChangedEventHandler ChangedEvent, int worksheetID, string address, eStyleClass cls, StyleBase parent) : 
+        internal ExcelColor(ExcelStyles styles, CabViewerSDK.OfficeOpenXml.XmlHelper.ChangedEventHandler ChangedEvent, int worksheetID, string address, eStyleClass cls, StyleBase parent) : 
             base(styles, ChangedEvent, worksheetID, address)
         {
             _parent = parent;

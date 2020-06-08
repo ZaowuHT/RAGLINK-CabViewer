@@ -30,7 +30,7 @@ using System;
 using System.IO;
 using Interop = System.Runtime.InteropServices;
 
-namespace CabViewerSDKOfficeOpenXml.Packaging.Ionic.Zip
+namespace CabViewerSDK.OfficeOpenXml.Packaging.Ionic.Zip
 {
     /// <summary>
     /// Represents a single entry in a ZipFile. Typically, applications get a ZipEntry
@@ -1445,7 +1445,7 @@ namespace CabViewerSDKOfficeOpenXml.Packaging.Ionic.Zip
         /// </remarks>
         ///
         /// <seealso cref="CompressionMethod"/>
-        public CabViewerSDKOfficeOpenXml.Packaging.Ionic.Zlib.CompressionLevel CompressionLevel
+        public CabViewerSDK.OfficeOpenXml.Packaging.Ionic.Zlib.CompressionLevel CompressionLevel
         {
             get
             {
@@ -1457,18 +1457,18 @@ namespace CabViewerSDKOfficeOpenXml.Packaging.Ionic.Zip
                     _CompressionMethod != (short)CompressionMethod.None)
                     return ; // no effect
 
-                if (value == CabViewerSDKOfficeOpenXml.Packaging.Ionic.Zlib.CompressionLevel.Default &&
+                if (value == CabViewerSDK.OfficeOpenXml.Packaging.Ionic.Zlib.CompressionLevel.Default &&
                     _CompressionMethod == (short)CompressionMethod.Deflate) return; // nothing to do
                 _CompressionLevel = value;
 
-                if (value == CabViewerSDKOfficeOpenXml.Packaging.Ionic.Zlib.CompressionLevel.None &&
+                if (value == CabViewerSDK.OfficeOpenXml.Packaging.Ionic.Zlib.CompressionLevel.None &&
                     _CompressionMethod == (short)CompressionMethod.None)
                     return; // nothing more to do
 
-                if (_CompressionLevel == CabViewerSDKOfficeOpenXml.Packaging.Ionic.Zlib.CompressionLevel.None)
-                    _CompressionMethod = (short)CabViewerSDKOfficeOpenXml.Packaging.Ionic.Zip.CompressionMethod.None;
+                if (_CompressionLevel == CabViewerSDK.OfficeOpenXml.Packaging.Ionic.Zlib.CompressionLevel.None)
+                    _CompressionMethod = (short)CabViewerSDK.OfficeOpenXml.Packaging.Ionic.Zip.CompressionMethod.None;
                 else
-                    _CompressionMethod = (short)CabViewerSDKOfficeOpenXml.Packaging.Ionic.Zip.CompressionMethod.Deflate;
+                    _CompressionMethod = (short)CabViewerSDK.OfficeOpenXml.Packaging.Ionic.Zip.CompressionMethod.Deflate;
 
                 if (_container.ZipFile != null) _container.ZipFile.NotifyEntryChanged();
                 _restreamRequiredOnSave = true;

@@ -35,13 +35,13 @@ using System.Xml;
 using System.Text.RegularExpressions;
 using System.Drawing;
 using System.Collections.Generic;
-using CabViewerSDKOfficeOpenXml.Drawing.Vml;
+using CabViewerSDK.OfficeOpenXml.Drawing.Vml;
 using System.IO;
-using CabViewerSDKOfficeOpenXml.Drawing;
-using CabViewerSDKOfficeOpenXml.Utils;
-using CabViewerSDKOfficeOpenXml.Compatibility;
+using CabViewerSDK.OfficeOpenXml.Drawing;
+using CabViewerSDK.OfficeOpenXml.Utils;
+using CabViewerSDK.OfficeOpenXml.Compatibility;
 
-namespace CabViewerSDKOfficeOpenXml
+namespace CabViewerSDK.OfficeOpenXml
 {    
     /// <summary>
     /// How a picture will be aligned in the header/footer

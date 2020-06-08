@@ -34,7 +34,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace CabViewerSDKOfficeOpenXml.DataValidation
+namespace CabViewerSDK.OfficeOpenXml.DataValidation
 {
     /// <summary>
     /// warning style, controls how Excel will handle invalid changes.

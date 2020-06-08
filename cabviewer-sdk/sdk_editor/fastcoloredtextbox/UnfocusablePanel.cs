@@ -5,7 +5,7 @@ using System.Drawing.Drawing2D;
 using System.Text;
 using System.Windows.Forms;
 
-namespace CabViewerSDKCodeEditor
+namespace CabViewerSDK.TextEditor
 {
     [System.ComponentModel.ToolboxItem(false)]
     public class UnfocusablePanel : UserControl

@@ -26,10 +26,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.Utilities;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.Exceptions;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.Utilities;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.Exceptions;
 
-namespace CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions
+namespace CabViewerSDK.OfficeOpenXml.FormulaParsing.Excel.Functions
 {
     public class IntArgumentParser : ArgumentParser
     {

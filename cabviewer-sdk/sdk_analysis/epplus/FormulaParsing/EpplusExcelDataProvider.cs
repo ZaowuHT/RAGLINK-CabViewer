@@ -20,14 +20,14 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using CabViewerSDKOfficeOpenXml.FormulaParsing;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.ExcelUtilities;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.LexicalAnalysis;
-using CabViewerSDKOfficeOpenXml.Utils;
-using CabViewerSDKOfficeOpenXml.Style.XmlAccess;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.ExcelUtilities;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.Excel.Functions;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.LexicalAnalysis;
+using CabViewerSDK.OfficeOpenXml.Utils;
+using CabViewerSDK.OfficeOpenXml.Style.XmlAccess;
 
-namespace CabViewerSDKOfficeOpenXml.FormulaParsing
+namespace CabViewerSDK.OfficeOpenXml.FormulaParsing
 {
     public class EpplusExcelDataProvider : ExcelDataProvider
     {

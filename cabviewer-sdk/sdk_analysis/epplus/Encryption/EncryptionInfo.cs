@@ -35,7 +35,7 @@ using System.Linq;
 using System.Text;
 using System.Xml;
 
-namespace CabViewerSDKOfficeOpenXml.Encryption
+namespace CabViewerSDK.OfficeOpenXml.Encryption
 {
     internal abstract class EncryptionInfo
     {

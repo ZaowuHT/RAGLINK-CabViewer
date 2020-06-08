@@ -32,10 +32,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.Exceptions;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.Excel.Functions;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.Exceptions;
 
-namespace CabViewerSDKOfficeOpenXml.FormulaParsing.ExpressionGraph.FunctionCompilers
+namespace CabViewerSDK.OfficeOpenXml.FormulaParsing.ExpressionGraph.FunctionCompilers
 {
     public class ErrorHandlingFunctionCompiler : FunctionCompiler
     {

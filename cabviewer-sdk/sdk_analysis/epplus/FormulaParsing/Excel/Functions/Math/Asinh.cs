@@ -26,9 +26,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.ExpressionGraph;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.ExpressionGraph;
 
-namespace CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions.Math
+namespace CabViewerSDK.OfficeOpenXml.FormulaParsing.Excel.Functions.Math
 {
     public class Asinh : ExcelFunction
     {

@@ -33,12 +33,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using CabViewerSDKOfficeOpenXml.DataValidation.Formulas.Contracts;
-using CabViewerSDKOfficeOpenXml.DataValidation;
+using CabViewerSDK.OfficeOpenXml.DataValidation.Formulas.Contracts;
+using CabViewerSDK.OfficeOpenXml.DataValidation;
 using System.Xml;
 using System.Globalization;
 
-namespace CabViewerSDKOfficeOpenXml.DataValidation.Formulas
+namespace CabViewerSDK.OfficeOpenXml.DataValidation.Formulas
 {
     internal class ExcelDataValidationFormulaTime : ExcelDataValidationFormulaValue<ExcelTime>, IExcelDataValidationFormulaTime
     {

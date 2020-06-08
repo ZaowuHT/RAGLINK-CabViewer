@@ -34,7 +34,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace CabViewerSDKOfficeOpenXml.Utils
+namespace CabViewerSDK.OfficeOpenXml.Utils
 {
     internal class Argument<T> : IArgument<T>
     {

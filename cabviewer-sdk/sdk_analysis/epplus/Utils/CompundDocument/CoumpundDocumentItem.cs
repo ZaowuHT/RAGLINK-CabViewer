@@ -34,7 +34,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
-namespace CabViewerSDKOfficeOpenXml.Utils.CompundDocument
+namespace CabViewerSDK.OfficeOpenXml.Utils.CompundDocument
 {
     internal class CompoundDocumentItem : IComparable<CompoundDocumentItem>
     {

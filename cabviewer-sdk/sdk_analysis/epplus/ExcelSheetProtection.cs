@@ -34,10 +34,10 @@ using System.Collections.Generic;
 using System.Text;
 using System.Xml;
 using System.Security.Cryptography;
-using CabViewerSDKOfficeOpenXml.Utils;
-using CabViewerSDKOfficeOpenXml.Encryption;
+using CabViewerSDK.OfficeOpenXml.Utils;
+using CabViewerSDK.OfficeOpenXml.Encryption;
 
-namespace CabViewerSDKOfficeOpenXml
+namespace CabViewerSDK.OfficeOpenXml
 {
     /// <summary>
     /// Sheet protection

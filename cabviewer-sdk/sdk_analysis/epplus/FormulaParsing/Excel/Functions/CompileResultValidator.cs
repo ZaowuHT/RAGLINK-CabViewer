@@ -23,7 +23,7 @@
  * Mats Alm   		                Added		                2013-12-26
  *******************************************************************************/
 
-namespace CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions
+namespace CabViewerSDK.OfficeOpenXml.FormulaParsing.Excel.Functions
 {
     public abstract class CompileResultValidator
     {

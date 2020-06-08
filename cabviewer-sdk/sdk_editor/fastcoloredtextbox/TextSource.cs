@@ -5,7 +5,7 @@ using System.Collections;
 using System.Drawing;
 using System.IO;
 
-namespace CabViewerSDKCodeEditor
+namespace CabViewerSDK.TextEditor
 {
     /// <summary>
     /// This class contains the source text (chars and styles).

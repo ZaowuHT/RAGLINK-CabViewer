@@ -32,12 +32,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions.Logical;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.Exceptions;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.Utilities;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.Excel.Functions;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.Excel.Functions.Logical;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.Exceptions;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.Utilities;
 
-namespace CabViewerSDKOfficeOpenXml.FormulaParsing.ExpressionGraph.FunctionCompilers
+namespace CabViewerSDK.OfficeOpenXml.FormulaParsing.ExpressionGraph.FunctionCompilers
 {
     /// <summary>
     /// Why do the If function require a compiler of its own you might ask;)
@@ -85,9 +85,9 @@ namespace CabViewerSDKOfficeOpenXml.FormulaParsing.ExpressionGraph.FunctionCompi
             }
             else if(!Utils.ConvertUtil.TryParseBooleanString(v, out boolVal))
             {
-                if(CabViewerSDKOfficeOpenXml.Utils.ConvertUtil.IsNumeric(v))
+                if(CabViewerSDK.OfficeOpenXml.Utils.ConvertUtil.IsNumeric(v))
                 {
-                    boolVal = CabViewerSDKOfficeOpenXml.Utils.ConvertUtil.GetValueDouble(v)!=0;
+                    boolVal = CabViewerSDK.OfficeOpenXml.Utils.ConvertUtil.GetValueDouble(v)!=0;
                 }
                 else
                 {

@@ -37,19 +37,19 @@ using System.Xml;
 using System.IO;
 using System.Collections.Generic;
 using System.Security.Cryptography;
-using CabViewerSDKOfficeOpenXml.Drawing;
-using CabViewerSDKOfficeOpenXml.Utils;
-using CabViewerSDKOfficeOpenXml.Packaging.Ionic.Zlib;
-using CabViewerSDKOfficeOpenXml.FormulaParsing;
-using CabViewerSDKOfficeOpenXml.Encryption;
-using CabViewerSDKOfficeOpenXml.Utils.CompundDocument;
+using CabViewerSDK.OfficeOpenXml.Drawing;
+using CabViewerSDK.OfficeOpenXml.Utils;
+using CabViewerSDK.OfficeOpenXml.Packaging.Ionic.Zlib;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing;
+using CabViewerSDK.OfficeOpenXml.Encryption;
+using CabViewerSDK.OfficeOpenXml.Utils.CompundDocument;
 using System.Configuration;
-using CabViewerSDKOfficeOpenXml.Compatibility;
+using CabViewerSDK.OfficeOpenXml.Compatibility;
 using System.Text;
 #if (Core)
 using Microsoft.Extensions.Configuration;
 #endif
-namespace CabViewerSDKOfficeOpenXml
+namespace CabViewerSDK.OfficeOpenXml
 {
     /// <summary>
     /// Maps to DotNetZips CompressionLevel enum

@@ -33,13 +33,13 @@ using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Text;
-using CabViewerSDKOfficeOpenXml.Style;
+using CabViewerSDK.OfficeOpenXml.Style;
 using System.Text.RegularExpressions;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.LexicalAnalysis;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.LexicalAnalysis;
 using System.Linq;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions;
-using CabViewerSDKOfficeOpenXml.FormulaParsing;
-namespace CabViewerSDKOfficeOpenXml
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.Excel.Functions;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing;
+namespace CabViewerSDK.OfficeOpenXml
 {
     /// <summary>
     /// Base class containing cell address manipulating methods.

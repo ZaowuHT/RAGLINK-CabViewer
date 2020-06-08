@@ -21,7 +21,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace CabViewerSDKOfficeOpenXml.FormulaParsing.ExpressionGraph
+namespace CabViewerSDK.OfficeOpenXml.FormulaParsing.ExpressionGraph
 {
     public static class ConstantExpressions
     {

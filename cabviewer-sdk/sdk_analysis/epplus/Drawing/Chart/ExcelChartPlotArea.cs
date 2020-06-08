@@ -34,7 +34,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Xml;
 
-namespace CabViewerSDKOfficeOpenXml.Drawing.Chart
+namespace CabViewerSDK.OfficeOpenXml.Drawing.Chart
 {
     /// <summary>
     /// A charts plot area

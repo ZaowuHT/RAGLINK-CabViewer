@@ -34,7 +34,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
-namespace CabViewerSDKOfficeOpenXml.Utils.CompundDocument
+namespace CabViewerSDK.OfficeOpenXml.Utils.CompundDocument
 {
     /// <summary>
     /// Read and write a compound document.

@@ -6,7 +6,7 @@ using System.Text;
 using System.Xml;
 using System.Drawing;
 
-namespace CabViewerSDKOfficeOpenXml.Style.Dxf
+namespace CabViewerSDK.OfficeOpenXml.Style.Dxf
 {
     public class ExcelDxfStyleConditionalFormatting : DxfStyleBase<ExcelDxfStyleConditionalFormatting>
     {

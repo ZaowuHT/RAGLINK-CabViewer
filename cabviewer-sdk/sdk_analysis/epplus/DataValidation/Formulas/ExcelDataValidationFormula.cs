@@ -34,10 +34,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Xml;
-using CabViewerSDKOfficeOpenXml.Utils;
-using CabViewerSDKOfficeOpenXml.DataValidation.Formulas.Contracts;
+using CabViewerSDK.OfficeOpenXml.Utils;
+using CabViewerSDK.OfficeOpenXml.DataValidation.Formulas.Contracts;
 
-namespace CabViewerSDKOfficeOpenXml.DataValidation.Formulas
+namespace CabViewerSDK.OfficeOpenXml.DataValidation.Formulas
 {
     /// <summary>
     /// Enumeration representing the state of an <see cref="ExcelDataValidationFormulaValue{T}"/>

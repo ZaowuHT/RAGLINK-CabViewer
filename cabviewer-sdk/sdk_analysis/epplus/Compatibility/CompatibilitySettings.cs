@@ -31,9 +31,9 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using CabViewerSDKOfficeOpenXml;
+using CabViewerSDK.OfficeOpenXml;
 
-namespace CabViewerSDKOfficeOpenXml.Compatibility
+namespace CabViewerSDK.OfficeOpenXml.Compatibility
 {
     /// <summary>
     /// Settings to stay compatible with older versions of EPPlus

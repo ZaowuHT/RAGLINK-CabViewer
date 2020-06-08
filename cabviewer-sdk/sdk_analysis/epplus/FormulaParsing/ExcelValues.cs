@@ -22,7 +22,7 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 
-namespace CabViewerSDKOfficeOpenXml
+namespace CabViewerSDK.OfficeOpenXml
 {
     /// <summary>
     /// Represents the errortypes in excel

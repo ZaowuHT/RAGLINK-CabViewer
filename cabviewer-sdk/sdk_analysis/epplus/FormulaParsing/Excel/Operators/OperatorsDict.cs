@@ -33,7 +33,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Operators
+namespace CabViewerSDK.OfficeOpenXml.FormulaParsing.Excel.Operators
 {
     public class OperatorsDict : Dictionary<string, IOperator>
     {

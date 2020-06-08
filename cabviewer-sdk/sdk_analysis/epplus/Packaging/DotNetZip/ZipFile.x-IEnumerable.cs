@@ -25,7 +25,7 @@
 // ------------------------------------------------------------------
 
 
-namespace CabViewerSDKOfficeOpenXml.Packaging.Ionic.Zip
+namespace CabViewerSDK.OfficeOpenXml.Packaging.Ionic.Zip
 {
 
     // For some weird reason, the method with the DispId(-4) attribute, which is used as

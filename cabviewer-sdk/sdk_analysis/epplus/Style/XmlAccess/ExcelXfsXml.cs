@@ -35,7 +35,7 @@ using System.Globalization;
 using System.Text;
 using System.Xml;
 using System.Drawing;
-namespace CabViewerSDKOfficeOpenXml.Style.XmlAccess
+namespace CabViewerSDK.OfficeOpenXml.Style.XmlAccess
 {
     /// <summary>
     /// Xml access class xfs records. This is the top level style object.

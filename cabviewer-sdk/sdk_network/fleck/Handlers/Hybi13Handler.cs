@@ -5,7 +5,7 @@ using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace CabViewerSDKWebsocket.Handlers
+namespace CabViewerSDK.Websocket.Handlers
 {
     public static class Hybi13Handler
     {

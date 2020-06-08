@@ -22,13 +22,13 @@
  *******************************************************************************
  * Mats Alm   		                Added		                2015-01-15
  *******************************************************************************/
-using CabViewerSDKOfficeOpenXml.FormulaParsing.ExpressionGraph;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.ExpressionGraph;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions.Information
+namespace CabViewerSDK.OfficeOpenXml.FormulaParsing.Excel.Functions.Information
 {
     public class ErrorType : ExcelFunction
     {

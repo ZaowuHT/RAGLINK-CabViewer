@@ -34,7 +34,7 @@ using System.Linq;
 using System.Text;
 using System.Security.Cryptography;
 
-namespace CabViewerSDKOfficeOpenXml.VBA
+namespace CabViewerSDK.OfficeOpenXml.VBA
 {
     /// <summary>
     /// Vba security properties

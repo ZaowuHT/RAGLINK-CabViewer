@@ -6,7 +6,7 @@ using System.ComponentModel;
 using System.Drawing.Drawing2D;
 using System.Text.RegularExpressions;
 
-namespace CabViewerSDKCodeEditor
+namespace CabViewerSDK.TextEditor
 {
     /// <summary>
     /// Popup menu for autocomplete

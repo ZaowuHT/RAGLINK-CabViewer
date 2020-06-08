@@ -33,9 +33,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using CabViewerSDKOfficeOpenXml.DataValidation.Formulas.Contracts;
+using CabViewerSDK.OfficeOpenXml.DataValidation.Formulas.Contracts;
 
-namespace CabViewerSDKOfficeOpenXml.DataValidation.Contracts
+namespace CabViewerSDK.OfficeOpenXml.DataValidation.Contracts
 {
     /// <summary>
     /// Data validation interface for decimal values

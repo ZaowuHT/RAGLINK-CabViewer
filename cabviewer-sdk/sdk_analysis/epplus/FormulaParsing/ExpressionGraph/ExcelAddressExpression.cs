@@ -32,13 +32,13 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using CabViewerSDKOfficeOpenXml.FormulaParsing;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.ExcelUtilities;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.Exceptions;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.LexicalAnalysis;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.Utilities;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.ExcelUtilities;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.Exceptions;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.LexicalAnalysis;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.Utilities;
 
-namespace CabViewerSDKOfficeOpenXml.FormulaParsing.ExpressionGraph
+namespace CabViewerSDK.OfficeOpenXml.FormulaParsing.ExpressionGraph
 {
     public class ExcelAddressExpression : AtomicExpression
     {

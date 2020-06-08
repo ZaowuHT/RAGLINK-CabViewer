@@ -27,7 +27,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions.RefAndLookup
+namespace CabViewerSDK.OfficeOpenXml.FormulaParsing.Excel.Functions.RefAndLookup
 {
     public enum LookupDirection
     {

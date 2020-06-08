@@ -13,7 +13,7 @@ using System.Windows.Forms;
 using System.Windows.Forms.Design;
 using KEYS = System.Windows.Forms.Keys;
 
-namespace CabViewerSDKCodeEditor
+namespace CabViewerSDK.TextEditor
 {
     /// <summary>
     /// Dictionary of shortcuts for FCTB

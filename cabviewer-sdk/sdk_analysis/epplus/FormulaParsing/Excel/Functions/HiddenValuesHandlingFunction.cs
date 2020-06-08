@@ -26,9 +26,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.Exceptions;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.Exceptions;
 
-namespace CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions
+namespace CabViewerSDK.OfficeOpenXml.FormulaParsing.Excel.Functions
 {
     /// <summary>
     /// Base class for functions that needs to handle cells that is not visible.

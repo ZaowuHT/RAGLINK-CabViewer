@@ -33,9 +33,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.IO;
-using CabViewerSDKOfficeOpenXml.Packaging.Ionic.Zip;
+using CabViewerSDK.OfficeOpenXml.Packaging.Ionic.Zip;
 
-namespace CabViewerSDKOfficeOpenXml.Packaging
+namespace CabViewerSDK.OfficeOpenXml.Packaging
 {
     internal class ZipPackagePart : ZipPackageRelationshipBase, IDisposable
     {
@@ -142,7 +142,7 @@ namespace CabViewerSDKOfficeOpenXml.Packaging
                 {
                     return;
                 }
-                os.CompressionLevel = (CabViewerSDKOfficeOpenXml.Packaging.Ionic.Zlib.CompressionLevel)CompressionLevel;
+                os.CompressionLevel = (CabViewerSDK.OfficeOpenXml.Packaging.Ionic.Zlib.CompressionLevel)CompressionLevel;
                 os.PutNextEntry(Uri.OriginalString);
                 os.Write(b, 0, b.Length);
             }

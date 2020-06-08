@@ -32,9 +32,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Operators;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.Excel.Operators;
 
-namespace CabViewerSDKOfficeOpenXml.FormulaParsing.ExpressionGraph.CompileStrategy
+namespace CabViewerSDK.OfficeOpenXml.FormulaParsing.ExpressionGraph.CompileStrategy
 {
     public class CompileStrategyFactory : ICompileStrategyFactory
     {

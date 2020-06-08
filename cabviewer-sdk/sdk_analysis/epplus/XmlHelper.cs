@@ -36,10 +36,10 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Xml;
-using CabViewerSDKOfficeOpenXml.Style;
+using CabViewerSDK.OfficeOpenXml.Style;
 using System.Globalization;
 using System.IO;
-namespace CabViewerSDKOfficeOpenXml
+namespace CabViewerSDK.OfficeOpenXml
 {
 	/// <summary>
 	/// Help class containing XML functions. 

@@ -23,9 +23,9 @@
  * Mats Alm   		                Added		                2013-12-03
  *******************************************************************************/
 using System.Collections.Generic;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.LexicalAnalysis;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.LexicalAnalysis;
 
-namespace CabViewerSDKOfficeOpenXml.FormulaParsing
+namespace CabViewerSDK.OfficeOpenXml.FormulaParsing
 {
     internal class FormulaCell
     {

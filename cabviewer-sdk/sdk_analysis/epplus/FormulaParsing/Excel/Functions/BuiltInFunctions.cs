@@ -26,17 +26,17 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions.Database;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions.Text;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions.Math;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions.Logical;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions.DateTime;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions.Numeric;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions.RefAndLookup;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions.Information;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions.Finance;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.Excel.Functions.Database;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.Excel.Functions.Text;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.Excel.Functions.Math;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.Excel.Functions.Logical;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.Excel.Functions.DateTime;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.Excel.Functions.Numeric;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.Excel.Functions.RefAndLookup;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.Excel.Functions.Information;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.Excel.Functions.Finance;
 
-namespace CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions
+namespace CabViewerSDK.OfficeOpenXml.FormulaParsing.Excel.Functions
 {
     public class BuiltInFunctions : FunctionsModule
     {

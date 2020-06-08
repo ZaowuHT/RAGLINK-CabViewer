@@ -32,9 +32,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.Utilities;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.Utilities;
 
-namespace CabViewerSDKOfficeOpenXml.FormulaParsing.ExcelUtilities
+namespace CabViewerSDK.OfficeOpenXml.FormulaParsing.ExcelUtilities
 {
     public class RangeAddress
     {

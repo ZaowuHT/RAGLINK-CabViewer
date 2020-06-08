@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace CabViewerSDKfastJSON
+namespace CabViewerSDK.FastJSON
 {
     public sealed class DatasetSchema
     {

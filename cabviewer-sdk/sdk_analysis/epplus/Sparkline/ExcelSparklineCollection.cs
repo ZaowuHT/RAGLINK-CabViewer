@@ -35,7 +35,7 @@ using System.Linq;
 using System.Text;
 using System.Xml;
 
-namespace CabViewerSDKOfficeOpenXml.Sparkline
+namespace CabViewerSDK.OfficeOpenXml.Sparkline
 {
     /// <summary>
     /// Collection of sparklines

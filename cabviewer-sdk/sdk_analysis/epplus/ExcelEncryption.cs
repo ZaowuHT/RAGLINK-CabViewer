@@ -41,7 +41,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace CabViewerSDKOfficeOpenXml
+namespace CabViewerSDK.OfficeOpenXml
 {
     /// <summary>
     /// Encryption Algorithm

@@ -24,11 +24,11 @@
 //
 // ------------------------------------------------------------------
 
-using CabViewerSDKOfficeOpenXml.Packaging.Ionic.Crc;
+using CabViewerSDK.OfficeOpenXml.Packaging.Ionic.Crc;
 using System;
 using System.IO;
 
-namespace CabViewerSDKOfficeOpenXml.Packaging.Ionic.Zlib
+namespace CabViewerSDK.OfficeOpenXml.Packaging.Ionic.Zlib
 {
 
     internal enum ZlibStreamFlavor { ZLIB = 1950, DEFLATE = 1951, GZIP = 1952 }

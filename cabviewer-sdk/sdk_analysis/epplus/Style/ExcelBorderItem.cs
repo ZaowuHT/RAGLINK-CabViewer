@@ -32,9 +32,9 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using CabViewerSDKOfficeOpenXml.Style.XmlAccess;
+using CabViewerSDK.OfficeOpenXml.Style.XmlAccess;
 
-namespace CabViewerSDKOfficeOpenXml.Style
+namespace CabViewerSDK.OfficeOpenXml.Style
 {
     /// <summary>
     /// Cell border style
@@ -43,7 +43,7 @@ namespace CabViewerSDKOfficeOpenXml.Style
     {
         eStyleClass _cls;
         StyleBase _parent;
-        internal ExcelBorderItem (ExcelStyles styles, CabViewerSDKOfficeOpenXml.XmlHelper.ChangedEventHandler ChangedEvent, int worksheetID, string address, eStyleClass cls, StyleBase parent) : 
+        internal ExcelBorderItem (ExcelStyles styles, CabViewerSDK.OfficeOpenXml.XmlHelper.ChangedEventHandler ChangedEvent, int worksheetID, string address, eStyleClass cls, StyleBase parent) : 
             base(styles, ChangedEvent, worksheetID, address)
 	    {
             _cls=cls;

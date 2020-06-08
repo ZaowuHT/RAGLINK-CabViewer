@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace CabViewerSDKWebsocket
+namespace CabViewerSDK.Websocket
 {
     public interface IHandler
     {

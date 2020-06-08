@@ -26,7 +26,7 @@
 // ------------------------------------------------------------------
 
 
-namespace CabViewerSDKOfficeOpenXml.Packaging.Ionic.Zip
+namespace CabViewerSDK.OfficeOpenXml.Packaging.Ionic.Zip
 {
     /// <summary>
     /// An enum providing the options when an error occurs during opening or reading

@@ -38,11 +38,11 @@ using System.Linq;
 using System.Text;
 using System.Collections;
 using System.Globalization;
-using CabViewerSDKOfficeOpenXml.Utils;
+using CabViewerSDK.OfficeOpenXml.Utils;
 using System.Xml;
-using CabViewerSDKOfficeOpenXml.DataValidation.Contracts;
+using CabViewerSDK.OfficeOpenXml.DataValidation.Contracts;
 
-namespace CabViewerSDKOfficeOpenXml.DataValidation
+namespace CabViewerSDK.OfficeOpenXml.DataValidation
 {
     /// <summary>
     /// <para>

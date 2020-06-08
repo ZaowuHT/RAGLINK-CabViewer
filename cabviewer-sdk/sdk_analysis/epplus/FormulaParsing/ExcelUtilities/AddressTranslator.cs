@@ -34,10 +34,10 @@ using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
-using CabViewerSDKOfficeOpenXml.FormulaParsing;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.Utilities;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.Utilities;
 
-namespace CabViewerSDKOfficeOpenXml.FormulaParsing.ExcelUtilities
+namespace CabViewerSDK.OfficeOpenXml.FormulaParsing.ExcelUtilities
 {
     /// <summary>
     /// Handles translations from Spreadsheet addresses to 0-based numeric index.

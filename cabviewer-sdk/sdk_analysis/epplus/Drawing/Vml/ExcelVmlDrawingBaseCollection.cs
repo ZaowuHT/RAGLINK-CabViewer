@@ -35,7 +35,7 @@ using System.Text;
 using System.Xml;
 using System.Collections;
 
-namespace CabViewerSDKOfficeOpenXml.Drawing.Vml
+namespace CabViewerSDK.OfficeOpenXml.Drawing.Vml
 {
     public class ExcelVmlDrawingBaseCollection
     {        

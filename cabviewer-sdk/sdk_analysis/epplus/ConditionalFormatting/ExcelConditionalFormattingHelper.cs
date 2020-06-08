@@ -33,12 +33,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
-using CabViewerSDKOfficeOpenXml.Utils;
+using CabViewerSDK.OfficeOpenXml.Utils;
 using System.Drawing;
 using System.Globalization;
 using System.Xml;
 
-namespace CabViewerSDKOfficeOpenXml.ConditionalFormatting
+namespace CabViewerSDK.OfficeOpenXml.ConditionalFormatting
 {
   /// <summary>
   /// Conditional formatting helper

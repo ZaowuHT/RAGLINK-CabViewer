@@ -30,7 +30,7 @@
 using System;
 using System.IO;
 
-namespace CabViewerSDKOfficeOpenXml.Packaging.Ionic.Zlib
+namespace CabViewerSDK.OfficeOpenXml.Packaging.Ionic.Zlib
 {
     /// <summary>
     ///   A class for compressing and decompressing GZIP streams.

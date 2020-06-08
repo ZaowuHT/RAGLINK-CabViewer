@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace CabViewerSDKOfficeOpenXml.Sparkline
+namespace CabViewerSDK.OfficeOpenXml.Sparkline
 {
     /// <summary>
     /// Show empty cells as

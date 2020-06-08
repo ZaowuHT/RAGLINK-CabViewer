@@ -33,7 +33,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Xml;
-namespace CabViewerSDKOfficeOpenXml.Style.XmlAccess
+namespace CabViewerSDK.OfficeOpenXml.Style.XmlAccess
 {
     /// <summary>
     /// Xml access class for border top level

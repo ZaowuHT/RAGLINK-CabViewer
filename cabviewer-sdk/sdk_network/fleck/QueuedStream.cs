@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Threading;
 
-namespace CabViewerSDKWebsocket
+namespace CabViewerSDK.Websocket
 {
     /// <summary>
     /// Wraps a stream and queues multiple write operations.

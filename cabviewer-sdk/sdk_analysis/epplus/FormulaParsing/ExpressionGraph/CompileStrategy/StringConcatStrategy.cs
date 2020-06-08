@@ -33,7 +33,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace CabViewerSDKOfficeOpenXml.FormulaParsing.ExpressionGraph.CompileStrategy
+namespace CabViewerSDK.OfficeOpenXml.FormulaParsing.ExpressionGraph.CompileStrategy
 {
     public class StringConcatStrategy : CompileStrategy
     {

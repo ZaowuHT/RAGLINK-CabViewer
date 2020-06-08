@@ -33,7 +33,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace CabViewerSDKOfficeOpenXml.FormulaParsing.Exceptions
+namespace CabViewerSDK.OfficeOpenXml.FormulaParsing.Exceptions
 {
     public class CircularReferenceException : Exception
     {

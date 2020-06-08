@@ -24,14 +24,14 @@ using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.IO;
-using CabViewerSDKOfficeOpenXml.Utils;
+using CabViewerSDK.OfficeOpenXml.Utils;
 using System.Security.Cryptography.Pkcs;
 using System.Security.Cryptography.X509Certificates;
 using System.Security.Cryptography;
 using System.Text.RegularExpressions;
-using CabViewerSDKOfficeOpenXml.Utils.CompundDocument;
+using CabViewerSDK.OfficeOpenXml.Utils.CompundDocument;
 
-namespace CabViewerSDKOfficeOpenXml.VBA
+namespace CabViewerSDK.OfficeOpenXml.VBA
 {
     /// <summary>
     /// Represents the VBA project part of the package

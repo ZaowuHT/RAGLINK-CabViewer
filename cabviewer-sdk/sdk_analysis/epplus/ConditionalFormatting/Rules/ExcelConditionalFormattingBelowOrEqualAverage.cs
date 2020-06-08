@@ -34,9 +34,9 @@ using System.Linq;
 using System.Text;
 using System.Drawing;
 using System.Xml;
-using CabViewerSDKOfficeOpenXml.ConditionalFormatting.Contracts;
+using CabViewerSDK.OfficeOpenXml.ConditionalFormatting.Contracts;
 
-namespace CabViewerSDKOfficeOpenXml.ConditionalFormatting
+namespace CabViewerSDK.OfficeOpenXml.ConditionalFormatting
 {
   /// <summary>
   /// ExcelConditionalFormattingBelowOrEqualAverage

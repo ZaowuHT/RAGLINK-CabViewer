@@ -35,11 +35,11 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Text;
 using System.Xml;
-using CabViewerSDKOfficeOpenXml.Drawing.Chart;
+using CabViewerSDK.OfficeOpenXml.Drawing.Chart;
 using System.Drawing;
-using CabViewerSDKOfficeOpenXml.Style.XmlAccess;
+using CabViewerSDK.OfficeOpenXml.Style.XmlAccess;
 
-namespace CabViewerSDKOfficeOpenXml.Drawing
+namespace CabViewerSDK.OfficeOpenXml.Drawing
 {
     /// <summary>
     /// Text anchoring

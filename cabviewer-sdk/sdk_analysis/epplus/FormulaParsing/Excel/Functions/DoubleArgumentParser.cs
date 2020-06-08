@@ -27,11 +27,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Globalization;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.Utilities;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.Exceptions;
-using util = CabViewerSDKOfficeOpenXml.Utils;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.Utilities;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.Exceptions;
+using util = CabViewerSDK.OfficeOpenXml.Utils;
 
-namespace CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions
+namespace CabViewerSDK.OfficeOpenXml.FormulaParsing.Excel.Functions
 {
     public class DoubleArgumentParser : ArgumentParser
     {

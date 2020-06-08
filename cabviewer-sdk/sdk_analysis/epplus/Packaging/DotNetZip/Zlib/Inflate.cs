@@ -63,7 +63,7 @@
 
 
 using System;
-namespace CabViewerSDKOfficeOpenXml.Packaging.Ionic.Zlib
+namespace CabViewerSDK.OfficeOpenXml.Packaging.Ionic.Zlib
 {
     sealed class InflateBlocks
     {

@@ -32,7 +32,7 @@
 using System;
 using System.Xml;
 
-namespace CabViewerSDKOfficeOpenXml
+namespace CabViewerSDK.OfficeOpenXml
 {
 	/// <summary>
 	/// Represents the different view states of the worksheet

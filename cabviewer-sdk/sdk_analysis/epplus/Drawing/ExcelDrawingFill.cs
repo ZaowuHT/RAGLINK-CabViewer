@@ -35,7 +35,7 @@ using System.Text;
 using System.Xml;
 using System.Drawing;
 
-namespace CabViewerSDKOfficeOpenXml.Drawing
+namespace CabViewerSDK.OfficeOpenXml.Drawing
 {
     /// <summary>
     /// Fill properties for drawing objects

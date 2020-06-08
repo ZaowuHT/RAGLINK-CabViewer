@@ -52,7 +52,7 @@ public enum eEndSize
     Large
 }
 
-namespace CabViewerSDKOfficeOpenXml.Drawing
+namespace CabViewerSDK.OfficeOpenXml.Drawing
 {
     /// <summary>
     /// Properties for drawing line ends

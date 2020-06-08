@@ -33,12 +33,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using CabViewerSDKOfficeOpenXml.DataValidation.Formulas.Contracts;
-using CabViewerSDKOfficeOpenXml.DataValidation.Formulas;
+using CabViewerSDK.OfficeOpenXml.DataValidation.Formulas.Contracts;
+using CabViewerSDK.OfficeOpenXml.DataValidation.Formulas;
 using System.Xml;
-using CabViewerSDKOfficeOpenXml.DataValidation.Contracts;
+using CabViewerSDK.OfficeOpenXml.DataValidation.Contracts;
 
-namespace CabViewerSDKOfficeOpenXml.DataValidation
+namespace CabViewerSDK.OfficeOpenXml.DataValidation
 {
     /// <summary>
     /// This class represents an List data validation.

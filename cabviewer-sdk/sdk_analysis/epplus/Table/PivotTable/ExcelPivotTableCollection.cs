@@ -34,7 +34,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Xml;
 
-namespace CabViewerSDKOfficeOpenXml.Table.PivotTable
+namespace CabViewerSDK.OfficeOpenXml.Table.PivotTable
 {
     /// <summary>
     /// A collection of pivottable objects

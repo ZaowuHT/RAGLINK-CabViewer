@@ -4,10 +4,10 @@ using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions.DateTime;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.ExpressionGraph;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.Excel.Functions.DateTime;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.ExpressionGraph;
 
-namespace CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions.Text
+namespace CabViewerSDK.OfficeOpenXml.FormulaParsing.Excel.Functions.Text
 {
     public class Value : ExcelFunction
     {

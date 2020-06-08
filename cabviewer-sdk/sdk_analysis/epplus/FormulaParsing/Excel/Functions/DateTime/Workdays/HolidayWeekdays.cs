@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using CabViewerSDKOfficeOpenXml.Utils;
+using CabViewerSDK.OfficeOpenXml.Utils;
 
-namespace CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions.DateTime.Workdays
+namespace CabViewerSDK.OfficeOpenXml.FormulaParsing.Excel.Functions.DateTime.Workdays
 {
     public class HolidayWeekdays
     {

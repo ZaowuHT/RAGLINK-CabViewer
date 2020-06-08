@@ -1,13 +1,13 @@
 ﻿using System.Globalization;
-using CabViewerSDKOfficeOpenXml.Packaging;
-using CabViewerSDKOfficeOpenXml.Table.PivotTable;
+using CabViewerSDK.OfficeOpenXml.Packaging;
+using CabViewerSDK.OfficeOpenXml.Table.PivotTable;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Xml;
 
-namespace CabViewerSDKOfficeOpenXml.Drawing.Chart
+namespace CabViewerSDK.OfficeOpenXml.Drawing.Chart
 {
     /// <summary>
     /// Provides access to bubble chart specific properties

@@ -8,7 +8,7 @@ using System.Globalization;
 using System.IO;
 using System.Collections.Specialized;
 
-namespace CabViewerSDKfastJSON
+namespace CabViewerSDK.FastJSON
 {
     public sealed class JSONParameters
     {

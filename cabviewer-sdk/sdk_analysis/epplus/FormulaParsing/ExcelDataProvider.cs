@@ -16,13 +16,13 @@
  *******************************************************************************
  * Mats Alm Added		                2016-12-27
  *******************************************************************************/
-using CabViewerSDKOfficeOpenXml.FormulaParsing.LexicalAnalysis;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.LexicalAnalysis;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace CabViewerSDKOfficeOpenXml.FormulaParsing
+namespace CabViewerSDK.OfficeOpenXml.FormulaParsing
 {
     /// <summary>
     /// This class should be implemented to be able to deliver excel data

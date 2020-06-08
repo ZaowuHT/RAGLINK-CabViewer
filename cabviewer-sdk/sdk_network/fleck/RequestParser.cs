@@ -1,7 +1,7 @@
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace CabViewerSDKWebsocket
+namespace CabViewerSDK.Websocket
 {
     public class RequestParser
     {

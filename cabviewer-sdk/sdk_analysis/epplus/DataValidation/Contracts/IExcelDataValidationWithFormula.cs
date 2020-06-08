@@ -33,9 +33,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using CabViewerSDKOfficeOpenXml.DataValidation.Formulas.Contracts;
+using CabViewerSDK.OfficeOpenXml.DataValidation.Formulas.Contracts;
 
-namespace CabViewerSDKOfficeOpenXml.DataValidation.Contracts
+namespace CabViewerSDK.OfficeOpenXml.DataValidation.Contracts
 {
     public interface IExcelDataValidationWithFormula<T> : IExcelDataValidation
         where T : IExcelDataValidationFormula

@@ -35,7 +35,7 @@ using System.Globalization;
 using System.Text;
 using System.Xml;
 using System.Linq;
-namespace CabViewerSDKOfficeOpenXml
+namespace CabViewerSDK.OfficeOpenXml
 {
     /// <summary>
     /// Base collection class for styles.

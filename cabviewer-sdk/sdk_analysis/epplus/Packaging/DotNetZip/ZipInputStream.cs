@@ -34,8 +34,8 @@ using System.Threading;
 using System.Collections.Generic;
 using System.IO;
 using Ionic.Zip;
-using CabViewerSDKOfficeOpenXml.Packaging.Ionic.Zip;
-using CabViewerSDKOfficeOpenXml.Packaging.Ionic.Crc;
+using CabViewerSDK.OfficeOpenXml.Packaging.Ionic.Zip;
+using CabViewerSDK.OfficeOpenXml.Packaging.Ionic.Crc;
 
 namespace  Ionic.Zip
 {

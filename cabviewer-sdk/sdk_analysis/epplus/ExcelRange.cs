@@ -32,9 +32,9 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using CabViewerSDKOfficeOpenXml.Style;
+using CabViewerSDK.OfficeOpenXml.Style;
 using System.Data;
-namespace CabViewerSDKOfficeOpenXml
+namespace CabViewerSDK.OfficeOpenXml
 {
     /// <summary>
     /// A range of cells. 

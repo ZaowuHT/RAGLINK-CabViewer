@@ -36,7 +36,7 @@ using System.Text;
 using System.Xml;
 using System.Globalization;
 
-namespace CabViewerSDKOfficeOpenXml.Drawing.Chart
+namespace CabViewerSDK.OfficeOpenXml.Drawing.Chart
 {
     /// <summary>
     /// A collection of trendlines.

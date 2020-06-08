@@ -21,7 +21,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace CabViewerSDKOfficeOpenXml.FormulaParsing
+namespace CabViewerSDK.OfficeOpenXml.FormulaParsing
 {
     public class ExcelCalculationOption
     {

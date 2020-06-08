@@ -28,7 +28,7 @@
 using System;
 using System.IO;
 
-namespace CabViewerSDKOfficeOpenXml.Packaging.Ionic.Zlib
+namespace CabViewerSDK.OfficeOpenXml.Packaging.Ionic.Zlib
 {
 
     /// <summary>

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 
-namespace CabViewerSDKWebsocket.Helpers
+namespace CabViewerSDK.Websocket.Helpers
 {
     internal static class FleckRuntime
     {

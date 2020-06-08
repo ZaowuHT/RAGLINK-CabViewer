@@ -5,9 +5,9 @@ using System.Security.Cryptography.X509Certificates;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using System.Security.Authentication;
-using CabViewerSDKWebsocket.Helpers;
+using CabViewerSDK.Websocket.Helpers;
 
-namespace CabViewerSDKWebsocket
+namespace CabViewerSDK.Websocket
 {
     public class WebSocketServer : IWebSocketServer
     {

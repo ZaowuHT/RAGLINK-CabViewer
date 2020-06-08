@@ -63,7 +63,7 @@
 
 using System;
 
-namespace CabViewerSDKOfficeOpenXml.Packaging.Ionic.Zlib
+namespace CabViewerSDK.OfficeOpenXml.Packaging.Ionic.Zlib
 {
     /// <summary>
     /// A bunch of constants used in the Zlib interface.

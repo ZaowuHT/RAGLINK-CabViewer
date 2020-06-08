@@ -35,7 +35,7 @@ using System.Text;
 using System.Xml;
 using System.Globalization;
 
-namespace CabViewerSDKOfficeOpenXml.Table.PivotTable
+namespace CabViewerSDK.OfficeOpenXml.Table.PivotTable
 {
     
     /// <summary>

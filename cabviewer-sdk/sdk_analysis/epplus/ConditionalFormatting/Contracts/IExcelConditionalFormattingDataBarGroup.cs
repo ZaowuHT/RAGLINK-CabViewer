@@ -33,10 +33,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-using CabViewerSDKOfficeOpenXml.ConditionalFormatting;
+using CabViewerSDK.OfficeOpenXml.ConditionalFormatting;
 using System.Drawing;
 
-namespace CabViewerSDKOfficeOpenXml.ConditionalFormatting.Contracts
+namespace CabViewerSDK.OfficeOpenXml.ConditionalFormatting.Contracts
 {
 	/// <summary>
 	/// IExcelConditionalFormattingDataBar

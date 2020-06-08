@@ -3,6 +3,8 @@ C:\Documents\raglink-simulator-openrails\program\cabviewer-ui.exe
 C:\Documents\raglink-simulator-openrails\program\cabviewer-ui.pdb
 C:\Documents\raglink-simulator-openrails\cabviewer-interfaces\cabviewer-ui\cabviewer-ui\obj\Debug\cabviewer-ui.csprojAssemblyReference.cache
 C:\Documents\raglink-simulator-openrails\cabviewer-interfaces\cabviewer-ui\cabviewer-ui\obj\Debug\CabViewerUI.FormInit.resources
+C:\Documents\raglink-simulator-openrails\cabviewer-interfaces\cabviewer-ui\cabviewer-ui\obj\Debug\CabViewerUI.FormMain.resources
+C:\Documents\raglink-simulator-openrails\cabviewer-interfaces\cabviewer-ui\cabviewer-ui\obj\Debug\CabViewerUI.FormStructureViewer.resources
 C:\Documents\raglink-simulator-openrails\cabviewer-interfaces\cabviewer-ui\cabviewer-ui\obj\Debug\CabViewerUI.Properties.Resources.resources
 C:\Documents\raglink-simulator-openrails\cabviewer-interfaces\cabviewer-ui\cabviewer-ui\obj\Debug\cabviewer-ui.csproj.GenerateResource.cache
 C:\Documents\raglink-simulator-openrails\cabviewer-interfaces\cabviewer-ui\cabviewer-ui\obj\Debug\cabviewer-ui.csproj.CoreCompileInputs.cache

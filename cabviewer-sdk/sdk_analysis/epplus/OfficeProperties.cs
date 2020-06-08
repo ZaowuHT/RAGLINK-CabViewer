@@ -35,9 +35,9 @@ using System;
 using System.Xml;
 using System.IO;
 using System.Globalization;
-using CabViewerSDKOfficeOpenXml.Utils;
+using CabViewerSDK.OfficeOpenXml.Utils;
 
-namespace CabViewerSDKOfficeOpenXml
+namespace CabViewerSDK.OfficeOpenXml
 {
     /// <summary>
     /// Provides access to the properties bag of the package

@@ -30,7 +30,7 @@ using System.Threading;
 using System.IO;
 
 
-namespace CabViewerSDKOfficeOpenXml.Packaging.Ionic.Zlib
+namespace CabViewerSDK.OfficeOpenXml.Packaging.Ionic.Zlib
 {
     internal class WorkItem
     {

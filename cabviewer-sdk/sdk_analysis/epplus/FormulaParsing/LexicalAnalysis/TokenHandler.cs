@@ -28,10 +28,10 @@
  * ******************************************************************************
  * Mats Alm   		                Added       		        2015-12-28
  *******************************************************************************/
-using CabViewerSDKOfficeOpenXml.FormulaParsing.LexicalAnalysis.TokenSeparatorHandlers;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.LexicalAnalysis.TokenSeparatorHandlers;
 using System.Text.RegularExpressions;
 
-namespace CabViewerSDKOfficeOpenXml.FormulaParsing.LexicalAnalysis
+namespace CabViewerSDK.OfficeOpenXml.FormulaParsing.LexicalAnalysis
 {
     public class TokenHandler : ITokenIndexProvider
     {

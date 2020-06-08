@@ -26,9 +26,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.ExpressionGraph;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.ExpressionGraph;
 
-namespace CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions.Logical
+namespace CabViewerSDK.OfficeOpenXml.FormulaParsing.Excel.Functions.Logical
 {
     public class Or : ExcelFunction
     {

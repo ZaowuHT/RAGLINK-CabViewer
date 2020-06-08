@@ -1,4 +1,4 @@
-﻿using CabViewerSDKOfficeOpenXml.Utils;
+﻿using CabViewerSDK.OfficeOpenXml.Utils;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Xml;
 
-namespace CabViewerSDKOfficeOpenXml
+namespace CabViewerSDK.OfficeOpenXml
 {
     public class ExcelProtectedRangeCollection : XmlHelper, IEnumerable<ExcelProtectedRange>
     {

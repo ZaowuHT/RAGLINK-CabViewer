@@ -5,7 +5,7 @@ using System.Text;
 using System.Drawing;
 using System.Xml;
 
-namespace CabViewerSDKOfficeOpenXml.Style.Dxf
+namespace CabViewerSDK.OfficeOpenXml.Style.Dxf
 {
     public class ExcelDxfColor : DxfStyleBase<ExcelDxfColor>
 

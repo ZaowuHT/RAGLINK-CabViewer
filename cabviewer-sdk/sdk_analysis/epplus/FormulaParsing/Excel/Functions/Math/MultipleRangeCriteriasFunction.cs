@@ -26,13 +26,13 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.ExcelUtilities;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.Utilities;
-using CabViewerSDKOfficeOpenXml.Utils;
-using Require = CabViewerSDKOfficeOpenXml.FormulaParsing.Utilities.Require;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.ExcelUtilities;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.Utilities;
+using CabViewerSDK.OfficeOpenXml.Utils;
+using Require = CabViewerSDK.OfficeOpenXml.FormulaParsing.Utilities.Require;
 
 
-namespace CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions.Math
+namespace CabViewerSDK.OfficeOpenXml.FormulaParsing.Excel.Functions.Math
 {
     public abstract class MultipleRangeCriteriasFunction : ExcelFunction
     {

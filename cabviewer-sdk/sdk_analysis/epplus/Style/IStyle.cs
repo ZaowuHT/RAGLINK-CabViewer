@@ -32,8 +32,8 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using CabViewerSDKOfficeOpenXml.Style;
-namespace CabViewerSDKOfficeOpenXml.Style
+using CabViewerSDK.OfficeOpenXml.Style;
+namespace CabViewerSDK.OfficeOpenXml.Style
 {
     internal interface IStyle
     {

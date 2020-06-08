@@ -34,7 +34,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace CabViewerSDKOfficeOpenXml.DataValidation.Formulas.Contracts
+namespace CabViewerSDK.OfficeOpenXml.DataValidation.Formulas.Contracts
 {
     /// <summary>
     /// Validation formula interface for <see cref="DateTime"/>

@@ -32,9 +32,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.Exceptions;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.Exceptions;
 
-namespace CabViewerSDKOfficeOpenXml.FormulaParsing.LexicalAnalysis
+namespace CabViewerSDK.OfficeOpenXml.FormulaParsing.LexicalAnalysis
 {
     public class SyntacticAnalyzer : ISyntacticAnalyzer
     {

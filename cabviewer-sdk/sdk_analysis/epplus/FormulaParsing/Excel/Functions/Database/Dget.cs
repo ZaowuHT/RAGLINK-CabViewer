@@ -27,9 +27,9 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Text;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.ExpressionGraph;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.ExpressionGraph;
 
-namespace CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions.Database
+namespace CabViewerSDK.OfficeOpenXml.FormulaParsing.Excel.Functions.Database
 {
     public class Dget : DatabaseFunction
     {

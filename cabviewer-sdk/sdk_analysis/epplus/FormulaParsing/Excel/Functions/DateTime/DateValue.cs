@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Text;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.ExpressionGraph;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.ExpressionGraph;
 
-namespace CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions.DateTime
+namespace CabViewerSDK.OfficeOpenXml.FormulaParsing.Excel.Functions.DateTime
 {
     /// <summary>
     /// Simple implementation of DateValue function, just using .NET built-in

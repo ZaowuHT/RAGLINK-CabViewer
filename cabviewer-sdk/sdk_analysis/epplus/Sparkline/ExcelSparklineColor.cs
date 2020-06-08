@@ -1,4 +1,4 @@
-﻿using CabViewerSDKOfficeOpenXml.Style;
+﻿using CabViewerSDK.OfficeOpenXml.Style;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +7,7 @@ using System.Drawing;
 using System.Xml;
 using System.Globalization;
 
-namespace CabViewerSDKOfficeOpenXml.Sparkline
+namespace CabViewerSDK.OfficeOpenXml.Sparkline
 {
     /// <summary>
     /// Sparkline colors

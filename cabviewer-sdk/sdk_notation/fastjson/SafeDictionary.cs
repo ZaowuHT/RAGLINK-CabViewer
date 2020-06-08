@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 
-namespace CabViewerSDKfastJSON
+namespace CabViewerSDK.FastJSON
 {
     public class ReferenceEqualityComparer : IEqualityComparer, IEqualityComparer<object>
     {

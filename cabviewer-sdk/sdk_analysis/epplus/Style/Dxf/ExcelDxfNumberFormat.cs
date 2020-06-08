@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Xml;
 
-namespace CabViewerSDKOfficeOpenXml.Style.Dxf
+namespace CabViewerSDK.OfficeOpenXml.Style.Dxf
 {
     public class ExcelDxfNumberFormat : DxfStyleBase<ExcelDxfNumberFormat>
     {

@@ -6,7 +6,7 @@ using System.Threading;
 using System.Windows.Forms;
 using System.Xml;
 
-namespace CabViewerSDKCodeEditor
+namespace CabViewerSDK.TextEditor
 {
     /// <summary>
     /// This class records, stores and executes the macros.

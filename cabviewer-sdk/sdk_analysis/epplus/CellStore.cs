@@ -33,8 +33,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Collections;
-using CabViewerSDKOfficeOpenXml;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions.RefAndLookup;
+using CabViewerSDK.OfficeOpenXml;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.Excel.Functions.RefAndLookup;
 
     internal class IndexBase : IComparable<IndexBase>
     {        

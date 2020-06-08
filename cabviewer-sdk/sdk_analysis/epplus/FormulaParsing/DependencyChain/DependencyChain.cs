@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace CabViewerSDKOfficeOpenXml.FormulaParsing
+namespace CabViewerSDK.OfficeOpenXml.FormulaParsing
 {
     internal class DependencyChain
     {

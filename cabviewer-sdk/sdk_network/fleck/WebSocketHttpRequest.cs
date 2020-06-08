@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System;
 
-namespace CabViewerSDKWebsocket
+namespace CabViewerSDK.Websocket
 {
     public class WebSocketHttpRequest
     {

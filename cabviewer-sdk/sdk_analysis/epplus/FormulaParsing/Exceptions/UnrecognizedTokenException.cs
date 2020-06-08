@@ -32,9 +32,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.LexicalAnalysis;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.LexicalAnalysis;
 
-namespace CabViewerSDKOfficeOpenXml.FormulaParsing.Exceptions
+namespace CabViewerSDK.OfficeOpenXml.FormulaParsing.Exceptions
 {
     public class UnrecognizedTokenException : Exception
     {

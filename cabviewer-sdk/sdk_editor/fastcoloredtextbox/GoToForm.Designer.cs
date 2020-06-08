@@ -1,4 +1,4 @@
-﻿namespace CabViewerSDKCodeEditor
+﻿namespace CabViewerSDK.TextEditor
 {
     partial class GoToForm
     {

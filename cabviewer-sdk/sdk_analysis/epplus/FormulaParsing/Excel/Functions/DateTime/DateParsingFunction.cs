@@ -4,7 +4,7 @@ using System.Globalization;
 using System.Linq;
 using System.Text;
 
-namespace CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions.DateTime
+namespace CabViewerSDK.OfficeOpenXml.FormulaParsing.Excel.Functions.DateTime
 {
     public abstract class DateParsingFunction : ExcelFunction
     {

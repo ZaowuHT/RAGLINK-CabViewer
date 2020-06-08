@@ -34,12 +34,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Xml;
-using CabViewerSDKOfficeOpenXml.Utils;
-using CabViewerSDKOfficeOpenXml.DataValidation.Formulas.Contracts;
+using CabViewerSDK.OfficeOpenXml.Utils;
+using CabViewerSDK.OfficeOpenXml.DataValidation.Formulas.Contracts;
 using System.Text.RegularExpressions;
 using System.Collections;
 
-namespace CabViewerSDKOfficeOpenXml.DataValidation.Formulas
+namespace CabViewerSDK.OfficeOpenXml.DataValidation.Formulas
 {
     internal class ExcelDataValidationFormulaList : ExcelDataValidationFormula, IExcelDataValidationFormulaList
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace CabViewerSDKWebsocket.Handlers
+namespace CabViewerSDK.Websocket.Handlers
 {
     public static class Draft76Handler
     {
@@ -103,7 +103,7 @@ namespace CabViewerSDKWebsocket.Handlers
         private static byte[] ParseKey(string key)
         {
             int spaces = key.Count(x => x == ' ');
-            var digits = new String(key.Where(Char.IsDigit).ToArray());
+            var digits = new String(key.Where(System.Char.IsDigit).ToArray());
 
             var value = (Int32)(Int64.Parse(digits) / spaces);
 

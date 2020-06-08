@@ -1,7 +1,7 @@
 using System;
-using CabViewerSDKWebsocket.Handlers;
+using CabViewerSDK.Websocket.Handlers;
 
-namespace CabViewerSDKWebsocket
+namespace CabViewerSDK.Websocket
 {
     public class HandlerFactory
     {

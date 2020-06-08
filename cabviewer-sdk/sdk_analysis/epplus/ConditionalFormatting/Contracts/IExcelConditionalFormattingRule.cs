@@ -33,9 +33,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Xml;
-using CabViewerSDKOfficeOpenXml.Style.Dxf;
+using CabViewerSDK.OfficeOpenXml.Style.Dxf;
 
-namespace CabViewerSDKOfficeOpenXml.ConditionalFormatting.Contracts
+namespace CabViewerSDK.OfficeOpenXml.ConditionalFormatting.Contracts
 {
 	/// <summary>
 	/// Interface for conditional formatting rule

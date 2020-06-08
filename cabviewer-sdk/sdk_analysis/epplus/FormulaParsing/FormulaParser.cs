@@ -32,19 +32,19 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.ExpressionGraph;
-using CabViewerSDKOfficeOpenXml.FormulaParsing;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Operators;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.LexicalAnalysis;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.Excel;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.ExcelUtilities;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.Logging;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.Utilities;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.ExpressionGraph;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.Excel.Operators;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.LexicalAnalysis;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.Excel;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.Excel.Functions;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.ExcelUtilities;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.Logging;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.Utilities;
 using System.Diagnostics;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.Exceptions;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.Exceptions;
 
-namespace CabViewerSDKOfficeOpenXml.FormulaParsing
+namespace CabViewerSDK.OfficeOpenXml.FormulaParsing
 {
     public class FormulaParser : IDisposable
     {

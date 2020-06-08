@@ -33,8 +33,8 @@ using System.Collections.Generic;
 using System.Text;
 using System.Xml;
 using System.Collections;
-using CabViewerSDKOfficeOpenXml.Utils;
-namespace CabViewerSDKOfficeOpenXml
+using CabViewerSDK.OfficeOpenXml.Utils;
+namespace CabViewerSDK.OfficeOpenXml
 {
     /// <summary>
     /// Collection of Excelcomment objects

@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions.DateTime.Workdays;
-using CabViewerSDKOfficeOpenXml.Utils;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.Excel.Functions.DateTime.Workdays;
+using CabViewerSDK.OfficeOpenXml.Utils;
 
-namespace CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions.DateTime.Workdays
+namespace CabViewerSDK.OfficeOpenXml.FormulaParsing.Excel.Functions.DateTime.Workdays
 {
     public class WorkdayCalculator
     {

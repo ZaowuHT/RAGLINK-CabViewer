@@ -35,10 +35,10 @@
 using System;
 using System.IO;
 using System.Collections.Generic;
-using CabViewerSDKOfficeOpenXml.Packaging.Ionic.Zip;
+using CabViewerSDK.OfficeOpenXml.Packaging.Ionic.Zip;
 using System.Globalization;
 
-namespace CabViewerSDKOfficeOpenXml.Packaging.Ionic.Zip
+namespace CabViewerSDK.OfficeOpenXml.Packaging.Ionic.Zip
 {
 
     partial class ZipFile
@@ -1245,7 +1245,7 @@ namespace CabViewerSDKOfficeOpenXml.Packaging.Ionic.Zip
 
 
 
-namespace CabViewerSDKOfficeOpenXml.Packaging.Ionic
+namespace CabViewerSDK.OfficeOpenXml.Packaging.Ionic
 {
     internal abstract partial class SelectionCriterion
     {

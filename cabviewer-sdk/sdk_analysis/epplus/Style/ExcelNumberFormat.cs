@@ -35,14 +35,14 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Globalization;
 
-namespace CabViewerSDKOfficeOpenXml.Style
+namespace CabViewerSDK.OfficeOpenXml.Style
 {
     /// <summary>
     /// The numberformat of the cell
     /// </summary>
     public sealed class ExcelNumberFormat : StyleBase
     {
-        internal ExcelNumberFormat(ExcelStyles styles, CabViewerSDKOfficeOpenXml.XmlHelper.ChangedEventHandler ChangedEvent, int PositionID, string Address, int index) :
+        internal ExcelNumberFormat(ExcelStyles styles, CabViewerSDK.OfficeOpenXml.XmlHelper.ChangedEventHandler ChangedEvent, int PositionID, string Address, int index) :
             base(styles, ChangedEvent, PositionID, Address)
         {
             Index = index;

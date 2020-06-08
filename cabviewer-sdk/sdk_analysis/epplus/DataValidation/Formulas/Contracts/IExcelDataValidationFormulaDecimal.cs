@@ -34,7 +34,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace CabViewerSDKOfficeOpenXml.DataValidation.Formulas.Contracts
+namespace CabViewerSDK.OfficeOpenXml.DataValidation.Formulas.Contracts
 {
     /// <summary>
     /// Interface for a data validation formula of <see cref="System.Single">float</see> value

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Collections.Specialized;
 
-namespace CabViewerSDKfastJSON
+namespace CabViewerSDK.FastJSON
 {
     public class Helper
     {
@@ -314,7 +314,7 @@ namespace CabViewerSDKfastJSON
                 p = 23;
 
                 // handle 7 digit case
-                if (value.Length > 25 && char.IsDigit(value[p]))
+                if (value.Length > 25 && System.Char.IsDigit(value[p]))
                 {
                     usTicks = CreateInteger(value, p, 4);
                     p = 27;

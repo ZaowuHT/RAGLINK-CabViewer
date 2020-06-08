@@ -32,8 +32,8 @@
 
 using System;
 using System.Xml;
-using CabViewerSDKOfficeOpenXml.Style;
-namespace CabViewerSDKOfficeOpenXml
+using CabViewerSDK.OfficeOpenXml.Style;
+namespace CabViewerSDK.OfficeOpenXml
 {
 	internal class RowInternal
     {

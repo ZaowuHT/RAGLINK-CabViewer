@@ -33,12 +33,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Security.Cryptography.X509Certificates;
-using CabViewerSDKOfficeOpenXml.Utils;
+using CabViewerSDK.OfficeOpenXml.Utils;
 using System.IO;
-using CabViewerSDKOfficeOpenXml.Utils.CompundDocument;
+using CabViewerSDK.OfficeOpenXml.Utils.CompundDocument;
 using System.Security.Cryptography.Pkcs;
 
-namespace CabViewerSDKOfficeOpenXml.VBA
+namespace CabViewerSDK.OfficeOpenXml.VBA
 {
     /// <summary>
     /// The code signature properties of the project

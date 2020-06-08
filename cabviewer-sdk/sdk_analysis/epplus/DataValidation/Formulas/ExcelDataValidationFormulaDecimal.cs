@@ -34,10 +34,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Xml;
-using CabViewerSDKOfficeOpenXml.DataValidation.Formulas.Contracts;
+using CabViewerSDK.OfficeOpenXml.DataValidation.Formulas.Contracts;
 using System.Globalization;
 
-namespace CabViewerSDKOfficeOpenXml.DataValidation.Formulas
+namespace CabViewerSDK.OfficeOpenXml.DataValidation.Formulas
 {
     /// <summary>
     /// 

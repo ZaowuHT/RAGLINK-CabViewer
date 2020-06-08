@@ -34,9 +34,9 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Text;
 using System.Xml;
-using CabViewerSDKOfficeOpenXml.Utils;
+using CabViewerSDK.OfficeOpenXml.Utils;
 
-namespace CabViewerSDKOfficeOpenXml.Table
+namespace CabViewerSDK.OfficeOpenXml.Table
 {
     /// <summary>
     /// Build-in table row functions

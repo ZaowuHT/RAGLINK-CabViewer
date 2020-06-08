@@ -4,7 +4,7 @@ using System.Linq;
 using System.IO;
 using System.Threading.Tasks;
 
-namespace CabViewerSDKWebsocket
+namespace CabViewerSDK.Websocket
 {
   public class WebSocketConnection : IWebSocketConnection
   {

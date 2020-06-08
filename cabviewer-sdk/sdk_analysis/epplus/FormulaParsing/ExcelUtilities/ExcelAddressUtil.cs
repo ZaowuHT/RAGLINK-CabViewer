@@ -34,7 +34,7 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace CabViewerSDKOfficeOpenXml.FormulaParsing.ExcelUtilities
+namespace CabViewerSDK.OfficeOpenXml.FormulaParsing.ExcelUtilities
 {
     public static class ExcelAddressUtil
     {
@@ -66,7 +66,7 @@ namespace CabViewerSDKOfficeOpenXml.FormulaParsing.ExcelUtilities
                 }
                 token = token.Substring(token.IndexOf('!') + 1);
             }
-            return CabViewerSDKOfficeOpenXml.ExcelAddress.IsValidAddress(token);
+            return CabViewerSDK.OfficeOpenXml.ExcelAddress.IsValidAddress(token);
         }
         readonly static char[] NameInvalidChars = new char[] { '!', '@', '#', '$', '£', '%', '&', '/', '(', ')', '[', ']', '{', '}', '<', '>', '=', '+', '?', '\\', '*', '-', '~', '^', ':', ';', '|', ',', ' ' };
         public static bool IsValidName(string name)
@@ -76,7 +76,7 @@ namespace CabViewerSDKOfficeOpenXml.FormulaParsing.ExcelUtilities
                 return false;
             }
             var fc = name[0];
-            if (!(char.IsLetter(fc) || fc == '_' || (fc == '\\' && name.Length > 2)))
+            if (!(System.Char.IsLetter(fc) || fc == '_' || (fc == '\\' && name.Length > 2)))
             {
                 return false;
             }
@@ -102,7 +102,7 @@ namespace CabViewerSDKOfficeOpenXml.FormulaParsing.ExcelUtilities
             }
 
             var fc = name[0];
-            if (!(char.IsLetter(fc) || fc == '_' || (fc == '\\' && name.Length > 2)))
+            if (!(System.Char.IsLetter(fc) || fc == '_' || (fc == '\\' && name.Length > 2)))
             {
                 name = "_" + name.Substring(1);
             }

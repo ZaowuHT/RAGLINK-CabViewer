@@ -39,7 +39,7 @@ using comTypes = System.Runtime.InteropServices.ComTypes;
 using System.IO;
 using System.Security;
 
-namespace CabViewerSDKOfficeOpenXml.Utils.CompundDocument
+namespace CabViewerSDK.OfficeOpenXml.Utils.CompundDocument
 {
     internal class CompoundDocument
     {        

@@ -34,12 +34,12 @@ using System.Linq;
 using System.Text;
 using System.Drawing;
 using System.Xml;
-using CabViewerSDKOfficeOpenXml.Utils;
+using CabViewerSDK.OfficeOpenXml.Utils;
 using System.Text.RegularExpressions;
 using System.Globalization;
 using System.Security;
 
-namespace CabViewerSDKOfficeOpenXml.ConditionalFormatting
+namespace CabViewerSDK.OfficeOpenXml.ConditionalFormatting
 {
 	/// <summary>
 	/// 18.3.1.11 cfvo (Conditional Format Value Object)

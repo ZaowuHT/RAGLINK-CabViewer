@@ -26,7 +26,7 @@
 using System;
 using System.IO;
 
-namespace CabViewerSDKOfficeOpenXml.Packaging.Ionic.Zip
+namespace CabViewerSDK.OfficeOpenXml.Packaging.Ionic.Zip
 {
     /// <summary>
     /// Collects general purpose utility methods.

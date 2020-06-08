@@ -27,9 +27,9 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Text;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.ExpressionGraph;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.ExpressionGraph;
 
-namespace CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions.Text
+namespace CabViewerSDK.OfficeOpenXml.FormulaParsing.Excel.Functions.Text
 {
     public class Proper : ExcelFunction
     {
@@ -41,7 +41,7 @@ namespace CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions.Text
             var previousChar = '.';
             foreach (var ch in text)
             {
-                if (!char.IsLetter(previousChar))
+                if (!System.Char.IsLetter(previousChar))
                 {
                     sb.Append(Utils.ConvertUtil._invariantTextInfo.ToUpper(ch.ToString()));
                 }

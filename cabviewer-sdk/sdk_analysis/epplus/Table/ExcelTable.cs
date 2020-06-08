@@ -34,12 +34,12 @@ using System.Collections.Generic;
 using System.Text;
 using System.Xml;
 using System.Text.RegularExpressions;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions.Math;
-using CabViewerSDKOfficeOpenXml.Utils;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.Excel.Functions.Math;
+using CabViewerSDK.OfficeOpenXml.Utils;
 using System.Security;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.ExcelUtilities;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.ExcelUtilities;
 
-namespace CabViewerSDKOfficeOpenXml.Table
+namespace CabViewerSDK.OfficeOpenXml.Table
 {
     /// <summary>
     /// Table style Enum

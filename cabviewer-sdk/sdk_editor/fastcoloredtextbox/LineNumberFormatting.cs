@@ -1,4 +1,4 @@
-﻿namespace CabViewerSDKCodeEditor
+﻿namespace CabViewerSDK.TextEditor
 {
     /// <summary>
     /// Customize how we display the line numbers

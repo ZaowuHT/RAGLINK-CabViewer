@@ -34,8 +34,8 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Text;
 using System.Xml;
-using CabViewerSDKOfficeOpenXml.Style;
-namespace CabViewerSDKOfficeOpenXml.Style.XmlAccess
+using CabViewerSDK.OfficeOpenXml.Style;
+namespace CabViewerSDK.OfficeOpenXml.Style.XmlAccess
 {
     /// <summary>
     /// Xml access class for border items

@@ -1,10 +1,10 @@
-﻿using CabViewerSDKOfficeOpenXml.FormulaParsing.ExpressionGraph;
+﻿using CabViewerSDK.OfficeOpenXml.FormulaParsing.ExpressionGraph;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions.Text
+namespace CabViewerSDK.OfficeOpenXml.FormulaParsing.Excel.Functions.Text
 {
     public class CharFunction : ExcelFunction
     {

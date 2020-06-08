@@ -25,7 +25,7 @@
 using System;
 using System.Linq;
 
-namespace CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions
+namespace CabViewerSDK.OfficeOpenXml.FormulaParsing.Excel.Functions
 {
     internal static class CellStateHelper
     {

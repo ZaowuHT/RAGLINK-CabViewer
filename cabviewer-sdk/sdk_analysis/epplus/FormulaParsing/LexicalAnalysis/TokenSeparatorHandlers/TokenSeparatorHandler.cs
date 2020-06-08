@@ -33,7 +33,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace CabViewerSDKOfficeOpenXml.FormulaParsing.LexicalAnalysis.TokenSeparatorHandlers
+namespace CabViewerSDK.OfficeOpenXml.FormulaParsing.LexicalAnalysis.TokenSeparatorHandlers
 {
     /// <summary>
     /// This class provides access to <see cref="SeparatorHandler"/>s - classes that exposes functionatlity

@@ -36,7 +36,7 @@ using System.Text;
 using System.Xml;
 using System.Drawing;
 
-namespace CabViewerSDKOfficeOpenXml.Drawing.Chart
+namespace CabViewerSDK.OfficeOpenXml.Drawing.Chart
 {
     /// <summary>
     /// A serie for a line chart

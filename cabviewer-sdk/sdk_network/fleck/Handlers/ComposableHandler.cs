@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace CabViewerSDKWebsocket.Handlers
+namespace CabViewerSDK.Websocket.Handlers
 {
     public class ComposableHandler : IHandler
     {

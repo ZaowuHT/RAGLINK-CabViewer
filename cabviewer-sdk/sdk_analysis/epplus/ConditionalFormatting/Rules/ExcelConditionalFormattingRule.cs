@@ -34,12 +34,12 @@ using System.Linq;
 using System.Text;
 using System.Drawing;
 using System.Xml;
-using CabViewerSDKOfficeOpenXml.Utils;
+using CabViewerSDK.OfficeOpenXml.Utils;
 using System.Text.RegularExpressions;
-using CabViewerSDKOfficeOpenXml.ConditionalFormatting.Contracts;
-using CabViewerSDKOfficeOpenXml.Style.Dxf;
+using CabViewerSDK.OfficeOpenXml.ConditionalFormatting.Contracts;
+using CabViewerSDK.OfficeOpenXml.Style.Dxf;
 
-namespace CabViewerSDKOfficeOpenXml.ConditionalFormatting
+namespace CabViewerSDK.OfficeOpenXml.ConditionalFormatting
 {
   /// <summary>
   /// 

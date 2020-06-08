@@ -35,7 +35,7 @@ using System.Globalization;
 using System.Text;
 using System.Xml;
 
-namespace CabViewerSDKOfficeOpenXml.Drawing.Chart
+namespace CabViewerSDK.OfficeOpenXml.Drawing.Chart
 {
     /// <summary>
     /// A serie for a scatter chart

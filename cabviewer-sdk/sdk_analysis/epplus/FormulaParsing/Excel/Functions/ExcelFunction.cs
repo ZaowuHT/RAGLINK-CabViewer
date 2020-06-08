@@ -27,16 +27,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.ExpressionGraph;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.ExpressionGraph;
 using System.Globalization;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.Utilities;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.Exceptions;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.Utilities;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.Exceptions;
 using System.Collections;
-using static CabViewerSDKOfficeOpenXml.FormulaParsing.EpplusExcelDataProvider;
-using static CabViewerSDKOfficeOpenXml.FormulaParsing.ExcelDataProvider;
-using CabViewerSDKOfficeOpenXml.Compatibility;
+using static CabViewerSDK.OfficeOpenXml.FormulaParsing.EpplusExcelDataProvider;
+using static CabViewerSDK.OfficeOpenXml.FormulaParsing.ExcelDataProvider;
+using CabViewerSDK.OfficeOpenXml.Compatibility;
 
-namespace CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions
+namespace CabViewerSDK.OfficeOpenXml.FormulaParsing.Excel.Functions
 {
     /// <summary>
     /// Base class for Excel function implementations.

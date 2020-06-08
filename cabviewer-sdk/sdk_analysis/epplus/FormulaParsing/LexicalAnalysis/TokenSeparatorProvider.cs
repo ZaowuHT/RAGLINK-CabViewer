@@ -34,7 +34,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 
-namespace CabViewerSDKOfficeOpenXml.FormulaParsing.LexicalAnalysis
+namespace CabViewerSDK.OfficeOpenXml.FormulaParsing.LexicalAnalysis
 {
     public class TokenSeparatorProvider : ITokenSeparatorProvider
     {

@@ -34,10 +34,10 @@ using System.Collections.Generic;
 using System.Text;
 using System.Xml;
 using System.Text.RegularExpressions;
-using CabViewerSDKOfficeOpenXml.Table;
-using CabViewerSDKOfficeOpenXml.Utils;
+using CabViewerSDK.OfficeOpenXml.Table;
+using CabViewerSDK.OfficeOpenXml.Utils;
 
-namespace CabViewerSDKOfficeOpenXml.Table.PivotTable
+namespace CabViewerSDK.OfficeOpenXml.Table.PivotTable
 {
     /// <summary>
     /// An Excel Pivottable

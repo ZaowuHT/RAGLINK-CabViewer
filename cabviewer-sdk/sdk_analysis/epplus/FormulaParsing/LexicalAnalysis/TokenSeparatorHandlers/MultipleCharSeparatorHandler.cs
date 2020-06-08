@@ -34,7 +34,7 @@ using System.Globalization;
 using System.Linq;
 using System.Text;
 
-namespace CabViewerSDKOfficeOpenXml.FormulaParsing.LexicalAnalysis.TokenSeparatorHandlers
+namespace CabViewerSDK.OfficeOpenXml.FormulaParsing.LexicalAnalysis.TokenSeparatorHandlers
 {
     public class MultipleCharSeparatorHandler : SeparatorHandler
     {

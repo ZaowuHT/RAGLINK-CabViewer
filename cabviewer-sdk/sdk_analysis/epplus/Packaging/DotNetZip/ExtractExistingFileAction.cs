@@ -25,7 +25,7 @@
 // ------------------------------------------------------------------
 
 
-namespace CabViewerSDKOfficeOpenXml.Packaging.Ionic.Zip
+namespace CabViewerSDK.OfficeOpenXml.Packaging.Ionic.Zip
 {
 
     /// <summary>

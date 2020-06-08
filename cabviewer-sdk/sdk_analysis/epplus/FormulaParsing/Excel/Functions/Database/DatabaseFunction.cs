@@ -27,9 +27,9 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Text;
-using CabViewerSDKOfficeOpenXml.Utils;
+using CabViewerSDK.OfficeOpenXml.Utils;
 
-namespace CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions.Database
+namespace CabViewerSDK.OfficeOpenXml.FormulaParsing.Excel.Functions.Database
 {
     public abstract class DatabaseFunction : ExcelFunction
     {

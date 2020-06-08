@@ -27,7 +27,7 @@
 
 using System;
 
-namespace CabViewerSDKOfficeOpenXml.Packaging.Ionic.Zip
+namespace CabViewerSDK.OfficeOpenXml.Packaging.Ionic.Zip
 {
     /// <summary>
     ///   This class implements the "traditional" or "classic" PKZip encryption,

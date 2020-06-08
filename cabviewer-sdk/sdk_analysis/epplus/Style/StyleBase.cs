@@ -33,7 +33,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace CabViewerSDKOfficeOpenXml.Style
+namespace CabViewerSDK.OfficeOpenXml.Style
 {
     /// <summary>
     /// Border line style
@@ -164,10 +164,10 @@ namespace CabViewerSDKOfficeOpenXml.Style
     public abstract class StyleBase
     {
         protected ExcelStyles _styles;
-        internal CabViewerSDKOfficeOpenXml.XmlHelper.ChangedEventHandler _ChangedEvent;
+        internal CabViewerSDK.OfficeOpenXml.XmlHelper.ChangedEventHandler _ChangedEvent;
         protected int _positionID;
         protected string _address;
-        internal StyleBase(ExcelStyles styles, CabViewerSDKOfficeOpenXml.XmlHelper.ChangedEventHandler ChangedEvent, int PositionID, string Address)
+        internal StyleBase(ExcelStyles styles, CabViewerSDK.OfficeOpenXml.XmlHelper.ChangedEventHandler ChangedEvent, int PositionID, string Address)
         {
             _styles = styles;
             _ChangedEvent = ChangedEvent;

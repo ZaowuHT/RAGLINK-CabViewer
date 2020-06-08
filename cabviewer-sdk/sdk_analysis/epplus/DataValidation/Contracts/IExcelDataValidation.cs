@@ -34,7 +34,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace CabViewerSDKOfficeOpenXml.DataValidation.Contracts
+namespace CabViewerSDK.OfficeOpenXml.DataValidation.Contracts
 {
     /// <summary>
     /// Interface for data validation

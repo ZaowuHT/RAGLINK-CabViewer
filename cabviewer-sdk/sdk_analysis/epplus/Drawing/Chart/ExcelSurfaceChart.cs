@@ -33,9 +33,9 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Xml;
-using CabViewerSDKOfficeOpenXml.Table.PivotTable;
+using CabViewerSDK.OfficeOpenXml.Table.PivotTable;
 
-namespace CabViewerSDKOfficeOpenXml.Drawing.Chart
+namespace CabViewerSDK.OfficeOpenXml.Drawing.Chart
 {
     /// <summary>
     /// A Surface chart

@@ -36,29 +36,29 @@ using System.ComponentModel;
 using System.Text;
 using System.Data;
 using System.Threading;
-using CabViewerSDKOfficeOpenXml.FormulaParsing;
-using CabViewerSDKOfficeOpenXml.Style;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing;
+using CabViewerSDK.OfficeOpenXml.Style;
 using System.Xml;
 using System.Drawing;
 using System.Globalization;
 using System.Collections;
-using CabViewerSDKOfficeOpenXml.Table;
+using CabViewerSDK.OfficeOpenXml.Table;
 using System.Text.RegularExpressions;
 using System.IO;
 using System.Linq;
-using CabViewerSDKOfficeOpenXml.DataValidation;
-using CabViewerSDKOfficeOpenXml.DataValidation.Contracts;
+using CabViewerSDK.OfficeOpenXml.DataValidation;
+using CabViewerSDK.OfficeOpenXml.DataValidation.Contracts;
 using System.Reflection;
-using CabViewerSDKOfficeOpenXml.Style.XmlAccess;
+using CabViewerSDK.OfficeOpenXml.Style.XmlAccess;
 using System.Security;
-using CabViewerSDKOfficeOpenXml.ConditionalFormatting;
-using CabViewerSDKOfficeOpenXml.ConditionalFormatting.Contracts;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.LexicalAnalysis;
+using CabViewerSDK.OfficeOpenXml.ConditionalFormatting;
+using CabViewerSDK.OfficeOpenXml.ConditionalFormatting.Contracts;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.LexicalAnalysis;
 using w = System.Windows;
-using CabViewerSDKOfficeOpenXml.Utils;
-using CabViewerSDKOfficeOpenXml.Compatibility;
+using CabViewerSDK.OfficeOpenXml.Utils;
+using CabViewerSDK.OfficeOpenXml.Compatibility;
 
-namespace CabViewerSDKOfficeOpenXml
+namespace CabViewerSDK.OfficeOpenXml
 {
     /// <summary>
     /// A range of cells 
@@ -1402,7 +1402,7 @@ namespace CabViewerSDKOfficeOpenXml
                 }
                 else
                 {
-                    xml.LoadXml("<d:si xmlns:d=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\" ><d:r><d:t>" + CabViewerSDKOfficeOpenXml.Utils.ConvertUtil.ExcelEscapeString(v.ToString()) + "</d:t></d:r></d:si>");
+                    xml.LoadXml("<d:si xmlns:d=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\" ><d:r><d:t>" + CabViewerSDK.OfficeOpenXml.Utils.ConvertUtil.ExcelEscapeString(v.ToString()) + "</d:t></d:r></d:si>");
                 }
             }
             else

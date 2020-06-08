@@ -28,13 +28,13 @@
  *******************************************************************************
  * Jan Källman		Added		12-APR-2012
  *******************************************************************************/
-using CabViewerSDKOfficeOpenXml.Compatibility;
+using CabViewerSDK.OfficeOpenXml.Compatibility;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace CabViewerSDKOfficeOpenXml.VBA
+namespace CabViewerSDK.OfficeOpenXml.VBA
 {
     /// <summary>
     /// Base class for VBA collections

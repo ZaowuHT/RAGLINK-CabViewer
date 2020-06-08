@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions.Logical;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions.Math;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.Excel.Functions.Logical;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.Excel.Functions.Math;
 
-namespace CabViewerSDKOfficeOpenXml.FormulaParsing.Logging
+namespace CabViewerSDK.OfficeOpenXml.FormulaParsing.Logging
 {
     internal class TextFileLogger : IFormulaParserLogger
     {

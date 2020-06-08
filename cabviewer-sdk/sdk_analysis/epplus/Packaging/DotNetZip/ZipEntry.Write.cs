@@ -26,12 +26,12 @@
 // ------------------------------------------------------------------
 
 
-using CabViewerSDKOfficeOpenXml.Packaging.Ionic.Zlib;
+using CabViewerSDK.OfficeOpenXml.Packaging.Ionic.Zlib;
 using System;
 using System.IO;
 using RE = System.Text.RegularExpressions;
 
-namespace CabViewerSDKOfficeOpenXml.Packaging.Ionic.Zip
+namespace CabViewerSDK.OfficeOpenXml.Packaging.Ionic.Zip
 {
     internal partial class ZipEntry
     {
@@ -683,7 +683,7 @@ namespace CabViewerSDKOfficeOpenXml.Packaging.Ionic.Zip
         {
             if (_UncompressedSize < 0x10) return false;
             if (_CompressionMethod == 0x00) return false;
-            if (CompressionLevel == CabViewerSDKOfficeOpenXml.Packaging.Ionic.Zlib.CompressionLevel.None) return false;
+            if (CompressionLevel == CabViewerSDK.OfficeOpenXml.Packaging.Ionic.Zlib.CompressionLevel.None) return false;
             if (_CompressedSize < _UncompressedSize) return false;
 
             if (this._Source == ZipEntrySource.Stream && !this._sourceStream.CanSeek) return false;
@@ -1991,7 +1991,7 @@ namespace CabViewerSDKOfficeOpenXml.Packaging.Ionic.Zip
                     return o1;
                 }
 #endif
-                var o = new DeflateStream(s, CabViewerSDKOfficeOpenXml.Packaging.Ionic.Zlib.CompressionMode.Compress,
+                var o = new DeflateStream(s, CabViewerSDK.OfficeOpenXml.Packaging.Ionic.Zlib.CompressionMode.Compress,
                                                      CompressionLevel,
                                                      true);
                 if (_container.CodecBufferSize > 0)

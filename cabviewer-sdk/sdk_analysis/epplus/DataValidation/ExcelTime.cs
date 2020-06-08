@@ -35,7 +35,7 @@ using System.Linq;
 using System.Text;
 using System.Globalization;
 
-namespace CabViewerSDKOfficeOpenXml.DataValidation
+namespace CabViewerSDK.OfficeOpenXml.DataValidation
 {
     /// <summary>
     /// Represents a time between 00:00:00 and 23:59:59

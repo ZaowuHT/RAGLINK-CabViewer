@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions.DateTime.Workdays
+namespace CabViewerSDK.OfficeOpenXml.FormulaParsing.Excel.Functions.DateTime.Workdays
 {
     public class HolidayWeekdaysFactory
     {

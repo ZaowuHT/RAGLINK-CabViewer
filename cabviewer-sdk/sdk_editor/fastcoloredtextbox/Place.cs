@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CabViewerSDKCodeEditor
+namespace CabViewerSDK.TextEditor
 {
     /// <summary>
     /// Line index and char index

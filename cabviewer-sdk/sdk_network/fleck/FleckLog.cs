@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CabViewerSDKWebsocket
+namespace CabViewerSDK.Websocket
 {
     public enum LogLevel
     {

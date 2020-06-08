@@ -34,8 +34,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Xml;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.ExcelUtilities;
-namespace CabViewerSDKOfficeOpenXml.Table
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.ExcelUtilities;
+namespace CabViewerSDK.OfficeOpenXml.Table
 {
     /// <summary>
     /// A collection of table objects
@@ -113,7 +113,7 @@ namespace CabViewerSDKOfficeOpenXml.Table
             }
 
             char firstLetterOfName = Name[0];
-            if (Char.IsLetter(firstLetterOfName) == false && firstLetterOfName != '_' && firstLetterOfName != '\\')
+            if (System.Char.IsLetter(firstLetterOfName) == false && firstLetterOfName != '_' && firstLetterOfName != '\\')
             {
                 throw new ArgumentException("Tablename start with invalid character");
             }

@@ -34,7 +34,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
-namespace CabViewerSDKOfficeOpenXml.Encryption
+namespace CabViewerSDK.OfficeOpenXml.Encryption
 {
     /// <summary>
     /// Encryption verifier inside the EncryptionInfo stream

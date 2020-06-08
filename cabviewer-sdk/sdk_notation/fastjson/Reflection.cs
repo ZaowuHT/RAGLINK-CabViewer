@@ -13,7 +13,7 @@ using System.Data;
 #endif
 using System.Collections.Specialized;
 
-namespace CabViewerSDKfastJSON
+namespace CabViewerSDK.FastJSON
 {
     public struct Getters
     {

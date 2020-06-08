@@ -2,7 +2,7 @@
 using System.Drawing;
 using System.Drawing.Printing;
 
-namespace CabViewerSDKCodeEditor
+namespace CabViewerSDK.TextEditor
 {
     /// <summary>
     /// Item of autocomplete menu

@@ -53,6 +53,31 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\DockingStrings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DockingStrings.resx</DependentUpon>
+    </Compile>
+    <Compile Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="sdk_interface\dockpanel\Theme\ThemeVS2013\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="sdk_interface\dockpanel\Theme\ThemeVS2015\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="sdk_analysis\epplus\CellStore.cs" />
     <Compile Include="sdk_analysis\epplus\Compatibility\CompatibilitySettings.cs" />
     <Compile Include="sdk_analysis\epplus\Compatibility\ImageCompat.cs" />
@@ -786,6 +811,180 @@
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="sdk_editor\fastcoloredtextbox\VisualMarker.cs" />
+    <Compile Include="sdk_interface\dockpanel\Docking\AutoHideStripBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="sdk_interface\dockpanel\Docking\Configuration\PatchSection.cs" />
+    <Compile Include="sdk_interface\dockpanel\Docking\DefaultTheme.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="sdk_interface\dockpanel\Docking\DockAreasEditor.cs" />
+    <Compile Include="sdk_interface\dockpanel\Docking\DockContent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sdk_interface\dockpanel\Docking\DockContentCollection.cs" />
+    <Compile Include="sdk_interface\dockpanel\Docking\DockContentEventArgs.cs" />
+    <Compile Include="sdk_interface\dockpanel\Docking\DockContentHandler.cs" />
+    <Compile Include="sdk_interface\dockpanel\Docking\DockOutlineBase.cs" />
+    <Compile Include="sdk_interface\dockpanel\Docking\DockPane.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="sdk_interface\dockpanel\Docking\DockPane.SplitterControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="sdk_interface\dockpanel\Docking\DockPaneCaptionBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="sdk_interface\dockpanel\Docking\DockPaneCollection.cs" />
+    <Compile Include="sdk_interface\dockpanel\Docking\DockPanel.Appearance.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="sdk_interface\dockpanel\Docking\DockPanel.AutoHideWindow.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="sdk_interface\dockpanel\Docking\DockPanel.cs" />
+    <Compile Include="sdk_interface\dockpanel\Docking\DockPanel.DockDragHandler.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="sdk_interface\dockpanel\Docking\DockPanel.DragHandler.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="sdk_interface\dockpanel\Docking\DockPanel.FocusManager.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="sdk_interface\dockpanel\Docking\DockPanel.MdiClientController.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="sdk_interface\dockpanel\Docking\DockPanel.Persistor.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="sdk_interface\dockpanel\Docking\DockPanel.SplitterDragHandler.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="sdk_interface\dockpanel\Docking\DockPanelColorPalette.cs" />
+    <Compile Include="sdk_interface\dockpanel\Docking\DockPanelExtender.cs" />
+    <Compile Include="sdk_interface\dockpanel\Docking\DockPanelSkin.cs" />
+    <Compile Include="sdk_interface\dockpanel\Docking\DockPaneStripBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="sdk_interface\dockpanel\Docking\DockWindow.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="sdk_interface\dockpanel\Docking\DockWindowCollection.cs" />
+    <Compile Include="sdk_interface\dockpanel\Docking\DragForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sdk_interface\dockpanel\Docking\DrawingRoutines.cs" />
+    <Compile Include="sdk_interface\dockpanel\Docking\DummyControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="sdk_interface\dockpanel\Docking\Enums.cs" />
+    <Compile Include="sdk_interface\dockpanel\Docking\FloatWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sdk_interface\dockpanel\Docking\FloatWindowCollection.cs" />
+    <Compile Include="sdk_interface\dockpanel\Docking\Helpers\DockHelper.cs" />
+    <Compile Include="sdk_interface\dockpanel\Docking\Helpers\DrawHelper.cs" />
+    <Compile Include="sdk_interface\dockpanel\Docking\Helpers\ResourceHelper.cs" />
+    <Compile Include="sdk_interface\dockpanel\Docking\Helpers\Win32Helper.cs" />
+    <Compile Include="sdk_interface\dockpanel\Docking\IImageService.cs" />
+    <Compile Include="sdk_interface\dockpanel\Docking\InertButtonBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="sdk_interface\dockpanel\Docking\Interfaces.cs" />
+    <Compile Include="sdk_interface\dockpanel\Docking\IPaintingService.cs" />
+    <Compile Include="sdk_interface\dockpanel\Docking\LayoutUtils.cs" />
+    <Compile Include="sdk_interface\dockpanel\Docking\Localization.cs" />
+    <Compile Include="sdk_interface\dockpanel\Docking\Measures.cs" />
+    <Compile Include="sdk_interface\dockpanel\Docking\NestedDockingStatus.cs" />
+    <Compile Include="sdk_interface\dockpanel\Docking\NestedPaneCollection.cs" />
+    <Compile Include="sdk_interface\dockpanel\Docking\PatchController.cs" />
+    <Compile Include="sdk_interface\dockpanel\Docking\SplitterBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="sdk_interface\dockpanel\Docking\ThemeBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="sdk_interface\dockpanel\Docking\VisibleNestedPaneCollection.cs" />
+    <Compile Include="sdk_interface\dockpanel\Docking\VisualStudioColorTable.cs" />
+    <Compile Include="sdk_interface\dockpanel\Docking\VisualStudioToolStripExtender.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="sdk_interface\dockpanel\Docking\VisualStudioToolStripExtender.Designer.cs" />
+    <Compile Include="sdk_interface\dockpanel\Docking\VisualStudioToolStripRenderer.cs" />
+    <Compile Include="sdk_interface\dockpanel\Docking\Win32\Enums.cs" />
+    <Compile Include="sdk_interface\dockpanel\Docking\Win32\NativeMethods.cs" />
+    <Compile Include="sdk_interface\dockpanel\Theme\ThemeVS2012\ImageService.cs" />
+    <Compile Include="sdk_interface\dockpanel\Theme\ThemeVS2012\PaintingService.cs" />
+    <Compile Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Strings.Designer.cs" />
+    <Compile Include="sdk_interface\dockpanel\Theme\ThemeVS2012\VS2012AutoHideStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="sdk_interface\dockpanel\Theme\ThemeVS2012\VS2012AutoHideStripFactory.cs" />
+    <Compile Include="sdk_interface\dockpanel\Theme\ThemeVS2012\VS2012AutoHideWindowControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="sdk_interface\dockpanel\Theme\ThemeVS2012\VS2012AutoHideWindowFactory.cs" />
+    <Compile Include="sdk_interface\dockpanel\Theme\ThemeVS2012\VS2012DockIndicatorFactory.cs" />
+    <Compile Include="sdk_interface\dockpanel\Theme\ThemeVS2012\VS2012DockOutlineFactory.cs" />
+    <Compile Include="sdk_interface\dockpanel\Theme\ThemeVS2012\VS2012DockPaneCaption.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="sdk_interface\dockpanel\Theme\ThemeVS2012\VS2012DockPaneCaptionFactory.cs" />
+    <Compile Include="sdk_interface\dockpanel\Theme\ThemeVS2012\VS2012DockPaneCaptionInertButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="sdk_interface\dockpanel\Theme\ThemeVS2012\VS2012DockPaneSplitterControlFactory.cs" />
+    <Compile Include="sdk_interface\dockpanel\Theme\ThemeVS2012\VS2012DockPaneStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="sdk_interface\dockpanel\Theme\ThemeVS2012\VS2012DockPaneStripFactory.cs" />
+    <Compile Include="sdk_interface\dockpanel\Theme\ThemeVS2012\VS2012DockWindow.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="sdk_interface\dockpanel\Theme\ThemeVS2012\VS2012DockWindowFactory.cs" />
+    <Compile Include="sdk_interface\dockpanel\Theme\ThemeVS2012\VS2012PaletteFactory.cs" />
+    <Compile Include="sdk_interface\dockpanel\Theme\ThemeVS2012\VS2012PaneIndicatorFactory.cs" />
+    <Compile Include="sdk_interface\dockpanel\Theme\ThemeVS2012\VS2012PanelIndicatorFactory.cs" />
+    <Compile Include="sdk_interface\dockpanel\Theme\ThemeVS2012\VS2012SplitterControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="sdk_interface\dockpanel\Theme\ThemeVS2012\VS2012ThemeBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="sdk_interface\dockpanel\Theme\ThemeVS2012\VS2012WindowSplitterControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="sdk_interface\dockpanel\Theme\ThemeVS2012\VS2012WindowSplitterControlFactory.cs" />
+    <Compile Include="sdk_interface\dockpanel\Theme\ThemeVS2013\VS2013DockPane.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="sdk_interface\dockpanel\Theme\ThemeVS2013\VS2013DockPaneCaption.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="sdk_interface\dockpanel\Theme\ThemeVS2013\VS2013DockPaneCaptionFactory.cs" />
+    <Compile Include="sdk_interface\dockpanel\Theme\ThemeVS2013\VS2013DockPaneFactory.cs" />
+    <Compile Include="sdk_interface\dockpanel\Theme\ThemeVS2013\VS2013DockPaneSplitterControlFactory.cs" />
+    <Compile Include="sdk_interface\dockpanel\Theme\ThemeVS2013\VS2013DockPaneStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="sdk_interface\dockpanel\Theme\ThemeVS2013\VS2013DockPaneStripFactory.cs" />
+    <Compile Include="sdk_interface\dockpanel\Theme\ThemeVS2013\VS2013SplitterControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="sdk_interface\dockpanel\Theme\ThemeVS2013\VS2013ThemeBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="sdk_interface\dockpanel\Theme\ThemeVS2013\VS2013WindowSplitterControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="sdk_interface\dockpanel\Theme\ThemeVS2013\VS2013WindowSplitterControlFactory.cs" />
+    <Compile Include="sdk_interface\dockpanel\Theme\ThemeVS2015\DockTheme.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="sdk_interface\dockpanel\Theme\ThemeVS2015\VS2015ThemeBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="sdk_network\fleck\ConnectionNotAvailableException.cs" />
     <Compile Include="sdk_network\fleck\FleckLog.cs" />
     <Compile Include="sdk_network\fleck\FrameType.cs" />
@@ -829,11 +1028,70 @@
     <Folder Include="sdk_localization\" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Properties\DockingStrings.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>DockingStrings.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sdk_interface\dockpanel\Theme\ThemeVS2013\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sdk_interface\dockpanel\Theme\ThemeVS2015\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="sdk_editor\fastcoloredtextbox\FastColoredTextBox.resx" />
     <EmbeddedResource Include="sdk_editor\fastcoloredtextbox\FindForm.resx" />
     <EmbeddedResource Include="sdk_editor\fastcoloredtextbox\GoToForm.resx" />
     <EmbeddedResource Include="sdk_editor\fastcoloredtextbox\HotkeysEditorForm.resx" />
     <EmbeddedResource Include="sdk_editor\fastcoloredtextbox\ReplaceForm.resx" />
+    <EmbeddedResource Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Strings.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Resources\vs2012blue.vstheme.gz" />
+    <None Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Resources\vs2012dark.vstheme.gz" />
+    <None Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Resources\vs2012light.vstheme.gz" />
+    <None Include="sdk_interface\dockpanel\Theme\ThemeVS2013\Resources\vs2013blue.vstheme.gz" />
+    <None Include="sdk_interface\dockpanel\Theme\ThemeVS2013\Resources\vs2013dark.vstheme.gz" />
+    <None Include="sdk_interface\dockpanel\Theme\ThemeVS2013\Resources\vs2013light.vstheme.gz" />
+    <None Include="sdk_interface\dockpanel\Theme\ThemeVS2015\Resources\vs2015blue.vstheme.gz" />
+    <None Include="sdk_interface\dockpanel\Theme\ThemeVS2015\Resources\vs2015dark.vstheme.gz" />
+    <None Include="sdk_interface\dockpanel\Theme\ThemeVS2015\Resources\vs2015light.vstheme.gz" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Resources\Dockindicator_PaneDiamond_Hotspot.png" />
+    <Content Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Resources\DockIndicator_PaneDiamond_HotspotIndex.png" />
+    <Content Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Resources\MaskArrowBottom.png" />
+    <Content Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Resources\MaskArrowLeft.png" />
+    <Content Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Resources\MaskArrowRight.png" />
+    <Content Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Resources\MaskArrowTop.png" />
+    <Content Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Resources\MaskCoreBottom.png" />
+    <Content Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Resources\MaskCoreCenter.png" />
+    <Content Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Resources\MaskCoreLeft.png" />
+    <Content Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Resources\MaskCoreRight.png" />
+    <Content Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Resources\MaskCoreTop.png" />
+    <Content Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Resources\MaskDock.png" />
+    <Content Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Resources\MaskDockFive.png" />
+    <Content Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Resources\MaskTabClose.png" />
+    <Content Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Resources\MaskTabList.png" />
+    <Content Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Resources\MaskTabOverflow.png" />
+    <Content Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Resources\MaskToolWindowAutoHide.png" />
+    <Content Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Resources\MaskToolWindowClose.png" />
+    <Content Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Resources\MaskToolWindowDock.png" />
+    <Content Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Resources\MaskToolWindowOption.png" />
+    <Content Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Resources\MaskWindowBottom.png" />
+    <Content Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Resources\MaskWindowCenter.png" />
+    <Content Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Resources\MaskWindowLeft.png" />
+    <Content Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Resources\MaskWindowRight.png" />
+    <Content Include="sdk_interface\dockpanel\Theme\ThemeVS2012\Resources\MaskWindowTop.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

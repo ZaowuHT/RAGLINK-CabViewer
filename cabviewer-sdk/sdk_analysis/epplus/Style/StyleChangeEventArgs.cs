@@ -32,7 +32,7 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-namespace CabViewerSDKOfficeOpenXml.Style
+namespace CabViewerSDK.OfficeOpenXml.Style
 {
     internal enum eStyleClass
     {

@@ -32,10 +32,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions;
-//using CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.Excel.Functions;
+//using CabViewerSDK.OfficeOpenXml.FormulaParsing.Excel.Functions;
 
-namespace CabViewerSDKOfficeOpenXml.FormulaParsing.LexicalAnalysis
+namespace CabViewerSDK.OfficeOpenXml.FormulaParsing.LexicalAnalysis
 {
     public class Lexer : ILexer
     {

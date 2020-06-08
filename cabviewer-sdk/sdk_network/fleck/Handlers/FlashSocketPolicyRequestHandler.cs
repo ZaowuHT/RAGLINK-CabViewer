@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace CabViewerSDKWebsocket.Handlers
+namespace CabViewerSDK.Websocket.Handlers
 {
     public class FlashSocketPolicyRequestHandler
     {

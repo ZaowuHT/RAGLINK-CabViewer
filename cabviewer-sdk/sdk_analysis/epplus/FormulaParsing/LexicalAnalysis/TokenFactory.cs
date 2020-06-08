@@ -35,13 +35,13 @@ using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
-using CabViewerSDKOfficeOpenXml.FormulaParsing;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.Excel.Functions;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.ExcelUtilities;
-using CabViewerSDKOfficeOpenXml.FormulaParsing.Utilities;
-using CabViewerSDKOfficeOpenXml;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.Excel.Functions;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.ExcelUtilities;
+using CabViewerSDK.OfficeOpenXml.FormulaParsing.Utilities;
+using CabViewerSDK.OfficeOpenXml;
 
-namespace CabViewerSDKOfficeOpenXml.FormulaParsing.LexicalAnalysis
+namespace CabViewerSDK.OfficeOpenXml.FormulaParsing.LexicalAnalysis
 {
     public class TokenFactory : ITokenFactory
     {
@@ -152,7 +152,7 @@ namespace CabViewerSDKOfficeOpenXml.FormulaParsing.LexicalAnalysis
             {
                 return new Token(token, TokenType.Enumerable);
             }
-            var at = CabViewerSDKOfficeOpenXml.ExcelAddressBase.IsValid(token, _r1c1);
+            var at = CabViewerSDK.OfficeOpenXml.ExcelAddressBase.IsValid(token, _r1c1);
             if (at==ExcelAddressBase.AddressType.InternalAddress)
             {
                 return new Token(token.ToUpper(CultureInfo.InvariantCulture), TokenType.ExcelAddress);
