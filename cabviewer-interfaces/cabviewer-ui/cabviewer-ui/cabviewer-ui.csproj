@@ -46,34 +46,43 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FormInit.cs">
+    <Compile Include="user_interface\FormInit.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormInit.Designer.cs">
+    <Compile Include="user_interface\FormInit.Designer.cs">
       <DependentUpon>FormInit.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormMain.cs">
+    <Compile Include="user_interface\FormMain.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormMain.Designer.cs">
+    <Compile Include="user_interface\FormMain.Designer.cs">
       <DependentUpon>FormMain.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormStructureViewer.cs">
+    <Compile Include="user_interface\FormPlugInsProperties.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormStructureViewer.Designer.cs">
-      <DependentUpon>FormStructureViewer.cs</DependentUpon>
+    <Compile Include="user_interface\FormPlugInsProperties.Designer.cs">
+      <DependentUpon>FormPlugInsProperties.cs</DependentUpon>
+    </Compile>
+    <Compile Include="user_interface\FormPlugInsTreeView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="user_interface\FormPlugInsTreeView.Designer.cs">
+      <DependentUpon>FormPlugInsTreeView.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FormInit.resx">
+    <EmbeddedResource Include="user_interface\FormInit.resx">
       <DependentUpon>FormInit.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormMain.resx">
+    <EmbeddedResource Include="user_interface\FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormStructureViewer.resx">
-      <DependentUpon>FormStructureViewer.cs</DependentUpon>
+    <EmbeddedResource Include="user_interface\FormPlugInsProperties.resx">
+      <DependentUpon>FormPlugInsProperties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="user_interface\FormPlugInsTreeView.resx">
+      <DependentUpon>FormPlugInsTreeView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -19,7 +19,7 @@ namespace CabViewerUI
 
         private void FormMain_Load(object sender, EventArgs e)
         {
-            FormStructureViewer formStructureViewer = new FormStructureViewer();
+            FormPlugInsTreeView formStructureViewer = new FormPlugInsTreeView();
             formStructureViewer.Show(this.dockPanel);
             formStructureViewer.DockTo(this.dockPanel, DockStyle.Left);
             dockTheme.ApplyTo(mainMenu);

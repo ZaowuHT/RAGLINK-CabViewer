@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CabViewerUI
 {
-    public partial class FormStructureViewer : CabViewerSDK.Docking.DockContent
+    public partial class FormPlugInsProperties : CabViewerSDK.Docking.DockContent
     {
-        public FormStructureViewer()
+        public FormPlugInsProperties()
         {
             InitializeComponent();
         }

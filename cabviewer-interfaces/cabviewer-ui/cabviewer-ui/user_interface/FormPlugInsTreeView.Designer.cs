@@ -1,6 +1,6 @@
 ﻿namespace CabViewerUI
 {
-    partial class FormStructureViewer
+    partial class FormPlugInsTreeView
     {
         /// <summary>
         /// Required designer variable.
@@ -30,13 +30,13 @@
         {
             this.SuspendLayout();
             // 
-            // FormStructureViewer
+            // FormPlugInsTreeView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Name = "FormStructureViewer";
-            this.Text = "{local:cabviewer-ui-form-structureviewer-title}";
+            this.Name = "FormPlugInsTreeView";
+            this.Text = "{local:cabviewer-ui-form-pluginstreeview-title}";
             this.ResumeLayout(false);
 
         }
