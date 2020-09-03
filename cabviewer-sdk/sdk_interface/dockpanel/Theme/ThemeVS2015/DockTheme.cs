@@ -1,5 +1,6 @@
 namespace CabViewerSDK.Docking
 {
+    using CabViewerSDK.sdk_interface.dockpanel.Theme.ThemeVS2015;
     using DockingTheme.ThemeVS2015;
 
     /// <summary>

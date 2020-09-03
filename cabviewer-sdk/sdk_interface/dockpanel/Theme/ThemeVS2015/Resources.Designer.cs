@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CabViewerSDK.DockingTheme.ThemeVS2015 {
+namespace CabViewerSDK.sdk_interface.dockpanel.Theme.ThemeVS2015 {
     using System;
     
     
