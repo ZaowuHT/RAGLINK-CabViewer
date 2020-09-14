@@ -1,0 +1,15 @@
+C:\Documents\raglink-simulator-openrails\program\cabviewer-studio.dll.config
+C:\Documents\raglink-simulator-openrails\program\cabviewer-studio.dll
+C:\Documents\raglink-simulator-openrails\program\cabviewer-studio.pdb
+C:\Documents\raglink-simulator-openrails\program\plugin\cabviewer-studio\cabviewer-studio.pdb
+C:\Documents\raglink-simulator-openrails\cabviewer-studio\obj\Debug\cabviewer-studio.csprojAssemblyReference.cache
+C:\Documents\raglink-simulator-openrails\cabviewer-studio\obj\Debug\CabViewerStudio.FormInit.resources
+C:\Documents\raglink-simulator-openrails\cabviewer-studio\obj\Debug\CabViewerStudio.FormMain.resources
+C:\Documents\raglink-simulator-openrails\cabviewer-studio\obj\Debug\CabViewerStudio.Properties.Resources.resources
+C:\Documents\raglink-simulator-openrails\cabviewer-studio\obj\Debug\cabviewer-studio.csproj.GenerateResource.cache
+C:\Documents\raglink-simulator-openrails\cabviewer-studio\obj\Debug\cabviewer-studio.csproj.CoreCompileInputs.cache
+C:\Documents\raglink-simulator-openrails\cabviewer-studio\obj\Debug\cabviewer-studio.csproj.CopyComplete
+C:\Documents\raglink-simulator-openrails\cabviewer-studio\obj\Debug\cabviewer-studio.pdb
+C:\Documents\raglink-simulator-openrails\program\plugin\cabviewer-studio\cabviewer-studio.dll.config
+C:\Documents\raglink-simulator-openrails\program\plugin\cabviewer-studio\cabviewer-studio.dll
+C:\Documents\raglink-simulator-openrails\cabviewer-studio\obj\Debug\cabviewer-studio.dll

@@ -1,0 +1,13 @@
+C:\Documents\raglink-simulator-openrails\CabViewerCore\obj\Debug\CabViewerCore.csprojAssemblyReference.cache
+C:\Documents\raglink-simulator-openrails\CabViewerCore\obj\Debug\CabViewerCore.csproj.CoreCompileInputs.cache
+C:\Documents\raglink-simulator-openrails\CabViewerCore\obj\Debug\CabViewerCore.csproj.CopyComplete
+C:\Documents\raglink-simulator-openrails\CabViewerCore\obj\Debug\CabViewerCore.exe
+C:\Documents\raglink-simulator-openrails\CabViewerCore\obj\Debug\CabViewerCore.pdb
+C:\Documents\raglink-simulator-openrails\Program\CabViewerCore.exe.config
+C:\Documents\raglink-simulator-openrails\Program\CabViewerCore.exe
+C:\Documents\raglink-simulator-openrails\Program\CabViewerCore.pdb
+C:\Documents\raglink-simulator-openrails\Source\CabViewerCore\obj\Debug\CabViewerCore.csprojAssemblyReference.cache
+C:\Documents\raglink-simulator-openrails\Source\CabViewerCore\obj\Debug\CabViewerCore.csproj.CoreCompileInputs.cache
+C:\Documents\raglink-simulator-openrails\Source\CabViewerCore\obj\Debug\CabViewerCore.csproj.CopyComplete
+C:\Documents\raglink-simulator-openrails\Source\CabViewerCore\obj\Debug\CabViewerCore.exe
+C:\Documents\raglink-simulator-openrails\Source\CabViewerCore\obj\Debug\CabViewerCore.pdb

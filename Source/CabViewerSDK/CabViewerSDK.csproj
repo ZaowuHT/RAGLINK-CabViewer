@@ -1,0 +1,1087 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{075810C2-540C-456F-BC06-7113D238E4E2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CabViewerSDK</RootNamespace>
+    <AssemblyName>CabViewerSDK</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Program\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Windows.Forms.DataVisualization.Design" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\DataFormat.cs" />
+    <Compile Include="Common\IdentifierGenerator.cs" />
+    <Compile Include="Communication\MemoryMap.cs" />
+    <Compile Include="Communication\MessageQueue.cs" />
+    <Compile Include="Communication\SerialManager.cs" />
+    <Compile Include="Plugins\PluginManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Analysis\EPPlus\CellStore.cs" />
+    <Compile Include="Analysis\EPPlus\Compatibility\CompatibilitySettings.cs" />
+    <Compile Include="Analysis\EPPlus\Compatibility\ImageCompat.cs" />
+    <Compile Include="Analysis\EPPlus\Compatibility\TypeCompat.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\CF Implementation.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingAverageGroup.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingBeginsWith.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingBetween.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingColorScaleGroup.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingContainsBlanks.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingContainsErrors.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingContainsText.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingDataBarGroup.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingDuplicateValues.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingEndsWith.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingEqual.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingExpression.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingFiveIconSet.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingFourIconSet.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingGreaterThan.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingGreaterThanOrEqual.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingIconSetGroup.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingLessThan.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingLessThanOrEqual.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingNotBetween.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingNotContainsBlanks.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingNotContainsErrors.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingNotContainsText.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingNotEqual.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingRule.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingStdDevGroup.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingThreeColorScale.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingThreeIconSet.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingTimePeriodGroup.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingTopBottomGroup.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingTwoColorScale.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingUniqueValues.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingWithFormula.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingWithFormula2.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingWithRank.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingWithReverse.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingWithShowValue.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingWithStdDev.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingWithText.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Contracts\IRangeConditionalFormatting.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\ExcelConditionalFormattingCollection.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\ExcelConditionalFormattingColorScaleValue.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\ExcelConditionalFormattingConstants.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\ExcelConditionalFormattingEnums.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\ExcelConditionalFormattingHelper.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\ExcelConditionalFormattingIconDatabarValue.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\ExcelConditionalFormattingOperatorType.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\ExcelConditionalFormattingRuleFactory.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\ExcelConditionalFormattingRuleType.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\ExcelConditionalFormattingTimePeriodType.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\ExcelConditionalFormattingValueObjectType.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\RangeConditionalFormatting.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingAboveAverage.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingAboveOrEqualAverage.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingAboveStdDev.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingAverageGroup.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingBeginsWith.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingBelowAverage.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingBelowOrEqualAverage.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingBelowStdDev.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingBetween.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingBottom.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingBottomPercent.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingContainsBlanks.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingContainsErrors.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingContainsText.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingDataBar.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingDuplicateValues.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingEndsWith.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingEqual.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingExpression.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingFiveIconSet.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingFourIconSet.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingGreaterThan.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingGreaterThanOrEqual.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingLast7Days.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingLastMonth.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingLastWeek.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingLessThan.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingLessThanOrEqual.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingNextMonth.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingNextWeek.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingNotBetween.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingNotContainsBlanks.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingNotContainsErrors.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingNotContainsText.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingNotEqual.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingRule.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingThisMonth.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingThisWeek.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingThreeColorScale.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingThreeIconSet.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingTimePeriodGroup.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingToday.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingTomorrow.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingTop.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingTopPercent.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingTwoColorScale.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingUniqueValues.cs" />
+    <Compile Include="Analysis\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingYesterday.cs" />
+    <Compile Include="Analysis\EPPlus\DataValidation\Contracts\IExcelDataValidation.cs" />
+    <Compile Include="Analysis\EPPlus\DataValidation\Contracts\IExcelDataValidationAny.cs" />
+    <Compile Include="Analysis\EPPlus\DataValidation\Contracts\IExcelDataValidationCustom.cs" />
+    <Compile Include="Analysis\EPPlus\DataValidation\Contracts\IExcelDataValidationDateTime.cs" />
+    <Compile Include="Analysis\EPPlus\DataValidation\Contracts\IExcelDataValidationDecimal.cs" />
+    <Compile Include="Analysis\EPPlus\DataValidation\Contracts\IExcelDataValidationInt.cs" />
+    <Compile Include="Analysis\EPPlus\DataValidation\Contracts\IExcelDataValidationList.cs" />
+    <Compile Include="Analysis\EPPlus\DataValidation\Contracts\IExcelDataValidationTime.cs" />
+    <Compile Include="Analysis\EPPlus\DataValidation\Contracts\IExcelDataValidationWithFormula.cs" />
+    <Compile Include="Analysis\EPPlus\DataValidation\Contracts\IExcelDataValidationWithFormula2.cs" />
+    <Compile Include="Analysis\EPPlus\DataValidation\Contracts\IExcelDataValidationWithOperator.cs" />
+    <Compile Include="Analysis\EPPlus\DataValidation\ExcelDataValidation.cs" />
+    <Compile Include="Analysis\EPPlus\DataValidation\ExcelDataValidationAny.cs" />
+    <Compile Include="Analysis\EPPlus\DataValidation\ExcelDataValidationCollection.cs" />
+    <Compile Include="Analysis\EPPlus\DataValidation\ExcelDataValidationCustom.cs" />
+    <Compile Include="Analysis\EPPlus\DataValidation\ExcelDataValidationDateTime.cs" />
+    <Compile Include="Analysis\EPPlus\DataValidation\ExcelDataValidationDecimal.cs" />
+    <Compile Include="Analysis\EPPlus\DataValidation\ExcelDataValidationFactory.cs" />
+    <Compile Include="Analysis\EPPlus\DataValidation\ExcelDataValidationInt.cs" />
+    <Compile Include="Analysis\EPPlus\DataValidation\ExcelDataValidationList.cs" />
+    <Compile Include="Analysis\EPPlus\DataValidation\ExcelDataValidationOperator.cs" />
+    <Compile Include="Analysis\EPPlus\DataValidation\ExcelDataValidationTime.cs" />
+    <Compile Include="Analysis\EPPlus\DataValidation\ExcelDataValidationType.cs" />
+    <Compile Include="Analysis\EPPlus\DataValidation\ExcelDataValidationWarningStyle.cs" />
+    <Compile Include="Analysis\EPPlus\DataValidation\ExcelDataValidationWithFormula.cs" />
+    <Compile Include="Analysis\EPPlus\DataValidation\ExcelDataValidationWithFormula2.cs" />
+    <Compile Include="Analysis\EPPlus\DataValidation\ExcelTime.cs" />
+    <Compile Include="Analysis\EPPlus\DataValidation\Formulas\Contracts\IExcelDataValidationFormula.cs" />
+    <Compile Include="Analysis\EPPlus\DataValidation\Formulas\Contracts\IExcelDataValidationFormulaDateTime.cs" />
+    <Compile Include="Analysis\EPPlus\DataValidation\Formulas\Contracts\IExcelDataValidationFormulaDecimal.cs" />
+    <Compile Include="Analysis\EPPlus\DataValidation\Formulas\Contracts\IExcelDataValidationFormulaInt.cs" />
+    <Compile Include="Analysis\EPPlus\DataValidation\Formulas\Contracts\IExcelDataValidationFormulaList.cs" />
+    <Compile Include="Analysis\EPPlus\DataValidation\Formulas\Contracts\IExcelDataValidationFormulaTime.cs" />
+    <Compile Include="Analysis\EPPlus\DataValidation\Formulas\Contracts\IExcelDataValidationFormulaWithValue.cs" />
+    <Compile Include="Analysis\EPPlus\DataValidation\Formulas\ExcelDataValidationFormula.cs" />
+    <Compile Include="Analysis\EPPlus\DataValidation\Formulas\ExcelDataValidationFormulaCustom.cs" />
+    <Compile Include="Analysis\EPPlus\DataValidation\Formulas\ExcelDataValidationFormulaDateTime.cs" />
+    <Compile Include="Analysis\EPPlus\DataValidation\Formulas\ExcelDataValidationFormulaDecimal.cs" />
+    <Compile Include="Analysis\EPPlus\DataValidation\Formulas\ExcelDataValidationFormulaInt.cs" />
+    <Compile Include="Analysis\EPPlus\DataValidation\Formulas\ExcelDataValidationFormulaList.cs" />
+    <Compile Include="Analysis\EPPlus\DataValidation\Formulas\ExcelDataValidationFormulaTime.cs" />
+    <Compile Include="Analysis\EPPlus\DataValidation\Formulas\ExcelDataValidationFormulaValue.cs" />
+    <Compile Include="Analysis\EPPlus\DataValidation\IRangeDataValidation.cs" />
+    <Compile Include="Analysis\EPPlus\DataValidation\RangeDataValidation.cs" />
+    <Compile Include="Analysis\EPPlus\Drawing\Chart\ExcelBarChart.cs" />
+    <Compile Include="Analysis\EPPlus\Drawing\Chart\ExcelBarChartSerie.cs" />
+    <Compile Include="Analysis\EPPlus\Drawing\Chart\ExcelBubbleChart.cs" />
+    <Compile Include="Analysis\EPPlus\Drawing\Chart\ExcelBubbleChartSerie.cs" />
+    <Compile Include="Analysis\EPPlus\Drawing\Chart\ExcelChart.cs" />
+    <Compile Include="Analysis\EPPlus\Drawing\Chart\ExcelChartAxis.cs" />
+    <Compile Include="Analysis\EPPlus\Drawing\Chart\ExcelChartCollection.cs" />
+    <Compile Include="Analysis\EPPlus\Drawing\Chart\ExcelChartDataLabel.cs" />
+    <Compile Include="Analysis\EPPlus\Drawing\Chart\ExcelChartDataTable.cs" />
+    <Compile Include="Analysis\EPPlus\Drawing\Chart\ExcelChartLegend.cs" />
+    <Compile Include="Analysis\EPPlus\Drawing\Chart\ExcelChartPlotArea.cs" />
+    <Compile Include="Analysis\EPPlus\Drawing\Chart\ExcelChartSerie.cs" />
+    <Compile Include="Analysis\EPPlus\Drawing\Chart\ExcelChartSerieDataLabel.cs" />
+    <Compile Include="Analysis\EPPlus\Drawing\Chart\ExcelChartSeries.cs" />
+    <Compile Include="Analysis\EPPlus\Drawing\Chart\ExcelChartSurface.cs" />
+    <Compile Include="Analysis\EPPlus\Drawing\Chart\ExcelChartTitle.cs" />
+    <Compile Include="Analysis\EPPlus\Drawing\Chart\ExcelChartTrendline.cs" />
+    <Compile Include="Analysis\EPPlus\Drawing\Chart\ExcelDoughnutChart.cs" />
+    <Compile Include="Analysis\EPPlus\Drawing\Chart\ExcelLineChart.cs" />
+    <Compile Include="Analysis\EPPlus\Drawing\Chart\ExcelLineChartSerie.cs" />
+    <Compile Include="Analysis\EPPlus\Drawing\Chart\ExcelOfPieChart.cs" />
+    <Compile Include="Analysis\EPPlus\Drawing\Chart\ExcelPieChart.cs" />
+    <Compile Include="Analysis\EPPlus\Drawing\Chart\ExcelPieChartSerie.cs" />
+    <Compile Include="Analysis\EPPlus\Drawing\Chart\ExcelRadarChart.cs" />
+    <Compile Include="Analysis\EPPlus\Drawing\Chart\ExcelRadarChartSerie.cs" />
+    <Compile Include="Analysis\EPPlus\Drawing\Chart\ExcelScatterChart.cs" />
+    <Compile Include="Analysis\EPPlus\Drawing\Chart\ExcelScatterChartSerie.cs" />
+    <Compile Include="Analysis\EPPlus\Drawing\Chart\ExcelSurfaceChart.cs" />
+    <Compile Include="Analysis\EPPlus\Drawing\Chart\ExcelSurfaceChartSerie.cs" />
+    <Compile Include="Analysis\EPPlus\Drawing\ExcelDrawingBase.cs" />
+    <Compile Include="Analysis\EPPlus\Drawing\ExcelDrawingBorder.cs" />
+    <Compile Include="Analysis\EPPlus\Drawing\ExcelDrawingFill.cs" />
+    <Compile Include="Analysis\EPPlus\Drawing\ExcelDrawingLineEnd.cs" />
+    <Compile Include="Analysis\EPPlus\Drawing\ExcelDrawings.cs" />
+    <Compile Include="Analysis\EPPlus\Drawing\ExcelPicture.cs" />
+    <Compile Include="Analysis\EPPlus\Drawing\ExcelShape.cs" />
+    <Compile Include="Analysis\EPPlus\Drawing\ExcelView3D.cs" />
+    <Compile Include="Analysis\EPPlus\Drawing\Vml\ExcelVmlDrawingBase.cs" />
+    <Compile Include="Analysis\EPPlus\Drawing\Vml\ExcelVmlDrawingBaseCollection.cs" />
+    <Compile Include="Analysis\EPPlus\Drawing\Vml\ExcelVmlDrawingComment.cs" />
+    <Compile Include="Analysis\EPPlus\Drawing\Vml\ExcelVmlDrawingCommentCollection.cs" />
+    <Compile Include="Analysis\EPPlus\Drawing\Vml\ExcelVmlDrawingPicture.cs" />
+    <Compile Include="Analysis\EPPlus\Drawing\Vml\ExcelVmlDrawingPictureCollection.cs" />
+    <Compile Include="Analysis\EPPlus\Drawing\Vml\ExcelVmlDrawingPosition.cs" />
+    <Compile Include="Analysis\EPPlus\Encryption\EncryptionHandler.cs" />
+    <Compile Include="Analysis\EPPlus\Encryption\EncryptionHeader.cs" />
+    <Compile Include="Analysis\EPPlus\Encryption\EncryptionInfo.cs" />
+    <Compile Include="Analysis\EPPlus\Encryption\EncryptionVerifier.cs" />
+    <Compile Include="Analysis\EPPlus\ExcelAddress.cs" />
+    <Compile Include="Analysis\EPPlus\ExcelBackgroundImage.cs" />
+    <Compile Include="Analysis\EPPlus\ExcelCellAddress.cs" />
+    <Compile Include="Analysis\EPPlus\ExcelCellBase.cs" />
+    <Compile Include="Analysis\EPPlus\ExcelColumn.cs" />
+    <Compile Include="Analysis\EPPlus\ExcelComment.cs" />
+    <Compile Include="Analysis\EPPlus\ExcelCommentCollection.cs" />
+    <Compile Include="Analysis\EPPlus\ExcelEncryption.cs" />
+    <Compile Include="Analysis\EPPlus\ExcelHeaderFooter.cs" />
+    <Compile Include="Analysis\EPPlus\ExcelHyperLink.cs" />
+    <Compile Include="Analysis\EPPlus\ExcelNamedRange.cs" />
+    <Compile Include="Analysis\EPPlus\ExcelNamedRangeCollection.cs" />
+    <Compile Include="Analysis\EPPlus\ExcelPackage.cs" />
+    <Compile Include="Analysis\EPPlus\ExcelPrinterSettings.cs" />
+    <Compile Include="Analysis\EPPlus\ExcelProtectedRange.cs" />
+    <Compile Include="Analysis\EPPlus\ExcelProtectedRangeCollection.cs" />
+    <Compile Include="Analysis\EPPlus\ExcelProtection.cs" />
+    <Compile Include="Analysis\EPPlus\ExcelRange.cs" />
+    <Compile Include="Analysis\EPPlus\ExcelRangeBase.cs" />
+    <Compile Include="Analysis\EPPlus\ExcelRangeCopyOptionFlags.cs" />
+    <Compile Include="Analysis\EPPlus\ExcelRow.cs" />
+    <Compile Include="Analysis\EPPlus\ExcelSheetProtection.cs" />
+    <Compile Include="Analysis\EPPlus\ExcelStyleCollection.cs" />
+    <Compile Include="Analysis\EPPlus\ExcelStyles.cs" />
+    <Compile Include="Analysis\EPPlus\ExcelTextFormat.cs" />
+    <Compile Include="Analysis\EPPlus\ExcelWorkbook.cs" />
+    <Compile Include="Analysis\EPPlus\ExcelWorkbookView.cs" />
+    <Compile Include="Analysis\EPPlus\ExcelWorksheet.cs" />
+    <Compile Include="Analysis\EPPlus\ExcelWorksheets.cs" />
+    <Compile Include="Analysis\EPPlus\ExcelWorksheetView.cs" />
+    <Compile Include="Analysis\EPPlus\FontSize.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\CalculateExtentions.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\DependencyChain\DependencyChain.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\DependencyChain\DependenyChainFactory.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\DependencyChain\FormulaCell.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\EpplusExcelDataProvider.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\EpplusNameValueProvider.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ExcelAddressCache.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ExcelCalculationOption.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ExcelCell.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ExcelDataProvider.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ExcelUtilities\AddressTranslator.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ExcelUtilities\CellReferenceProvider.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ExcelUtilities\ExcelAddressInfo.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ExcelUtilities\ExcelAddressUtil.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ExcelUtilities\ExcelReferenceType.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ExcelUtilities\ExpressionEvaluator.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ExcelUtilities\FormulaDependencies.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ExcelUtilities\FormulaDependency.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ExcelUtilities\FormulaDependencyFactory.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ExcelUtilities\IndexToAddressTranslator.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ExcelUtilities\LookupValueMatcher.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ExcelUtilities\RangeAddress.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ExcelUtilities\RangeAddressFactory.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ExcelUtilities\ValueMatcher.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ExcelUtilities\WildCardValueMatcher.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ExcelValues.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\ExcelCellState.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\ArgumentCollectionUtil.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\ArgumentParser.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\ArgumentParserFactory.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\ArgumentParsers.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\BoolArgumentParser.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\BuiltInFunctions.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\CellStateHelper.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\CollectionFlattener.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\CompileResultValidator.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\CompileResultValidators.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Database\DatabaseFunction.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Database\Daverage.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Database\Dcount.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Database\DcountA.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Database\Dget.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Database\Dmax.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Database\Dmin.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Database\DSum.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Database\Dvar.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Database\Dvarp.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Database\ExcelDatabase.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Database\ExcelDatabaseCriteria.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Database\ExcelDatabaseCriteriaField.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Database\ExcelDatabaseField.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Database\ExcelDatabaseRow.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Database\RowMatcher.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\DateTime\Date.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\DateTime\DateParsingFunction.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\DateTime\DateStringParser.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\DateTime\DateValue.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\DateTime\Day.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\DateTime\Days360.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\DateTime\Edate.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\DateTime\Eomonth.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\DateTime\Hour.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\DateTime\IsoWeekNum.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\DateTime\Minute.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\DateTime\Month.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\DateTime\Networkdays.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\DateTime\NetworkdaysIntl.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\DateTime\Now.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\DateTime\Second.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\DateTime\Time.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\DateTime\TimeBaseFunction.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\DateTime\TimeStringParser.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\DateTime\TimeValue.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\DateTime\Today.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\DateTime\Weekday.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\DateTime\Weeknum.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\DateTime\Workday.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\DateTime\Workdays\AdditionalHolidayDays.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\DateTime\Workdays\HolidayWeekdays.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\DateTime\Workdays\HolidayWeekdaysFactory.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\DateTime\Workdays\WorkdayCalculationDirection.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\DateTime\Workdays\WorkdayCalculator.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\DateTime\Workdays\WorkdayCalculatorResult.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\DateTime\Year.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\DateTime\Yearfrac.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\DecimalCompileResultValidator.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\DoubleArgumentParser.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\DoubleEnumerableArgConverter.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\ErrorHandlingFunction.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\ExcelDoubleCellValue.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\ExcelFunction.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Finance\Pmt.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\FunctionArgument.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\FunctionNameProvider.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\FunctionRepository.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\FunctionsModule.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\HiddenValuesHandlingFunction.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\IFunctionModule.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\IFunctionNameProvider.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Information\ErrorType.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Information\IsBlank.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Information\IsErr.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Information\IsError.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Information\IsEven.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Information\IsLogical.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Information\IsNa.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Information\IsNonText.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Information\IsNumber.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Information\IsOdd.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Information\IsText.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Information\N.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Information\Na.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\IntArgumentParser.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Logical\And.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Logical\False.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Logical\If.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Logical\IfError.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Logical\IfNa.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Logical\Not.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Logical\Or.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Logical\True.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\Abs.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\Acos.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\Acosh.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\Asin.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\Asinh.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\Atan.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\Atan2.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\Atanh.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\Average.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\AverageA.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\AverageIf.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\AverageIfs.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\Ceiling.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\Cos.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\Cosh.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\Count.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\CountA.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\CountBlank.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\CountIf.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\CountIfs.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\Degrees.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\Exp.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\Fact.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\Floor.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\Large.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\Ln.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\Log.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\Log10.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\MathHelper.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\Max.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\Maxa.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\Median.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\Min.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\Mina.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\Mod.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\MultipleRangeCriteriasFunction.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\Pi.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\Power.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\Product.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\Quotient.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\Rand.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\RandBetween.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\Rank.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\Round.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\Rounddown.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\Roundup.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\Sign.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\Sin.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\Sinh.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\Small.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\Sqrt.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\SqrtPi.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\Stdev.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\StdevP.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\Subtotal.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\Sum.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\SumIf.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\SumIfs.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\SumProduct.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\Sumsq.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\Tan.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\Tanh.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\Trunc.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\Var.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\VarMethods.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Math\VarP.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Numeric\CInt.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\ObjectEnumerableArgConverter.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\RefAndLookup\Address.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\RefAndLookup\ArrayLookupNavigator.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\RefAndLookup\Choose.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\RefAndLookup\Column.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\RefAndLookup\Columns.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\RefAndLookup\ExcelLookupNavigator.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\RefAndLookup\HLookup.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\RefAndLookup\Index.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\RefAndLookup\Indirect.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\RefAndLookup\Lookup.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\RefAndLookup\LookupArguments.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\RefAndLookup\LookupDirection.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\RefAndLookup\LookupFunction.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\RefAndLookup\LookupNavigator.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\RefAndLookup\LookupNavigatorFactory.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\RefAndLookup\Match.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\RefAndLookup\Offset.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\RefAndLookup\Row.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\RefAndLookup\Rows.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\RefAndLookup\VLookup.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Text\CharFunction.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Text\Concatenate.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Text\CStr.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Text\Exact.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Text\Find.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Text\Fixed.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Text\Hyperlink.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Text\Left.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Text\Len.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Text\Lower.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Text\Mid.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Text\Proper.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Text\Replace.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Text\Rept.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Text\Right.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Text\Search.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Text\Substitute.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Text\T.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Text\Text.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Text\Upper.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Functions\Text\Value.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Operators\IOperator.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Operators\Operator.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Operators\Operators.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Excel\Operators\OperatorsDict.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Exceptions\CircularReferenceException.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Exceptions\ExcelErrorCodes.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Exceptions\ExcelErrorValueException.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Exceptions\UnrecognizedTokenException.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ExpressionGraph\AtomicExpression.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ExpressionGraph\BooleanExpression.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ExpressionGraph\CompileResult.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ExpressionGraph\CompileResultFactory.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ExpressionGraph\CompileStrategy\CompileStrategy.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ExpressionGraph\CompileStrategy\CompileStrategyFactory.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ExpressionGraph\CompileStrategy\DefaultCompileStrategy.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ExpressionGraph\CompileStrategy\ICompileStrategyFactory.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ExpressionGraph\CompileStrategy\StringConcatStrategy.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ExpressionGraph\ConstantExpressions.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ExpressionGraph\DataType.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ExpressionGraph\DateExpression.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ExpressionGraph\DecimalExpression.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ExpressionGraph\EnumerableExpression.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ExpressionGraph\ExcelAddressExpression.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ExpressionGraph\ExcelErrorExpression.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ExpressionGraph\Expression.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ExpressionGraph\ExpressionCompiler.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ExpressionGraph\ExpressionConverter.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ExpressionGraph\ExpressionFactory.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ExpressionGraph\ExpressionGraph.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ExpressionGraph\ExpressionGraphBuilder.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ExpressionGraph\FunctionArgumentExpression.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ExpressionGraph\FunctionCompilers\DefaultCompiler.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ExpressionGraph\FunctionCompilers\ErrorHandlingFunctionCompiler.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ExpressionGraph\FunctionCompilers\FunctionCompiler.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ExpressionGraph\FunctionCompilers\FunctionCompilerFactory.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ExpressionGraph\FunctionCompilers\IfErrorFunctionCompiler.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ExpressionGraph\FunctionCompilers\IfFunctionCompiler.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ExpressionGraph\FunctionCompilers\IfNaFunctionCompiler.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ExpressionGraph\FunctionCompilers\LookupFunctionCompiler.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ExpressionGraph\FunctionExpression.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ExpressionGraph\GroupExpression.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ExpressionGraph\IExpressionCompiler.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ExpressionGraph\IExpressionConverter.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ExpressionGraph\IExpressionFactory.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ExpressionGraph\IExpressionGraphBuilder.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ExpressionGraph\IntegerExpression.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ExpressionGraph\NamedValueExpression.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ExpressionGraph\StringExpression.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\FormulaParser.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\FormulaParserManager.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\INameValueProvider.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\IParsingLifetimeEventHandler.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\LexicalAnalysis\ILexer.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\LexicalAnalysis\ISourceCodeTokenizer.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\LexicalAnalysis\ISyntacticAnalyzer.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\LexicalAnalysis\ITokenFactory.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\LexicalAnalysis\ITokenIndexProvider.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\LexicalAnalysis\ITokenSeparatorProvider.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\LexicalAnalysis\Lexer.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\LexicalAnalysis\SourceCodeTokenizer.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\LexicalAnalysis\SyntacticAnalyzer.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\LexicalAnalysis\Token.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\LexicalAnalysis\TokenFactory.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\LexicalAnalysis\TokenHandler.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\LexicalAnalysis\TokenizerContext.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\LexicalAnalysis\TokenSeparatorHandlers\BracketHandler.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\LexicalAnalysis\TokenSeparatorHandlers\MultipleCharSeparatorHandler.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\LexicalAnalysis\TokenSeparatorHandlers\SeparatorHandler.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\LexicalAnalysis\TokenSeparatorHandlers\SheetnameHandler.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\LexicalAnalysis\TokenSeparatorHandlers\StringHandler.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\LexicalAnalysis\TokenSeparatorHandlers\TokenSeparatorHandler.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\LexicalAnalysis\TokenSeparatorProvider.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\LexicalAnalysis\TokenType.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Logging\IFormulaParserLogger.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Logging\LoggerFactory.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Logging\TextFileLogger.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\NameValueProvider.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ParsedValue.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ParsingConfiguration.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ParsingContext.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ParsingScope.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\ParsingScopes.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Utilities\ArgumentInfo.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Utilities\ExtensionMethods.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Utilities\IdProvider.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Utilities\IntegerIdProvider.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Utilities\RegexConstants.cs" />
+    <Compile Include="Analysis\EPPlus\FormulaParsing\Utilities\Require.cs" />
+    <Compile Include="Analysis\EPPlus\IRangeID.cs" />
+    <Compile Include="Analysis\EPPlus\OfficeProperties.cs" />
+    <Compile Include="Analysis\EPPlus\Packaging\DotNetZip\ComHelper.cs" />
+    <Compile Include="Analysis\EPPlus\Packaging\DotNetZip\CRC32.cs" />
+    <Compile Include="Analysis\EPPlus\Packaging\DotNetZip\EncryptionAlgorithm.cs" />
+    <Compile Include="Analysis\EPPlus\Packaging\DotNetZip\Events.cs" />
+    <Compile Include="Analysis\EPPlus\Packaging\DotNetZip\Exceptions.cs" />
+    <Compile Include="Analysis\EPPlus\Packaging\DotNetZip\ExtractExistingFileAction.cs" />
+    <Compile Include="Analysis\EPPlus\Packaging\DotNetZip\FileSelector.cs" />
+    <Compile Include="Analysis\EPPlus\Packaging\DotNetZip\OffsetStream.cs" />
+    <Compile Include="Analysis\EPPlus\Packaging\DotNetZip\Shared.cs" />
+    <Compile Include="Analysis\EPPlus\Packaging\DotNetZip\WinZipAes.cs" />
+    <Compile Include="Analysis\EPPlus\Packaging\DotNetZip\ZipConstants.cs" />
+    <Compile Include="Analysis\EPPlus\Packaging\DotNetZip\ZipCrypto.cs" />
+    <Compile Include="Analysis\EPPlus\Packaging\DotNetZip\ZipDirEntry.cs" />
+    <Compile Include="Analysis\EPPlus\Packaging\DotNetZip\ZipEntry.cs" />
+    <Compile Include="Analysis\EPPlus\Packaging\DotNetZip\ZipEntry.Extract.cs" />
+    <Compile Include="Analysis\EPPlus\Packaging\DotNetZip\ZipEntry.Read.cs" />
+    <Compile Include="Analysis\EPPlus\Packaging\DotNetZip\ZipEntry.Write.cs" />
+    <Compile Include="Analysis\EPPlus\Packaging\DotNetZip\ZipEntrySource.cs" />
+    <Compile Include="Analysis\EPPlus\Packaging\DotNetZip\ZipErrorAction.cs" />
+    <Compile Include="Analysis\EPPlus\Packaging\DotNetZip\ZipFile.AddUpdate.cs" />
+    <Compile Include="Analysis\EPPlus\Packaging\DotNetZip\ZipFile.Check.cs" />
+    <Compile Include="Analysis\EPPlus\Packaging\DotNetZip\ZipFile.cs" />
+    <Compile Include="Analysis\EPPlus\Packaging\DotNetZip\ZipFile.Events.cs" />
+    <Compile Include="Analysis\EPPlus\Packaging\DotNetZip\ZipFile.Extract.cs" />
+    <Compile Include="Analysis\EPPlus\Packaging\DotNetZip\ZipFile.Read.cs" />
+    <Compile Include="Analysis\EPPlus\Packaging\DotNetZip\ZipFile.Save.cs" />
+    <Compile Include="Analysis\EPPlus\Packaging\DotNetZip\ZipFile.Selector.cs" />
+    <Compile Include="Analysis\EPPlus\Packaging\DotNetZip\ZipFile.x-IEnumerable.cs" />
+    <Compile Include="Analysis\EPPlus\Packaging\DotNetZip\ZipInputStream.cs" />
+    <Compile Include="Analysis\EPPlus\Packaging\DotNetZip\ZipOutputStream.cs" />
+    <Compile Include="Analysis\EPPlus\Packaging\DotNetZip\ZipSegmentedStream.cs" />
+    <Compile Include="Analysis\EPPlus\Packaging\DotNetZip\Zlib\Deflate.cs" />
+    <Compile Include="Analysis\EPPlus\Packaging\DotNetZip\Zlib\DeflateStream.cs" />
+    <Compile Include="Analysis\EPPlus\Packaging\DotNetZip\Zlib\GZipStream.cs" />
+    <Compile Include="Analysis\EPPlus\Packaging\DotNetZip\Zlib\Inflate.cs" />
+    <Compile Include="Analysis\EPPlus\Packaging\DotNetZip\Zlib\InfTree.cs" />
+    <Compile Include="Analysis\EPPlus\Packaging\DotNetZip\Zlib\ParallelDeflateOutputStream.cs" />
+    <Compile Include="Analysis\EPPlus\Packaging\DotNetZip\Zlib\Tree.cs" />
+    <Compile Include="Analysis\EPPlus\Packaging\DotNetZip\Zlib\Zlib.cs" />
+    <Compile Include="Analysis\EPPlus\Packaging\DotNetZip\Zlib\ZlibBaseStream.cs" />
+    <Compile Include="Analysis\EPPlus\Packaging\DotNetZip\Zlib\ZlibCodec.cs" />
+    <Compile Include="Analysis\EPPlus\Packaging\DotNetZip\Zlib\ZlibConstants.cs" />
+    <Compile Include="Analysis\EPPlus\Packaging\DotNetZip\Zlib\ZlibStream.cs" />
+    <Compile Include="Analysis\EPPlus\Packaging\ZipPackage.cs" />
+    <Compile Include="Analysis\EPPlus\Packaging\ZipPackagePart.cs" />
+    <Compile Include="Analysis\EPPlus\Packaging\ZipPackageRelationship.cs" />
+    <Compile Include="Analysis\EPPlus\Packaging\ZipPackageRelationshipBase.cs" />
+    <Compile Include="Analysis\EPPlus\Packaging\ZipPackageRelationshipCollection.cs" />
+    <Compile Include="Analysis\EPPlus\RangeCollection.cs" />
+    <Compile Include="Analysis\EPPlus\Sparkline\Enums.cs" />
+    <Compile Include="Analysis\EPPlus\Sparkline\ExcelSparkline.cs" />
+    <Compile Include="Analysis\EPPlus\Sparkline\ExcelSparklineCollection.cs" />
+    <Compile Include="Analysis\EPPlus\Sparkline\ExcelSparklineColor.cs" />
+    <Compile Include="Analysis\EPPlus\Sparkline\ExcelSparklineGroup.cs" />
+    <Compile Include="Analysis\EPPlus\Sparkline\ExcelSparklineGroupCollection.cs" />
+    <Compile Include="Analysis\EPPlus\Style\Dxf\DxfStyleBase.cs" />
+    <Compile Include="Analysis\EPPlus\Style\Dxf\ExcelDxfBorder.cs" />
+    <Compile Include="Analysis\EPPlus\Style\Dxf\ExcelDxfBorderItem.cs" />
+    <Compile Include="Analysis\EPPlus\Style\Dxf\ExcelDxfColor.cs" />
+    <Compile Include="Analysis\EPPlus\Style\Dxf\ExcelDxfFill.cs" />
+    <Compile Include="Analysis\EPPlus\Style\Dxf\ExcelDxfFontBase.cs" />
+    <Compile Include="Analysis\EPPlus\Style\Dxf\ExcelDxfNumberFormat.cs" />
+    <Compile Include="Analysis\EPPlus\Style\Dxf\ExcelDxfStyle.cs" />
+    <Compile Include="Analysis\EPPlus\Style\ExcelBorder.cs" />
+    <Compile Include="Analysis\EPPlus\Style\ExcelBorderItem.cs" />
+    <Compile Include="Analysis\EPPlus\Style\ExcelColor.cs" />
+    <Compile Include="Analysis\EPPlus\Style\ExcelFill.cs" />
+    <Compile Include="Analysis\EPPlus\Style\ExcelFont.cs" />
+    <Compile Include="Analysis\EPPlus\Style\ExcelGradientFill.cs" />
+    <Compile Include="Analysis\EPPlus\Style\ExcelNumberFormat.cs" />
+    <Compile Include="Analysis\EPPlus\Style\ExcelParagraph.cs" />
+    <Compile Include="Analysis\EPPlus\Style\ExcelParagraphCollection.cs" />
+    <Compile Include="Analysis\EPPlus\Style\ExcelRichText.cs" />
+    <Compile Include="Analysis\EPPlus\Style\ExcelRichTextCollection.cs" />
+    <Compile Include="Analysis\EPPlus\Style\ExcelStyle.cs" />
+    <Compile Include="Analysis\EPPlus\Style\ExcelTextFont.cs" />
+    <Compile Include="Analysis\EPPlus\Style\IColor.cs" />
+    <Compile Include="Analysis\EPPlus\Style\IStyle.cs" />
+    <Compile Include="Analysis\EPPlus\Style\StyleBase.cs" />
+    <Compile Include="Analysis\EPPlus\Style\StyleChangeEventArgs.cs" />
+    <Compile Include="Analysis\EPPlus\Style\XmlAccess\ExcelBorderItemXml.cs" />
+    <Compile Include="Analysis\EPPlus\Style\XmlAccess\ExcelBorderXml.cs" />
+    <Compile Include="Analysis\EPPlus\Style\XmlAccess\ExcelColorXml.cs" />
+    <Compile Include="Analysis\EPPlus\Style\XmlAccess\ExcelFillXml.cs" />
+    <Compile Include="Analysis\EPPlus\Style\XmlAccess\ExcelFontXml.cs" />
+    <Compile Include="Analysis\EPPlus\Style\XmlAccess\ExcelGradientFillXml.cs" />
+    <Compile Include="Analysis\EPPlus\Style\XmlAccess\ExcelNamedStyleXml.cs" />
+    <Compile Include="Analysis\EPPlus\Style\XmlAccess\ExcelNumberFormatXml.cs" />
+    <Compile Include="Analysis\EPPlus\Style\XmlAccess\ExcelXfsXml.cs" />
+    <Compile Include="Analysis\EPPlus\Style\XmlAccess\StyleXmlHelper.cs" />
+    <Compile Include="Analysis\EPPlus\Table\ExcelTable.cs" />
+    <Compile Include="Analysis\EPPlus\Table\ExcelTableCollection.cs" />
+    <Compile Include="Analysis\EPPlus\Table\ExcelTableColumn.cs" />
+    <Compile Include="Analysis\EPPlus\Table\ExcelTableColumnCollection.cs" />
+    <Compile Include="Analysis\EPPlus\Table\PivotTable\ExcelPivotCacheDefinition.cs" />
+    <Compile Include="Analysis\EPPlus\Table\PivotTable\ExcelPivotTable.cs" />
+    <Compile Include="Analysis\EPPlus\Table\PivotTable\ExcelPivotTableCollection.cs" />
+    <Compile Include="Analysis\EPPlus\Table\PivotTable\ExcelPivotTableDataField.cs" />
+    <Compile Include="Analysis\EPPlus\Table\PivotTable\ExcelPivotTableField.cs" />
+    <Compile Include="Analysis\EPPlus\Table\PivotTable\ExcelPivotTableFieldCollection.cs" />
+    <Compile Include="Analysis\EPPlus\Table\PivotTable\ExcelPivotTableFieldGroup.cs" />
+    <Compile Include="Analysis\EPPlus\Table\PivotTable\ExcelPivotTableFieldItem.cs" />
+    <Compile Include="Analysis\EPPlus\Table\PivotTable\ExcelPivotTablePageFieldSettings.cs" />
+    <Compile Include="Analysis\EPPlus\Utils\AddressUtility.cs" />
+    <Compile Include="Analysis\EPPlus\Utils\Argument.cs" />
+    <Compile Include="Analysis\EPPlus\Utils\ArgumentExtensions.cs" />
+    <Compile Include="Analysis\EPPlus\Utils\CompundDocument\CompoundDocument.cs" />
+    <Compile Include="Analysis\EPPlus\Utils\CompundDocument\CompoundDocumentFile.cs" />
+    <Compile Include="Analysis\EPPlus\Utils\CompundDocument\CoumpundDocumentItem.cs" />
+    <Compile Include="Analysis\EPPlus\Utils\ConvertUtil.cs" />
+    <Compile Include="Analysis\EPPlus\Utils\EncryptedPackageHandler.cs" />
+    <Compile Include="Analysis\EPPlus\Utils\IArgument.cs" />
+    <Compile Include="Analysis\EPPlus\Utils\IExcelCell.cs" />
+    <Compile Include="Analysis\EPPlus\Utils\IValidationResult.cs" />
+    <Compile Include="Analysis\EPPlus\Utils\Require.cs" />
+    <Compile Include="Analysis\EPPlus\Utils\SqRefUtility.cs" />
+    <Compile Include="Analysis\EPPlus\Utils\UriHelper.cs" />
+    <Compile Include="Analysis\EPPlus\Utils\ValidationResult.cs" />
+    <Compile Include="Analysis\EPPlus\Utils\VBACompression.cs" />
+    <Compile Include="Analysis\EPPlus\VBA\ExcelVbaModule.cs" />
+    <Compile Include="Analysis\EPPlus\VBA\ExcelVbaModuleAttribute.cs" />
+    <Compile Include="Analysis\EPPlus\VBA\ExcelVBAModuleCollection.cs" />
+    <Compile Include="Analysis\EPPlus\VBA\ExcelVBAProject.cs" />
+    <Compile Include="Analysis\EPPlus\VBA\ExcelVbaProtection.cs" />
+    <Compile Include="Analysis\EPPlus\VBA\ExcelVBAReference.cs" />
+    <Compile Include="Analysis\EPPlus\VBA\ExcelVBASignature.cs" />
+    <Compile Include="Analysis\EPPlus\XmlHelper.cs" />
+    <Compile Include="Analysis\EPPlus\XmlHelperFactory.cs" />
+    <Compile Include="Editor\fastcoloredtextbox\AutocompleteItem.cs" />
+    <Compile Include="Editor\fastcoloredtextbox\AutocompleteMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Editor\fastcoloredtextbox\Bookmarks.cs" />
+    <Compile Include="Editor\fastcoloredtextbox\Char.cs" />
+    <Compile Include="Editor\fastcoloredtextbox\CommandManager.cs" />
+    <Compile Include="Editor\fastcoloredtextbox\Commands.cs" />
+    <Compile Include="Editor\fastcoloredtextbox\DocumentMap.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Editor\fastcoloredtextbox\EncodingDetector.cs" />
+    <Compile Include="Editor\fastcoloredtextbox\ExportToHTML.cs" />
+    <Compile Include="Editor\fastcoloredtextbox\ExportToRTF.cs" />
+    <Compile Include="Editor\fastcoloredtextbox\FastColoredTextBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Editor\fastcoloredtextbox\FileTextSource.cs" />
+    <Compile Include="Editor\fastcoloredtextbox\FindForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\fastcoloredtextbox\FindForm.Designer.cs" />
+    <Compile Include="Editor\fastcoloredtextbox\GoToForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\fastcoloredtextbox\GoToForm.Designer.cs" />
+    <Compile Include="Editor\fastcoloredtextbox\Hints.cs" />
+    <Compile Include="Editor\fastcoloredtextbox\Hotkeys.cs" />
+    <Compile Include="Editor\fastcoloredtextbox\HotkeysEditorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\fastcoloredtextbox\HotkeysEditorForm.Designer.cs" />
+    <Compile Include="Editor\fastcoloredtextbox\LimitedStack.cs" />
+    <Compile Include="Editor\fastcoloredtextbox\Line.cs" />
+    <Compile Include="Editor\fastcoloredtextbox\LineNumberFormatting.cs" />
+    <Compile Include="Editor\fastcoloredtextbox\LinesAccessor.cs" />
+    <Compile Include="Editor\fastcoloredtextbox\MacrosManager.cs" />
+    <Compile Include="Editor\fastcoloredtextbox\Place.cs" />
+    <Compile Include="Editor\fastcoloredtextbox\PlatformType.cs" />
+    <Compile Include="Editor\fastcoloredtextbox\Range.cs" />
+    <Compile Include="Editor\fastcoloredtextbox\ReplaceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editor\fastcoloredtextbox\ReplaceForm.Designer.cs" />
+    <Compile Include="Editor\fastcoloredtextbox\Ruler.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Editor\fastcoloredtextbox\Ruler.Designer.cs" />
+    <Compile Include="Editor\fastcoloredtextbox\Style.cs" />
+    <Compile Include="Editor\fastcoloredtextbox\SyntaxDescriptor.cs" />
+    <Compile Include="Editor\fastcoloredtextbox\SyntaxHighlighter.cs" />
+    <Compile Include="Editor\fastcoloredtextbox\TextSource.cs" />
+    <Compile Include="Editor\fastcoloredtextbox\TypeDescriptor.cs" />
+    <Compile Include="Editor\fastcoloredtextbox\UnfocusablePanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Editor\fastcoloredtextbox\VisualMarker.cs" />
+    <Compile Include="SimData\SimulatorDataType.cs" />
+    <Compile Include="UI\Collections\ObservableList.cs" />
+    <Compile Include="UI\Collections\ObservableListModified.cs" />
+    <Compile Include="UI\Config\Colors.cs" />
+    <Compile Include="UI\Config\Consts.cs" />
+    <Compile Include="UI\Controls\DarkButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\DarkButtonStyle.cs" />
+    <Compile Include="UI\Controls\DarkCheckBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\DarkComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\DarkContentAlignment.cs" />
+    <Compile Include="UI\Controls\DarkContextMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\DarkControlState.cs" />
+    <Compile Include="UI\Controls\DarkDropdownItem.cs" />
+    <Compile Include="UI\Controls\DarkDropdownList.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\DarkGroupBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\DarkLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\DarkListItem.cs" />
+    <Compile Include="UI\Controls\DarkListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\DarkMenuStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\DarkNumericUpDown.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\DarkRadioButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\DarkScrollBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\DarkScrollBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\DarkScrollOrientation.cs" />
+    <Compile Include="UI\Controls\DarkScrollView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\DarkSectionPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\DarkSeparator.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\DarkStatusStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\DarkTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\DarkTitle.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\DarkToolStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\DarkTreeNode.cs" />
+    <Compile Include="UI\Controls\DarkTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\ScrollValueEventArgs.cs" />
+    <Compile Include="UI\Docking\DarkDockArea.cs" />
+    <Compile Include="UI\Docking\DarkDockContent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Docking\DarkDockGroup.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\Docking\DarkDockPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Docking\DarkDockRegion.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\Docking\DarkDockSplitter.cs" />
+    <Compile Include="UI\Docking\DarkDockTab.cs" />
+    <Compile Include="UI\Docking\DarkDockTabArea.cs" />
+    <Compile Include="UI\Docking\DarkDocument.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Docking\DarkSplitterType.cs" />
+    <Compile Include="UI\Docking\DarkToolWindow.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Docking\DockContentEventArgs.cs" />
+    <Compile Include="UI\Docking\DockDropArea.cs" />
+    <Compile Include="UI\Docking\DockDropCollection.cs" />
+    <Compile Include="UI\Docking\DockGroupState.cs" />
+    <Compile Include="UI\Docking\DockInsertType.cs" />
+    <Compile Include="UI\Docking\DockPanelState.cs" />
+    <Compile Include="UI\Docking\DockRegionState.cs" />
+    <Compile Include="UI\Extensions\BitmapExtensions.cs" />
+    <Compile Include="UI\Extensions\IEnumerableExtensions.cs" />
+    <Compile Include="UI\Forms\DarkDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Forms\DarkDialog.Designer.cs" />
+    <Compile Include="UI\Forms\DarkDialogButton.cs" />
+    <Compile Include="UI\Forms\DarkForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Forms\DarkMessageBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Forms\DarkMessageBox.Designer.cs" />
+    <Compile Include="UI\Forms\DarkMessageBoxIcon.cs" />
+    <Compile Include="UI\Forms\DarkTranslucentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Icons\DockIcons.Designer.cs" />
+    <Compile Include="UI\Icons\DropdownIcons.Designer.cs" />
+    <Compile Include="UI\Icons\MenuIcons.Designer.cs" />
+    <Compile Include="UI\Icons\MessageBoxIcons.Designer.cs" />
+    <Compile Include="UI\Icons\ScrollIcons.Designer.cs" />
+    <Compile Include="UI\Icons\TreeViewIcons.Designer.cs" />
+    <Compile Include="UI\Renderers\DarkMenuRenderer.cs" />
+    <Compile Include="UI\Renderers\DarkToolStripRenderer.cs" />
+    <Compile Include="UI\Win32\ControlScrollFilter.cs" />
+    <Compile Include="UI\Win32\DockContentDragFilter.cs" />
+    <Compile Include="UI\Win32\DockResizeFilter.cs" />
+    <Compile Include="UI\Win32\Native.cs" />
+    <Compile Include="UI\Win32\WindowsMessages.cs" />
+    <Compile Include="Communication\WebSocket\ByteOrder.cs" />
+    <Compile Include="Communication\WebSocket\CloseEventArgs.cs" />
+    <Compile Include="Communication\WebSocket\CloseStatusCode.cs" />
+    <Compile Include="Communication\WebSocket\CompressionMethod.cs" />
+    <Compile Include="Communication\WebSocket\ErrorEventArgs.cs" />
+    <Compile Include="Communication\WebSocket\Ext.cs" />
+    <Compile Include="Communication\WebSocket\Fin.cs" />
+    <Compile Include="Communication\WebSocket\HttpBase.cs" />
+    <Compile Include="Communication\WebSocket\HttpRequest.cs" />
+    <Compile Include="Communication\WebSocket\HttpResponse.cs" />
+    <Compile Include="Communication\WebSocket\LogData.cs" />
+    <Compile Include="Communication\WebSocket\Logger.cs" />
+    <Compile Include="Communication\WebSocket\LogLevel.cs" />
+    <Compile Include="Communication\WebSocket\Mask.cs" />
+    <Compile Include="Communication\WebSocket\MessageEventArgs.cs" />
+    <Compile Include="Communication\WebSocket\Net\AuthenticationBase.cs" />
+    <Compile Include="Communication\WebSocket\Net\AuthenticationChallenge.cs" />
+    <Compile Include="Communication\WebSocket\Net\AuthenticationResponse.cs" />
+    <Compile Include="Communication\WebSocket\Net\AuthenticationSchemes.cs" />
+    <Compile Include="Communication\WebSocket\Net\Chunk.cs" />
+    <Compile Include="Communication\WebSocket\Net\ChunkedRequestStream.cs" />
+    <Compile Include="Communication\WebSocket\Net\ChunkStream.cs" />
+    <Compile Include="Communication\WebSocket\Net\ClientSslConfiguration.cs" />
+    <Compile Include="Communication\WebSocket\Net\Cookie.cs" />
+    <Compile Include="Communication\WebSocket\Net\CookieCollection.cs" />
+    <Compile Include="Communication\WebSocket\Net\CookieException.cs" />
+    <Compile Include="Communication\WebSocket\Net\EndPointListener.cs" />
+    <Compile Include="Communication\WebSocket\Net\EndPointManager.cs" />
+    <Compile Include="Communication\WebSocket\Net\HttpBasicIdentity.cs" />
+    <Compile Include="Communication\WebSocket\Net\HttpConnection.cs" />
+    <Compile Include="Communication\WebSocket\Net\HttpDigestIdentity.cs" />
+    <Compile Include="Communication\WebSocket\Net\HttpHeaderInfo.cs" />
+    <Compile Include="Communication\WebSocket\Net\HttpHeaderType.cs" />
+    <Compile Include="Communication\WebSocket\Net\HttpListener.cs" />
+    <Compile Include="Communication\WebSocket\Net\HttpListenerAsyncResult.cs" />
+    <Compile Include="Communication\WebSocket\Net\HttpListenerContext.cs" />
+    <Compile Include="Communication\WebSocket\Net\HttpListenerException.cs" />
+    <Compile Include="Communication\WebSocket\Net\HttpListenerPrefix.cs" />
+    <Compile Include="Communication\WebSocket\Net\HttpListenerPrefixCollection.cs" />
+    <Compile Include="Communication\WebSocket\Net\HttpListenerRequest.cs" />
+    <Compile Include="Communication\WebSocket\Net\HttpListenerResponse.cs" />
+    <Compile Include="Communication\WebSocket\Net\HttpRequestHeader.cs" />
+    <Compile Include="Communication\WebSocket\Net\HttpResponseHeader.cs" />
+    <Compile Include="Communication\WebSocket\Net\HttpStatusCode.cs" />
+    <Compile Include="Communication\WebSocket\Net\HttpStreamAsyncResult.cs" />
+    <Compile Include="Communication\WebSocket\Net\HttpUtility.cs" />
+    <Compile Include="Communication\WebSocket\Net\HttpVersion.cs" />
+    <Compile Include="Communication\WebSocket\Net\InputChunkState.cs" />
+    <Compile Include="Communication\WebSocket\Net\InputState.cs" />
+    <Compile Include="Communication\WebSocket\Net\LineState.cs" />
+    <Compile Include="Communication\WebSocket\Net\NetworkCredential.cs" />
+    <Compile Include="Communication\WebSocket\Net\QueryStringCollection.cs" />
+    <Compile Include="Communication\WebSocket\Net\ReadBufferState.cs" />
+    <Compile Include="Communication\WebSocket\Net\RequestStream.cs" />
+    <Compile Include="Communication\WebSocket\Net\ResponseStream.cs" />
+    <Compile Include="Communication\WebSocket\Net\ServerSslConfiguration.cs" />
+    <Compile Include="Communication\WebSocket\Net\WebHeaderCollection.cs" />
+    <Compile Include="Communication\WebSocket\Net\WebSockets\HttpListenerWebSocketContext.cs" />
+    <Compile Include="Communication\WebSocket\Net\WebSockets\TcpListenerWebSocketContext.cs" />
+    <Compile Include="Communication\WebSocket\Net\WebSockets\WebSocketContext.cs" />
+    <Compile Include="Communication\WebSocket\Opcode.cs" />
+    <Compile Include="Communication\WebSocket\PayloadData.cs" />
+    <Compile Include="Communication\WebSocket\Rsv.cs" />
+    <Compile Include="Communication\WebSocket\Server\HttpRequestEventArgs.cs" />
+    <Compile Include="Communication\WebSocket\Server\HttpServer.cs" />
+    <Compile Include="Communication\WebSocket\Server\IWebSocketSession.cs" />
+    <Compile Include="Communication\WebSocket\Server\ServerState.cs" />
+    <Compile Include="Communication\WebSocket\Server\WebSocketBehavior.cs" />
+    <Compile Include="Communication\WebSocket\Server\WebSocketServer.cs" />
+    <Compile Include="Communication\WebSocket\Server\WebSocketServiceHost.cs" />
+    <Compile Include="Communication\WebSocket\Server\WebSocketServiceHost`1.cs" />
+    <Compile Include="Communication\WebSocket\Server\WebSocketServiceManager.cs" />
+    <Compile Include="Communication\WebSocket\Server\WebSocketSessionManager.cs" />
+    <Compile Include="Communication\WebSocket\WebSocket.cs" />
+    <Compile Include="Communication\WebSocket\WebSocketException.cs" />
+    <Compile Include="Communication\WebSocket\WebSocketFrame.cs" />
+    <Compile Include="Communication\WebSocket\WebSocketState.cs" />
+    <Compile Include="Notation\FastJson\dynamic.cs" />
+    <Compile Include="Notation\FastJson\Formatter.cs" />
+    <Compile Include="Notation\FastJson\Getters.cs" />
+    <Compile Include="Notation\FastJson\Helper.cs" />
+    <Compile Include="Notation\FastJson\JSON.cs" />
+    <Compile Include="Notation\FastJson\JsonParser.cs" />
+    <Compile Include="Notation\FastJson\JsonSerializer.cs" />
+    <Compile Include="Notation\FastJson\Reflection.cs" />
+    <Compile Include="Notation\FastJson\SafeDictionary.cs" />
+    <Compile Include="Notation\JsonManager.cs" />
+    <Compile Include="Plugins\PluginInterface.cs" />
+    <Compile Include="UnitTest\TestVariable.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Localization\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editor\fastcoloredtextbox\FastColoredTextBox.resx" />
+    <EmbeddedResource Include="Editor\fastcoloredtextbox\FindForm.resx" />
+    <EmbeddedResource Include="Editor\fastcoloredtextbox\GoToForm.resx" />
+    <EmbeddedResource Include="Editor\fastcoloredtextbox\HotkeysEditorForm.resx" />
+    <EmbeddedResource Include="Editor\fastcoloredtextbox\ReplaceForm.resx" />
+    <EmbeddedResource Include="UI\Forms\DarkDialog.resx" />
+    <EmbeddedResource Include="UI\Forms\DarkMessageBox.resx" />
+    <EmbeddedResource Include="UI\Icons\DockIcons.resx" />
+    <EmbeddedResource Include="UI\Icons\DropdownIcons.resx" />
+    <EmbeddedResource Include="UI\Icons\MenuIcons.resx" />
+    <EmbeddedResource Include="UI\Icons\MessageBoxIcons.resx" />
+    <EmbeddedResource Include="UI\Icons\ScrollIcons.resx" />
+    <EmbeddedResource Include="UI\Icons\TreeViewIcons.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="UI\Resources\active-inactive-close.png" />
+    <Content Include="UI\Resources\arrow.png" />
+    <Content Include="UI\Resources\close-selected.png" />
+    <Content Include="UI\Resources\close.png" />
+    <Content Include="UI\Resources\error.png" />
+    <Content Include="UI\Resources\grip.png" />
+    <Content Include="UI\Resources\inactive-close-selected.png" />
+    <Content Include="UI\Resources\inactive-close.png" />
+    <Content Include="UI\Resources\info.png" />
+    <Content Include="UI\Resources\node_closed_empty.png" />
+    <Content Include="UI\Resources\node_closed_full.png" />
+    <Content Include="UI\Resources\node_open.png" />
+    <Content Include="UI\Resources\node_open_empty.png" />
+    <Content Include="UI\Resources\scrollbar_arrow.png" />
+    <Content Include="UI\Resources\scrollbar_arrow_clicked.png" />
+    <Content Include="UI\Resources\scrollbar_arrow_hot.png" />
+    <Content Include="UI\Resources\scrollbar_arrow_small_clicked.png" />
+    <Content Include="UI\Resources\scrollbar_arrow_small_hot.png" />
+    <Content Include="UI\Resources\scrollbar_arrow_small_standard.png" />
+    <Content Include="UI\Resources\scrollbar_arrow_standard.png" />
+    <Content Include="UI\Resources\scrollbar_disabled.png" />
+    <Content Include="UI\Resources\small_arrow.png" />
+    <Content Include="UI\Resources\tick.png" />
+    <Content Include="UI\Resources\tw_active_close.png" />
+    <Content Include="UI\Resources\tw_active_close_selected.png" />
+    <Content Include="UI\Resources\tw_close.png" />
+    <Content Include="UI\Resources\tw_close_selected.png" />
+    <Content Include="UI\Resources\warning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CabViewerResources\CabViewerResources.csproj">
+      <Project>{8e41d9fc-ba7e-4a57-a822-e167da06dea2}</Project>
+      <Name>CabViewerResources</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
