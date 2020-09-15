@@ -1,10 +1,10 @@
 C:\Documents\raglink-simulator-openrails\Program\Plugin\CR400SeriesController\CR400SeriesController.dll.config
 C:\Documents\raglink-simulator-openrails\Program\Plugin\CR400SeriesController\CR400SeriesController.dll
 C:\Documents\raglink-simulator-openrails\Program\Plugin\CR400SeriesController\CR400SeriesController.pdb
+C:\Documents\raglink-simulator-openrails\Source\Plugins\CR400SeriesController\obj\Debug\CR400SeriesController.csprojAssemblyReference.cache
 C:\Documents\raglink-simulator-openrails\Source\Plugins\CR400SeriesController\obj\Debug\CR400SeriesController.FormController.resources
 C:\Documents\raglink-simulator-openrails\Source\Plugins\CR400SeriesController\obj\Debug\CR400SeriesController.Properties.Resources.resources
 C:\Documents\raglink-simulator-openrails\Source\Plugins\CR400SeriesController\obj\Debug\CR400SeriesController.csproj.GenerateResource.cache
 C:\Documents\raglink-simulator-openrails\Source\Plugins\CR400SeriesController\obj\Debug\CR400SeriesController.csproj.CoreCompileInputs.cache
 C:\Documents\raglink-simulator-openrails\Source\Plugins\CR400SeriesController\obj\Debug\CR400SeriesController.dll
 C:\Documents\raglink-simulator-openrails\Source\Plugins\CR400SeriesController\obj\Debug\CR400SeriesController.pdb
-C:\Documents\raglink-simulator-openrails\Source\Plugins\CR400SeriesController\obj\Debug\CR400SeriesController.csprojAssemblyReference.cache

@@ -5,9 +5,9 @@ C:\Documents\raglink-simulator-openrails\CabViewerResources\obj\Debug\CabViewerR
 C:\Documents\raglink-simulator-openrails\CabViewerResources\obj\Debug\CabViewerResources.pdb
 C:\Documents\raglink-simulator-openrails\Program\CabViewerResources.dll
 C:\Documents\raglink-simulator-openrails\Program\CabViewerResources.pdb
+C:\Documents\raglink-simulator-openrails\Source\CabViewerResources\obj\Debug\CabViewerResources.csprojAssemblyReference.cache
 C:\Documents\raglink-simulator-openrails\Source\CabViewerResources\obj\Debug\CabViewerResources.Properties.Resources.resources
 C:\Documents\raglink-simulator-openrails\Source\CabViewerResources\obj\Debug\CabViewerResources.csproj.GenerateResource.cache
 C:\Documents\raglink-simulator-openrails\Source\CabViewerResources\obj\Debug\CabViewerResources.csproj.CoreCompileInputs.cache
 C:\Documents\raglink-simulator-openrails\Source\CabViewerResources\obj\Debug\CabViewerResources.dll
 C:\Documents\raglink-simulator-openrails\Source\CabViewerResources\obj\Debug\CabViewerResources.pdb
-C:\Documents\raglink-simulator-openrails\Source\CabViewerResources\obj\Debug\CabViewerResources.csprojAssemblyReference.cache

@@ -798,7 +798,7 @@
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Editor\fastcoloredtextbox\VisualMarker.cs" />
-    <Compile Include="SimData\SimulatorDataType.cs" />
+    <Compile Include="Simulation\SimulatorDataType.cs" />
     <Compile Include="UI\Collections\ObservableList.cs" />
     <Compile Include="UI\Collections\ObservableListModified.cs" />
     <Compile Include="UI\Config\Colors.cs" />

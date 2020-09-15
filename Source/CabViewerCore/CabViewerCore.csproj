@@ -59,10 +59,6 @@
       <Project>{075810c2-540c-456f-bc06-7113d238e4e2}</Project>
       <Name>CabViewerSDK</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Plugins\CabViewerStudio\CabViewerStudio.csproj">
-      <Project>{8dd54932-553b-4464-9d35-de145e959e47}</Project>
-      <Name>CabViewerStudio</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
